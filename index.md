@@ -19,7 +19,7 @@ When complete, this guide will consist of approximately 10 chapters. Below are t
 
 ### Before you get started in earnest…
 
-These have their roots in an *Introduction to Research Data Management* workshop that is regularly taught at Stanford Medicine. That workshop is designed to be standalone, briskly paced, and largely didactic. While such a workshop can cover certain concepts and terms, managing scientific data effectively is not a process that can be covered or implemented just once. 
+This guide has its roots in an *Introduction to Research Data Management* workshop that is regularly taught at Stanford Medicine. That workshop is designed to be standalone, briskly paced, and largely didactic. While such a workshop can cover certain concepts and terms, managing scientific data effectively is not a process that can be covered or implemented just once. 
 
 This guide aims to be *descriptive* \- outlining major concepts and practices related to data management in a way that is digestible to biomedical researchers. More prescriptive recommendations and requirements largely come from three sources: the institution where the research is taking place, organizations that provide research funding, and the research community itself. Policies and requirements from these entities will be discussed when relevant, but these requirements should not be an end to considerations related to data management, they should be a beginning. 
 
