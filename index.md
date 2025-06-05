@@ -1,6 +1,6 @@
 ### Supporting Scientific Data | A Guide for Researchers
 
-By John Borghi, PhD | Boring you all in a personal capacity.
+By John Borghi, PhD
 
 This guide consists of a growing list of chapters, each covering a major topic in data management. These are complemented by a variety of explainers, checklists, and templates. In theory, these materials can all be read independently or in any order. 
 
