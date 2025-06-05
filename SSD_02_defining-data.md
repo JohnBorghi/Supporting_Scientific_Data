@@ -97,7 +97,7 @@ Throughout this guide we’ll return to our expansive and workflow-based definit
 **All of the information and materials needed to reconstruct a research workflow can be considered data.**
 
 | <img width="800" alt="Image" src="https://github.com/user-attachments/assets/e3cc3bab-e933-47d8-956f-e43b72e511a3" />|
-| :---- |
+| ----- |
 | **Figure 2.2.**  A representation of the research workflow. There are multiple points in any research effort where decisions are made that can significantly affect the final result. A research workflow (also sometimes called a “pipeline”) traces the steps a research team *actually* takes among many possibilities and directions not taken.  |
 
 ## 2.3. Categories of Research Data
