@@ -264,11 +264,11 @@ For more on this framework, see the following two primers:
 
 ---
 
-PRIMER: [Good Data Management Principles](https://docs.google.com/document/d/1dZeyt_6qnnvjfI9PEIXbhRK1ELhfG1NS9jlAn7mFEF0/edit?usp=sharing)
+**PRIMER:** [Good Data Management Principles](https://docs.google.com/document/d/1dZeyt_6qnnvjfI9PEIXbhRK1ELhfG1NS9jlAn7mFEF0/edit?usp=sharing)
 
 This document presents each of the ten principles of Good Data Management Practice along with a brief description of each.
 
-PRIMER: [Good Enough Practices](https://docs.google.com/document/d/1RbdOQPJUMUKwMvxIgznEBr7_TT_MCGCCWQajCOdEJJY/edit?usp=sharing)
+**PRIMER:** [Good Enough Practices](https://docs.google.com/document/d/1RbdOQPJUMUKwMvxIgznEBr7_TT_MCGCCWQajCOdEJJY/edit?usp=sharing)
 
 Sometimes “Good enough” has to be good enough. This document provides a starting point for implementing data management practices.  
 
@@ -308,8 +308,6 @@ No matter how innovative and complex your analytical pipeline...
 
 **Usability** \- In the context of data management and sharing, this refers to an ability to open, understand, make use of, and build upon a set of data. In the context of biomedical science, “re-use” encompasses a large number of potential activities, including using a dataset for education and training (of both human researchers and algorithms), testing new hypotheses (which can involve combining multiple extant datasets), and more.
 
-## 
-
 ## Further Reading
 
 Briney, K., Coates, H., & Goben, A. (2020). Foundational Practices of Research Data Management. Research Ideas and Outcomes, 6, e56508. [https://doi.org/10.3897/rio.6.e56508](https://doi.org/10.3897/rio.6.e56508)
@@ -319,5 +317,3 @@ Ellis, S. E., & Leek, J. T. (2018). How to share data for collaboration. The Ame
 Goodman, S. N., Fanelli, D., & Ioannidis, J. P. A. (2016). What does research reproducibility mean? Science Translational Medicine, 8(341), 341ps12. [https://doi.org/10.1126/scitranslmed.aaf5027](https://doi.org/10.1126/scitranslmed.aaf5027)
 
 Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., & Teal, T. K. (2017). Good enough practices in scientific computing. PLoS Computational Biology, 13(6), e1005510. [https://doi.org/10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
-
-.
