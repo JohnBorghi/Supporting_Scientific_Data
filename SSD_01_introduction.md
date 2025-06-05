@@ -2,31 +2,21 @@
 
 What are we talking about when we talk about data management and data sharing? This module defines these topics in both technical and functional terms.
 
-**Key Points**
+---
 
-| 1\. | The term “data management” covers a large number of practices and strategies designed to support the usability and quality of research data over time. |
+| | **Key Points for this Chapter** |
 | :---- | :---- |
+| 1\. | The term “data management” covers a large number of practices and strategies designed to support the usability and quality of research data over time. |
 | 2\. | Everyone who works with research data is responsible for data management, though different individual researchers may have their own roles and responsibilities. |
 | 3\. | Data management helps make the research process more efficient and is foundational to ensuring that the research process is ethical, reproducible, accessible, and implemented in line with applicable regulations and policies. |
 | 4\. | As a practice, data management exists along a continuum. A research group may excel at one aspect of data management and need improvement on others. |
 
-**Contents**
-
-| 1.1. | Introduction: What is research data management? |
+| | **Supplementary Materials for this Chapter** |
 | :---- | :---- |
-| 1.2. | Who is responsible? |
-| 1.3. | Motivations for data management |
-| 1.4. | Good Data Management Practice |
-| 1.5. | Definitions of Key Terms |
-| 1.6. | Read More |
-
-**Data Management in Practice**
-
 | [Good Data Management Principles](https://docs.google.com/document/d/1dZeyt_6qnnvjfI9PEIXbhRK1ELhfG1NS9jlAn7mFEF0/edit?usp=sharing) | This document presents each of the ten principles of Good Data Management Practice along with a brief description of each. |
-| :---- | :---- |
 | **[Good Enough Practices](https://docs.google.com/document/d/1RbdOQPJUMUKwMvxIgznEBr7_TT_MCGCCWQajCOdEJJY/edit?usp=sharing)** | Sometimes “Good enough” has to be good enough. This document provides a starting point for implementing data management practices. |
 
-## 
+---
 
 ## 1.1. Introduction: What is research data management?
 
@@ -156,7 +146,7 @@ Science is built on data. This data comes in all sorts of shapes, sizes, and for
 
 Beyond these, research data management lies at the intersection of a number of issues. These include, but are not necessarily limited to the following:
 
-**Research ethics**
+**Research Ethics**
 
 Sensitive data will be discussed in much more detail elsewhere in this guide, but certain data must be protected against unauthorized access and use. The reasons for this range from protecting endangered species to protecting national security, but the relationship between data management and research ethics is perhaps most easily illustrated with the case of data derived from human research participants.
 
@@ -166,13 +156,13 @@ Effective data management minimizes the risk posed to participants through the p
 
 Of course, facilitating the usability (or reusability) of data from human participants merits careful ethical consideration. Research data is a resource and, with any resource, there is potential for iniquity and exploitation. 
 
-**Efficiency and team science**
+**Efficiency and Team Science**
 
-Preventing the loss of data is probably the most immediate benefit of implementing a data management strategy. All storage media have a rate of failure (more on backup procedures in ***Module 6: Day to Day Data Management***), but there are many ways to lose data; files can be misplaced, versions can be confused. details can be forgotten. Such a loss often means that an individual researcher or research team may need to spend time and other resources redoing or reconstructing their work. Depending on the circumstance, this might be a substantial or even impossible endeavor.
+Preventing the loss of data is probably the most immediate benefit of implementing a data management strategy. All storage media have a rate of failure (more on backup procedures in a future chapter), but there are many ways to lose data; files can be misplaced, versions can be confused. details can be forgotten. Such a loss often means that an individual researcher or research team may need to spend time and other resources redoing or reconstructing their work. Depending on the circumstance, this might be a substantial or even impossible endeavor.
 
 Data management also helps the collaborative aspect of scientific research proceed efficiently. Scientific research is a process and that process proceeds much more efficiently when everyone involved can find and use the data they need. The most common collaboration in a given research effort is an individual researcher with their future self \- the version of themselves that has not opened a particular file in a couple of days (or months or years). But the same strategies and practices that will help that individual researcher find and use the data they need also do the same for other members of their research team (labmates, biostatisticians, etc), and the research community more broadly.
 
-**Research quality**
+**Research Quality**
 
 Over the last several decades, much has been written about the reproducibility of scientific findings. The term has proven somewhat difficult to define, but efforts to address **reproducibility** are generally concerned with establishing the credibility, reliability, and validity of scientific research. Addressing the conduct of “good science” is well beyond the scope of this guide and a subject heavily intertwined with politics, ethics, philosophy, and other areas. But assessing the “quality” of research \- however that may be defined \- is quite difficult when the data and materials that support a result have not been properly managed.
 
@@ -188,14 +178,13 @@ The term **open science** covers a variety of efforts focused on making scientif
 
 There is an increasing recognition that data should be a “first class” research output in and of itself \- evaluated, disseminated, cited, and valued in a similar standing as publications. But, beyond just the incentive system of academic science, making data available (and accessible) has a number of benefits. For the individual researcher, sharing data and other materials can lend additional support to research results, as they can be verified and even expanded upon by others. Data sharing also enables data reuse, which greatly benefits the research enterprise as a whole, as datasets can be examined, combined, and used for the development of new tools, methods, and research and educational efforts.
 
-**Regulations and requirements**
+**Regulations and Requirements**
 
 Probably the most immediate motivation for data management is that it is required by the entities that support the scientific research enterprise. For example, at Stanford University, data management is written into the institution’s data retention policy and Research Policy Handbook.
 
-| *“The PI is responsible for the collection, management and retention of research data. PIs should adopt an orderly system of data organization and should communicate the chosen system to all members of a research group and to the appropriate administrative personnel, where applicable.”*  [Stanford Research Policy Handbook (RPH 1.9)](https://doresearch.stanford.edu/policies/research-policy-handbook/conduct-research/retention-and-access-research-data) |
-| :---- |
+ >> *“The PI is responsible for the collection, management and retention of research data. PIs should adopt an orderly system of data organization and should communicate the chosen system to all members of a research group and to the appropriate administrative personnel, where applicable.”*  [Stanford Research Policy Handbook (RPH 1.9)](https://doresearch.stanford.edu/policies/research-policy-handbook/conduct-research/retention-and-access-research-data)
 
-In the United States, federal agencies that fund research \- such as the National Institutes of Health (NIH) \- have begun to require that researchers detail how they plan to manage and share data as part of grant proposals. These requirements are covered in detail in ***Module 5: Planning for Data Management***, but it is worth noting here that the contents of these plans become terms and conditions of any subsequent award and that there is an explicit expectation that researchers will “maximize appropriate data sharing” when developing their plans.
+In the United States, federal agencies that fund research \- such as the National Institutes of Health (NIH) \- have begun to require that researchers detail how they plan to manage and share data as part of grant proposals. These requirements will be covered in detail in a future module, but it is worth noting here that the contents of these plans become terms and conditions of any subsequent award and that there is an explicit expectation that researchers will “maximize appropriate data sharing” when developing their plans.
 
 ## 1.4. Good Data Management Practice
 
