@@ -13,7 +13,7 @@ When complete, this guide will consist of approximately 10 chapters. Below are t
 | Chapter | Description |
 | :---- | :---- |
 | [Understanding data management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_01_introduction) | This chapter defines data management in both technical and functional terms. |
-| [Defining research data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)) | Data is more than just an individual file or set of measurements. This chapter details how to understand all of the components of data as situated within a research workflow. |
+| [Defining research data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | Data is more than just an individual file or set of measurements. This chapter details how to understand all of the components of data as situated within a research workflow. |
 
 ---
 
