@@ -6,6 +6,8 @@ This module defines these topics in both technical and functional terms.
 
 **[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)**
 
+[View this project on Github](https://github.com/JohnBorghi/Supporting_Scientific_Data/)
+
 ---
 
 | | **Key Points for this Chapter** |
