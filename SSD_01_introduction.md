@@ -4,7 +4,7 @@ What are we talking about when we talk about data management and data sharing?
 
 This module defines these topics in both technical and functional terms.
 
-**[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)**
+[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)
 
 ---
 
