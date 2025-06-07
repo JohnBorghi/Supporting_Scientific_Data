@@ -152,11 +152,7 @@ Within the context of Good Clinical Practice Guidelines, SOPs are detailed instr
 
 **Developing a Standard Operating Procedure**
 
-Because it is meant to be put into practice, developing a standard operating procedure should be an iterative and collaboratve process. Before it is disseminated, it should be tested and validated. Providing the research team with an SOP and then ensuring that they are all interpreting and implementing it in the same way would have gone a long way towards preventing the hypothetical situation described at the start of this section.
-
-An SOP is only useful if it is effectively communicated and put into practice.
-
-SOPs are a resource. Training on them should be part of any onboarding process. They should be stored in a manner that is accessible to all team members, they should revisited regularly to ensure awareness among current personnel, and they should occasionally be audited to ensure they are being applied properly.
+Because it is meant to be put into practice, developing a standard operating procedure should be an iterative and collaboratve process. Before it is disseminated, it should be tested and validated. Providing the research team with an SOP and then ensuring that they are all interpreting and implementing it in the same way would have gone a long way towards preventing the hypothetical situation described at the start of this section. An SOP is only useful if it is effectively communicated and put into practice.
 
 SOPs should be formatted in a way that facilites their effective use. **Table 3.3** below provides an overview of what information should be included.
 
@@ -181,6 +177,8 @@ SOPs should be formatted in a way that facilites their effective use. **Table 3.
 > All of which is to say, there is actually a lot of room for interpretation in most instructions for brewing a cup of coffee and that's before getting into issues like water temperature and grind.
 > 
 > [Here is the template.](https://docs.google.com/document/d/1ATWE-zzJoMjR9dumo_e3fOROabIrvRct/edit?usp=sharing&ouid=118445803869398413021&rtpof=true&sd=true)
+
+SOPs are a resource. Training on them should be part of any onboarding process. They should be stored in a manner that is accessible to all team members, they should revisited regularly to ensure awareness among current personnel, and they should occasionally be audited to ensure they are being applied properly.
 
 **Lab Manuals**
 
@@ -217,7 +215,6 @@ Some example lab manuals that incorporate data management, include:
 > This template should be viewed mostly as a starting point for groups who are interested in developing their own manuals. Different groups will have different needs for a document like this, so please feel free to adapt the parts that work for you and your group and pass over the parts that do not.
 > 
 > [Access the template here](https://docs.google.com/document/d/1kPYt2Jo_eI18PlkoMMqAe0McgZC44cad1ErI8CJbF10/edit?usp=drive_link)
-
 
 ## 3.5. Updating and Communicating Your Plans
 
