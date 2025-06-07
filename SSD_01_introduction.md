@@ -1,6 +1,10 @@
 # Chapter 01: Understanding Data Management
 
-What are we talking about when we talk about data management and data sharing? This module defines these topics in both technical and functional terms.
+What are we talking about when we talk about data management and data sharing? 
+
+This module defines these topics in both technical and functional terms.
+
+**[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)**
 
 ---
 
@@ -13,7 +17,7 @@ What are we talking about when we talk about data management and data sharing? T
 
 | | **Supplementary Materials for this Chapter** |
 | :---- | :---- |
-| [Good Data Management Principles](https://docs.google.com/document/d/1dZeyt_6qnnvjfI9PEIXbhRK1ELhfG1NS9jlAn7mFEF0/edit?usp=sharing) | This document presents each of the ten principles of Good Data Management Practice along with a brief description of each. |
+| **[Good Data Management Principles](https://docs.google.com/document/d/1dZeyt_6qnnvjfI9PEIXbhRK1ELhfG1NS9jlAn7mFEF0/edit?usp=sharing)** | This document presents each of the ten principles of Good Data Management Practice along with a brief description of each. |
 | **[Good Enough Practices](https://docs.google.com/document/d/1RbdOQPJUMUKwMvxIgznEBr7_TT_MCGCCWQajCOdEJJY/edit?usp=sharing)** | Sometimes “Good enough” has to be good enough. This document provides a starting point for implementing data management practices. |
 
 ---
