@@ -4,6 +4,8 @@ Data is more than just an individual file or set of measurements. This chapter d
 
 This chapter is built on the principle that effective data management requires research data to be defined thoroughly and broadly.
 
+**[Last Chapter - Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Planning for Data Management
+**
 ---
 
 || **Key Points for this Chapter** |
