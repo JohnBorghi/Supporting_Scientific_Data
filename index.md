@@ -6,7 +6,9 @@ This guide consists of a growing list of chapters, each covering a major topic i
 
 This guide is generally tool agnostic. Several sentences may be devoted to a certain popular spreadsheet program, but otherwise the focus is largely on practices and strategies.
 
-When complete, this guide will consist of approximately 10 chapters. Below are those that are complete enough for public dissemination. For the moment, even publicly available versions are quite drafty. So please don’t hesitate to reach out with comments, suggestions, questions, and recriminations.
+When complete, this guide will consist of approximately 10 chapters. Below are those that are complete enough for public dissemination. There are also links to notes from the author, supplementary materials, and a glossary. 
+
+For the moment, even publicly available versions of all this are quite drafty. So please don’t hesitate to reach out with comments, suggestions, questions, and recriminations.
 
 ---
 
