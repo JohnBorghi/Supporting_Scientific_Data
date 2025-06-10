@@ -16,8 +16,13 @@ When complete, this guide will consist of approximately 10 chapters. Below are t
 | [Defining research data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | Data is more than just an individual file or set of measurements. This chapter details how to understand all of the components of data as situated within a research workflow. |
 | [Planning for data management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) | This chapter deals with the development of documentation describing how data is to be managed over the course of a project. This includes data management and sharing plans (DMSPs) as well as documentation designed for internal use, such as standard operating procedures. |
 
-[View this project on Github](https://github.com/JohnBorghi/Supporting_Scientific_Data/)
+---
 
+Cite this project (and view an archived releases): [![DOI](https://zenodo.org/badge/997038884.svg)](https://doi.org/10.5281/zenodo.15634894)
+
+All chapters are licensed under a [Creative Commons Attribution-NonCommercial 4.0 Generic (CC BY-NC 4.0) License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+If you'd like, you can [view this project on Github](https://github.com/JohnBorghi/Supporting_Scientific_Data/).
 
 ---
 
@@ -49,4 +54,5 @@ Sorry, not sorry.
 Have fun\!?  
 John
 
-All chapters are licensed under a [Creative Commons Attribution-NonCommercial 4.0 Generic (CC BY-NC 4.0) License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+
