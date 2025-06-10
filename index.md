@@ -22,7 +22,7 @@ For the moment, even publicly available versions of all this are quite drafty. S
 
 ---
 
-Cite this project (and view an archived releases): [![DOI](https://zenodo.org/badge/997038884.svg)](https://doi.org/10.5281/zenodo.15634894)
+Cite this project (and view archived releases): [![DOI](https://zenodo.org/badge/997038884.svg)](https://doi.org/10.5281/zenodo.15634894)
 
 All chapters are licensed under a [Creative Commons Attribution-NonCommercial 4.0 Generic (CC BY-NC 4.0) License](https://creativecommons.org/licenses/by-nc/4.0/).
 
