@@ -4,7 +4,7 @@ The author is John Borghi, PhD | [![ORCID iD](https://orcid.filecamp.com/static/
 
 Head on over to the index to get started. | [Or view the nicely formatted web version.](https://johnborghi.github.io/Supporting_Scientific_Data/)
 
-You can cite this project (and view an archived releases) via Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15634895.svg)](https://doi.org/10.5281/zenodo.15634895)
+You can cite this project (and view archived releases) via Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15634895.svg)](https://doi.org/10.5281/zenodo.15634895)
 
 All chapters are licensed under a Creative Commons Attribution-NonCommercial 4.0 Generic (CC BY-NC 4.0) License.
 
