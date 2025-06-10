@@ -18,7 +18,7 @@ For the moment, even publicly available versions of all this are quite drafty. S
 | [Defining research data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | Data is more than just an individual file or set of measurements. This chapter details how to understand all of the components of data as situated within a research workflow. |
 | [Planning for data management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) | This chapter deals with the development of documentation describing how data is to be managed over the course of a project. This includes data management and sharing plans (DMSPs) as well as documentation designed for internal use, such as standard operating procedures. |
 
-| [Notes from the Author](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_notes-from-author) | Glossary | [Supplementary Materials](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_Supplements) |
+| [Notes from the Author](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_notes-from-author) | [Glossary](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_glossary) | [Supplementary Materials](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_Supplements) |
 
 ---
 
