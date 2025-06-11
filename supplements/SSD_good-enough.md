@@ -1,7 +1,5 @@
 # Good Enough Practices in Data Management
 
----
-
 Best practices in data management are an ideal to be strived for, but are not necessarily attainable in every context. Here are a few situations in which a researcher may not be able to implement what an expert in data management may consider the gold standard.
 
 An individual researcher joins a team that is still developing their own standard operating procedures.
