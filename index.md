@@ -25,7 +25,7 @@ For the moment, even publicly available versions of all this are quite drafty. S
 
 Each of the above chapters is built around a specific principle. See the links below for a full rundown.
 
-| Good Data Management Practice | "Good Enough" Practices in Data Management |
+| [Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
 
 ---
 
