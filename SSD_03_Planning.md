@@ -175,8 +175,12 @@ SOPs should be formatted in a way that facilites their effective use. **Table 3.
 > Mostly because of "cups". It turns out that the marks on the side of most coffee machines indicate "cups of coffee" rather than any standardized or widely accepted unit of measurement. Even the "cup" measurement widely used in food preperation varies depending on context. Here in the United States, a cup is custamarily 8 fluid ounces. Except when it isn't. A "legal" cup is 8.12 fluid ounces. A metric cup is about 8.45 fluid ounces and an "imperial" cup is about 9.61 fluid ounces.
 > 
 > All of which is to say, there is actually a lot of room for interpretation in most instructions for brewing a cup of coffee and that's before getting into issues like water temperature and grind.
+>
+> A good rule of thumb for any SOP is to document more than you think is necessary and in greater specificity than you think might be necessary. Do not assume that something that is clear to you will be clear to all.
 > 
 > [Here is the template.](https://docs.google.com/document/d/1ATWE-zzJoMjR9dumo_e3fOROabIrvRct/edit?usp=sharing&ouid=118445803869398413021&rtpof=true&sd=true)
+
+An SOP can cover even the most “mundane” of activities, including setting standards for how project-related files should be named and organized. The SOP should reflect current practice, if a particular step needs to be changed for some reason, that should be reflected in the documentation and communicated to any team members affected.
 
 SOPs are a resource. Training on them should be part of any onboarding process. They should be stored in a manner that is accessible to all team members, they should revisited regularly to ensure awareness among current personnel, and they should occasionally be audited to ensure they are being applied properly.
 
