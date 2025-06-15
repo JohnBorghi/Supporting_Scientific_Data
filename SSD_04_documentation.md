@@ -4,7 +4,7 @@ If it is not documented, it did not happen. This chapter covers strategies and p
 
 This chapter is built on the principle that managing data requires managing metadata.
 
-—
+—--
 
 |  | Key points for this chapter |
 | :---- | :---- |
