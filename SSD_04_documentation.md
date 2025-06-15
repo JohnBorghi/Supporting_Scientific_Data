@@ -71,11 +71,11 @@ Here is an example:
 
 Any research team working with medical images has likely encountered images in DICOM format. A DICOM image consists of two parts, the medical image itself (i.e. pixel intensity data for the image in question) and a “header” which contains the image’s metadata (i.e. information about how the image was acquired). 
 
-As shown in **Figure 1.1.**, both parts are needed to use the image as part of a research workflow.
+As shown in **Figure 4.1.**, both parts are needed to use the image as part of a research workflow.
 
-| ![][image1] | 
-
-**Figure 7.1.** Metadata in medical images A.The structure of a DICOM image. B. An image of a structural MRI of a human brain.  With the conversion of this image from DICOM to JPEG, the metadata stored in the header has been lost. It is an image of the author’s brain amidst a previous career as a cognitive neuroscientist, but the exact parameters used in its acquisition have been lost to time. It’s a nice picture for presentations, but no longer valuable as a piece of research data.  |
+| <img width="600" alt="Image" src="https://github.com/user-attachments/assets/8a00254c-645b-4d2c-9344-5fb996c9dfff" /> | 
+| ----- |
+| **Figure 7.1.** An image of a structural MRI of a human brain.  With the conversion of this image from DICOM to JPEG, the metadata stored in the header has been lost. It is an image of the author’s brain amidst a previous career as a cognitive neuroscientist, but the exact parameters used in its acquisition have been lost to time. It’s a nice picture for presentations, but no longer valuable as a piece of research data.  |
 
 The metadata stored in the headers of DICOM images are organized in a standardized way into groups of data elements. For example, group “0010” contains information about the patient, with tag “0010-0030” containing the patient’s date of birth. Group “0018” contains information about how the image was acquired, with “0018-9005” providing the name of the pulse sequence used. 
 
