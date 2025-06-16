@@ -4,7 +4,7 @@ If it is not documented, it did not happen. This chapter covers strategies and p
 
 This chapter is built on the principle that managing data requires managing metadata.
 
-—--
+---
 
 |  | Key points for this chapter |
 | :---- | :---- |
@@ -20,6 +20,8 @@ This chapter is built on the principle that managing data requires managing meta
 | [Chocolate chip cookie recipe](https://docs.google.com/document/d/1aGvheTT4Di5d5pjcceO_ukUOWWrn4kpbkpeDLJp7I7U/edit?usp=sharing) | By far the most tangential supplementary material in this whole guide, this is literally just the author’s recipe for chocolate chip cookies. |
 | [SOP Template](https://docs.google.com/document/d/1ATWE-zzJoMjR9dumo_e3fOROabIrvRct/edit) | A template for writing a Standard Operating Procedure. The example given is a very important activity in the scientific research enterprise, making a decent cup of coffee. |
 | [ReadMe Template](https://docs.google.com/document/d/15lOyAQZIkex0aySqZ4giNlXJ-lcN00-NMWGd1wjX5IE/edit?usp=sharing) | A template for writing a readme file that describes the contents of a dataset. |
+
+---
 
 ## 4.1. A Meta Conversation about Metadata
 
@@ -268,7 +270,25 @@ This example is an illustration of the importance of managing metadata properly.
 
 It is very tempting to make assumptions when developing and preserving the type of documentation described in this chapter. The details of a procedure may seem too obvious to need recording, the variable names too clear. Maintaining good documentation does take time. But that time is an investment in preventing future headaches.
 
-**Further Reading:**
+## Definitions
+
+**Data Dictionary** - A document that describes the contents and structure of a dataset.
+
+**Documentation** - Recorded information that is used to describe or explain something.
+
+**Experimental Protocols** - A document, analagous to an SOP, that provides the precise steps needed to complete a research-related procedure.
+
+**Good Documentation Practice** - A set of guidelines drawn from the pharmaceutical and manufactoring industries outlining how to maintain effective documentation.
+
+**Lab Notebook** - A formal record of the research process. In the context of data management, lab notebooks are a form of contemporaneous documentation.
+
+**Metadata** - Information about data. Metadata may describe, explain, or facilitate the use of an element of data (e.g. a specific file or even specific data) or the dataset as a whole. 
+
+**Metadata Schema** - A set of rules that are used to structure and describe metadata. A metadata schema defines metadata elements, what they mean, how they relate, and how they should be used.
+
+**Study Protocol** - A formal document that describes every aspect of a research project, including motivations, SOPs, data management, and planned statistical analyses.
+
+## Further Reading
 
 Bargaje, C. (2011). Good documentation practice in clinical research. *Perspectives in Clinical Research*, *2*(2), 59\. [https://doi.org/10.4103/2229-3485.80368](https://doi.org/10.4103/2229-3485.80368)
 
