@@ -14,7 +14,7 @@ This chapter is built on the principle that managing data requires managing meta
 | 2\. | Document more than you think is necessary, in greater detail than you think might be necessary. |
 | 3\. | Documenting what should happen, through an SOP or protocol, provides a research team with a guide that can make the research process more efficient. |
 |4\. | Documenting what actually happened, through a document like a lab notebook, is essential for establishing data provenance.|
-|5\. | Data that is saved without the documentation necessary for its use has not been effectively saved.  
+|5\. | Data that is saved without the documentation necessary for its use has not been effectively saved. 
 | 6\. | Documentation is a type of metadata. As such, it should be organized, stored, and archived alongside any relevant datasets and other materials.  |
 
 |  | Supplementary materials for this chapter |
@@ -258,9 +258,27 @@ So for the dataset above, a simple data dictionary may look something like the f
 | rt-second | Average reaction time for the second set of trials | milliseconds | Missing data is coded as “na”. |
 | rt-diff | The difference in average reaction time between the two sets of trials. | milliseconds. | This is a calculated variable (rt-second minus rt-first).  |
 
+**ReadMe Files**
+
+But what if a dataset is more complicated than a single file?
+
+A **ReadMe** can be thought of as a user guide that provides an explanation for how a set of files can be navigated and used. While a data dictionary should describe the structure and contents of a specific data file, a ReadMe provides a description of a larger dataset - which may include multiple files organized in multiple directories.
+
+A readme is typically intended to be a human readable document, that lays out how a user can find and use the file or files they are looking for.
+
+> **[Tool Highlight: ReadMe Template](https://docs.google.com/document/d/15lOyAQZIkex0aySqZ4giNlXJ-lcN00-NMWGd1wjX5IE/edit?tab=t.0)**
+>
+> ReadMe files are a form of research-related documentation that covers a complex dataset. 
+>
+> The best way for teams or individuals to use this template is use it as a starting point for systematizing their routine practices. This is just a format for getting started.
+>
+> Speaking of formats, this template uses minimal formatting so that it can be saved in any number of file types. By convention, ReadMe files are titled simply _readme.txt_ (or whatever file format), but it may be prudent to add the project’s name in there, for example _supportingdata-readme.txt._
+
+
+
 ## 7.5. Managing Documentation
 
-Figure 4.3. Below is an unfinished image of a crape myrtle \- often called the “lilac of the south” \- by Anne Kingsbury Wollstonecraft. Her manuscript, *Specimens of the Plants & Fruits of the Island of Cuba* (1827) was donated to the archives of Cornell University by one of her relatives, the great great grandfather of this guide’s author.
+**Figure 4.3.** below is an unfinished image of a crape myrtle \- often called the “lilac of the south” \- by Anne Kingsbury Wollstonecraft. Her manuscript, *Specimens of the Plants & Fruits of the Island of Cuba* (1827) was donated to the archives of Cornell University by one of her relatives, the great great grandfather of this guide’s author.
 
 But, because references to the manuscript had incorrect metadata, its significance was not known until 2018 and Wollstonecraft’s family did not learn of its existence until 2024\.
 
@@ -285,6 +303,8 @@ It is very tempting to make assumptions when developing and preserving the type 
 **Lab Notebook** - A formal record of the research process. In the context of data management, lab notebooks are a form of contemporaneous documentation.
 
 **Metadata** - Information about data. Metadata may describe, explain, or facilitate the use of an element of data (e.g. a specific file or even specific data) or the dataset as a whole. 
+
+**ReadMe** - A simple text document that lays out how a user can find and use the file they are looking for.
 
 **Metadata Schema** - A set of rules that are used to structure and describe metadata. A metadata schema defines metadata elements, what they mean, how they relate, and how they should be used.
 
