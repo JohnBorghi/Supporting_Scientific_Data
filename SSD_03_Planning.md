@@ -4,7 +4,7 @@ This chapter deals with the development of documentation describing how data is 
 
 This chapter is built on the principle that it takes planning to manage data well.
 
-[Last Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter (Coming Soon!)
+[Last Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Documentation](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation)
 
 ---
 
