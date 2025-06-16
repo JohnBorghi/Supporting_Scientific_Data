@@ -302,11 +302,11 @@ It is very tempting to make assumptions when developing and preserving the type 
 
 **Lab Notebook** - A formal record of the research process. In the context of data management, lab notebooks are a form of contemporaneous documentation.
 
-**Metadata** - Information about data. Metadata may describe, explain, or facilitate the use of an element of data (e.g. a specific file or even specific data) or the dataset as a whole. 
-
-**ReadMe** - A simple text document that lays out how a user can find and use the file they are looking for.
+**Metadata** - Refers to information that facilitates the interpretation and/or use of research data. Can refer to formal metadata schemas (e.g. standardized ontologies) or to related documentation (data dictionaries, codebooks, protocols, etc).
 
 **Metadata Schema** - A set of rules that are used to structure and describe metadata. A metadata schema defines metadata elements, what they mean, how they relate, and how they should be used.
+
+**ReadMe** - A simple text document that lays out how a user can find and use the file they are looking for.
 
 **Study Protocol** - A formal document that describes every aspect of a research project, including motivations, SOPs, data management, and planned statistical analyses.
 
