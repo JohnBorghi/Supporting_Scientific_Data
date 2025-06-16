@@ -1,5 +1,7 @@
 ## Glossary
 
+**Data Dictionary** - A document that describes the contents and structure of a dataset.
+
 **Data Management** \- Strategies and practices related to the storage, organization, and description of research data. The focus of data research data management is ensuring accessibility, reliability, and quality. As a shorthand, it can be useful to think about data management as processes related to ensuring that data is usable.
 
 **Data Management Plan** \- Documentation that describes data management and sharing-related practices and strategies. These include both data management and sharing plans written for grant and project proposals as well as more thorough documentation that describes standardized practices to be implemented during the day-to-day course of a research effort. This later category may include standalone documents or be included in broader materials (e.g. lab manuals).
@@ -18,6 +20,10 @@
 
 **Data Use Agreement** - A contractual agreement that establishes who is permitted to use and a dataset, the permitted uses of the dataset, as well as the responsibilities of the users of the dataset. The most typical consideration of a DUA is the protection of protected health data, but such agreements can be used in a variety of situations where the exchange of data is necessary.
 
+**Documentation** - Recorded information that is used to describe or explain something.
+
+**Experimental Protocols** - A document, analagous to an SOP, that provides the precise steps needed to complete a research-related procedure.
+
 **FAIR Guiding Principles \-** A set of guiding principles initially developed to describe the desired characteristics of data-related infrastructure to facilitate the discovery and re-use of data assets by computational tools (i.e. machine readability). The term has now come to be used generally to refer to datasets that are not only available, but available in a *usable* form.
 
 * **Findable \-** The dataset should be discoverable.  
@@ -27,9 +33,17 @@
 
 **Good Data Management Practice \-** A way of thinking about the support of research data in the context of twenty-first century science. Includes ten principles related to how data should be defined and how data management should be incorporated into research processes and workflows.
 
+**Good Documentation Practice** - A set of guidelines drawn from the pharmaceutical and manufactoring industries outlining how to maintain effective documentation.
+
+**Lab Notebook** - A formal record of the research process. In the context of data management, lab notebooks are a form of contemporaneous documentation.
+
 **Metadata** - Refers to information that facilitates the interpretation and/or use of research data. Can refer to formal metadata schemas (e.g. standardized ontologies) or to related documentation (data dictionaries, codebooks, protocols, etc).
 
+**Metadata Schema** - A set of rules that are used to structure and describe metadata. A metadata schema defines metadata elements, what they mean, how they relate, and how they should be used.
+
 **Open Science** \- An umbrella term for a variety of efforts aimed at making scientific research more transparent and accessible. In this guide, we are mostly focused on activities related to the outputs of the research process (datasets, code, etc), but the term also encompasses efforts to ensure that the scientific enterprise is inclusive and equitable.
+
+**ReadMe** - A simple text document that lays out how a user can find and use the file they are looking for.
 
 **Reproducibility** \- Broadly refers to efforts related to ensuring reliability, validity, and credibility of scientific research. Somewhat ironically, the meaning of key terms and definitions related to “research reproducibility” are not standardized across the scientific research enterprise. Throughout this guide, we generally use the term to refer to **methods reproducibility** (the provision of sufficient detail about study procedures so that they can be \- theoretically or actually \- exactly repeated).
 
@@ -40,4 +54,7 @@
 
 **Research Workflow** - The series of programmatic steps or practical ‘ways of doing things’ as data is collected, processed, and analyzed. Basically, where the research results came from.
 
+**Study Protocol** - A formal document that describes every aspect of a research project, including motivations, SOPs, data management, and planned statistical analyses.
+
 **Usability** \- In the context of data management and sharing, this refers to an ability to open, understand, make use of, and build upon a set of data. In the context of biomedical science, “re-use” encompasses a large number of potential activities, including using a dataset for education and training (of both human researchers and algorithms), testing new hypotheses (which can involve combining multiple extant datasets), and more.
+
