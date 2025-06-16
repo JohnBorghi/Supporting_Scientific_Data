@@ -4,6 +4,8 @@ If it is not documented, it did not happen. This chapter covers strategies and p
 
 This chapter is built on the principle that managing data requires managing metadata.
 
+[Last Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming Soon! 
+
 ---
 
 |  | Key points for this chapter |
