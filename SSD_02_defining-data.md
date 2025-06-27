@@ -28,7 +28,9 @@ To start us off, here is the definition of scientific data given by the National
 
 *“Scientific data is the recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings, regardless of whether the data are used to support scholarly publications.”*
 
-Stated a bit more simply, **research data** can be thought of as the materials and information that supports a research result. 
+Stated a bit more simply, **research data** can be thought of as the materials and information that supports a research result.
+
+Note that this a bit different than definitions of data used in coversations related to data storage and organization. That distinction is explored in-depth in the eponymous chapter.
 
 The next question is, of course, what is meant by “support”? 
 
