@@ -1,4 +1,4 @@
-# Day to Day Data Management 
+# Data Storage and Organization
 
 This chapter details strategies and processes related to ensuring that data and other research materials (documentation, code, physical samples, etc) can be found and used as needed. 
 
@@ -8,14 +8,12 @@ The chapter is built around the principle that data management must be part of t
 | :---- | :---- |
 | 1\. | Good data management is built on the foundation of relatively straightforward practices, including those related to the storage and organization of important materials. |
 | 2\. | Human readability and machine readability are BOTH important properties when storing and organizing research data, they are not interchangeable.  |
-| 3\. |  |
-| 4\. |  |
+| 3\. | To prevent the loss of data, data should be backed up and kept well organized. Organzing data can involve such rudimentary practices as providing effective names to data-related files.|
+| 4\. | When possible, it can be helpful to save data in open and/or widely adopted file formats. |
 
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
-|  |  |
-|  |  |
-|  |  |
+| [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?tab=t.0) | This document provides guidance to research teams who need to keep a record of how and where their research data is saved. |
 
 # 5.1. Foundational Practices in Data Management
 
@@ -31,7 +29,7 @@ Depending on the circumstance, the consequences of losing data can range from in
 
 **But what about documentation?**
 
-This chapter is primarily focused on the implementation of some foundational data management practices. But ensuring maintaining good documentation is perhaps the most foundational practice when managing data. Without sufficient documentation and metadata, even the most exquisitely saved and organized files are less than useful. See the chapter on Documentation and Description for a deep dive into the different forms of documentation and decent recipes for chocolate chip cookies.
+This chapter is primarily focused on the implementation of some foundational data management practices. But ensuring maintaining good documentation is perhaps the _most_ foundational practice when managing data. Without sufficient documentation and metadata, even the most exquisitely saved and organized files are less than useful. See the chapter on [Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) for a deep dive into the different forms of documentation and decent recipes for chocolate chip cookies.
 
 **Standards and practices.**
 
@@ -73,9 +71,9 @@ It is useful to keep these distinctions in mind because any discussion of storin
 
 | Type | Description | Example |
 | :---- | :---- | :---- |
-| Magnetic | Binary values are encoded on a hard disk or tape as positive or negative polarities. A read/write head then detects the direction of the magnetization and translates it back into usable information. | Hard disc drives (HDD), Floppy disks, Magnetic tape |
-| Optical | Binary values are encoded on a reflective surface of a disk. A laser scanner then reads these pits and translates them back into usable information. | Compact Discs (CD) Digital Video Discs (DVD) Blu-ray Discs |
-| Solid State | Binary values are encoded as electrical charges in transistors. A controller (processor) then detects these charges and translates them back into usable information.  | Solid state drives, Secure Digital (SD) Cards, including microSD |
+| **Magnetic** | Binary values are encoded on a hard disk or tape as positive or negative polarities. A read/write head then detects the direction of the magnetization and translates it back into usable information. | Hard disc drives (HDD), Floppy disks, Magnetic tape |
+| **Optical** | Binary values are encoded on a reflective surface of a disk. A laser scanner then reads these pits and translates them back into usable information. | Compact Discs (CD) Digital Video Discs (DVD) Blu-ray Discs |
+| **Solid State** | Binary values are encoded as electrical charges in transistors. A controller (processor) then detects these charges and translates them back into usable information.  | Solid state drives, Secure Digital (SD) Cards, including microSD |
 
 **Cloud storage**, in which digital data is stored remotely rather than on a local storage medium, also ultimately comes down to data stored on one or more of these types of media. While some of the examples listed here are more prone to failure or wear and tear than others, all of them have a rate of failure.
 
@@ -103,7 +101,8 @@ Throughout science, there are projects that involve the acquisition of extremely
 
 **What about sensitive data?**
 
-Managing sensitive data \- data that must be protected against unauthorized access \- is the topic of a whole (forthcoming) chapter, but it is always worth remembering that not every system for storing data provides the same level of security. Think of it this way, a locked filing cabinet provides a much higher degree of security for a paper file than just placing that same file on top of a desk. When considering the security of services for storing data, it is always best to consult with local IT professionals on topics such as encryption, access control, and other measures.  
+Managing sensitive data \- data that must be protected against unauthorized access \- is the topic of a whole (forthcoming) chapter, but it is always worth remembering that not every system for storing data provides the same level of security. Think of it this way, a locked filing cabinet provides a much higher degree of security for a paper file than just placing that same file on top of a desk. When considering the security of services for storing data, it is always best to consult with local IT professionals on topics such as encryption, access control, and other measures. 
+
 **Long term storage**
 
 In the not too distant past, data from completed projects was stored on physical media for long-term storage. From magnetic tape and punch cards to boxes of floppy disks and spindles of DVDs to USB flash drives, SD cards, and everything in between, many of these forms of storage are still present in the closets and desk drawers of academic science. 
@@ -119,11 +118,13 @@ Preserving data over the long term is an active process. Let’s put aside physi
 
 Often research data deposited into a **data repository** \- a platform that facilitates the preservation, organization, and discovery of research data \- is said to be archived. This is true to the extent that many repositories have strategies for backing up deposited data for a period of time. But it is also true that the data deposited into a repository is not ALL of the data associated with a given research project. Perhaps only the processed “final” dataset is uploaded, while storage of “raw” and “intermediate” forms are left to the research team. 
 
-**Tool Highlight: Data Index Checklist**
-
-Over the last few years, tools like [Google Dataset Search](https://datasetsearch.research.google.com/) and the [NLM dataset catalog](https://www.datasetcatalog.nlm.nih.gov/) have emerged to help researchers find data shared by others. These tools are useful, but limited by the fact that only a portion of the data related to a project may ultimately be shared.
-
-This checklist is intended for groups who need to preserve the rest of their data themselves.
+> **Tool Highlight: [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?usp=sharing)**
+>
+> Over the last few years, tools like [Google Dataset Search](https://datasetsearch.research.google.com/) and the [NLM dataset catalog](https://www.datasetcatalog.nlm.nih.gov/) have emerged to help researchers find data shared by others. These tools are useful, but limited by the fact that only a portion of the data related to a project may ultimately be shared.
+>
+> This checklist is intended for groups who need to preserve the rest of their data themselves.
+>
+> [The checklist can be accessed here](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?usp=sharing).
 
 # 5.3. File Formats and Names
 
@@ -131,7 +132,7 @@ As we promised in the introduction, this guide does not advocate for the use of 
 
 **Figure 5.2.** below is an example of a well known and  widespread problem[^5]. In trying to simplify data entry, this Excel spreadsheet has changed the names of two genes to dates. Unfortunately, it is not just the display of this information that is being changed, but the underlying content of the cells. 
 
-| ![][image2] |
+|  |
 | :---- |
 | **Figure 5.2.** An example of Excel automatically changing two genes into dates. The abbreviated names for the Membrane Associated Ring-CH-Type Finger 1 (MARCH1) and Septin-9 (SEPT9) genes are changed March 1st and September 9th, respectively.  |
 
