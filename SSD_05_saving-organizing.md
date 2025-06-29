@@ -71,9 +71,9 @@ It is useful to keep these distinctions in mind because any discussion of storin
 
 | Type | Description | Example |
 | :---- | :---- | :---- |
-| **Magnetic** | Binary values are encoded on a hard disk or tape as positive or negative polarities. A read/write head then detects the direction of the magnetization and translates it back into usable information. | Hard disc drives (HDD), Floppy disks, Magnetic tape |
-| **Optical** | Binary values are encoded on a reflective surface of a disk. A laser scanner then reads these pits and translates them back into usable information. | Compact Discs (CD) Digital Video Discs (DVD) Blu-ray Discs |
-| **Solid State** | Binary values are encoded as electrical charges in transistors. A controller (processor) then detects these charges and translates them back into usable information.  | Solid state drives, Secure Digital (SD) Cards, including microSD |
+| **Magnetic** | Binary values are encoded on a hard disk or tape as positive or negative polarities. A read/write head then detects the direction of the magnetization and translates it back into usable information. | <ul> <li> Hard disc drives (HDD) </li> <li> Floppy disks </li> <li> Magnetic tape |
+| **Optical** | Binary values are encoded on a reflective surface of a disk. A laser scanner then reads these pits and translates them back into usable information. | <ul> <li> Compact Discs (CD) </li> <li> Digital Video Discs (DVD) </li> <li> Blu-ray Discs |
+| **Solid State** | Binary values are encoded as electrical charges in transistors. A controller (processor) then detects these charges and translates them back into usable information.  | <ul> <li> Solid state drives </li> <li> Secure Digital (SD) Cards, including microSD |
 
 **Cloud storage**, in which digital data is stored remotely rather than on a local storage medium, also ultimately comes down to data stored on one or more of these types of media. While some of the examples listed here are more prone to failure or wear and tear than others, all of them have a rate of failure.
 
@@ -132,7 +132,7 @@ As we promised in the introduction, this guide does not advocate for the use of 
 
 **Figure 5.2.** below is an example of a well known and  widespread problem[^5]. In trying to simplify data entry, this Excel spreadsheet has changed the names of two genes to dates. Unfortunately, it is not just the display of this information that is being changed, but the underlying content of the cells. 
 
-|  |
+| ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMG5vd2xiOXBvODRqZm95ZzNtdGs4YmhzcjFwZWgxbGkwNmU3YXYxMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ieHcD10aZwsTPuQ9Xf/giphy.gif)|
 | :---- |
 | **Figure 5.2.** An example of Excel automatically changing two genes into dates. The abbreviated names for the Membrane Associated Ring-CH-Type Finger 1 (MARCH1) and Septin-9 (SEPT9) genes are changed March 1st and September 9th, respectively.  |
 
@@ -159,11 +159,11 @@ Balancing openness, lossiness, storage costs, and other considerations in choosi
 
 | Modality | Open Formats | Formats for Preservation[^7] |
 | :---- | :---- | :---- |
-| Text | Plain text (.txt) Markdown (.md) LaTeX (.tex) Portable Document Format (.pdf) Office Open XML (.docx) OpenDocument (.odf) | Electronic Publication (.epub) Portable Document Format (.pdf) XML-based document formats (e.g. .docx, .odf, etc)  |
-| Images | Graphical Interchange Format (.gif) JPEG (.jpeg) Portable Network Graphics (.png) | Tag Image File Format (.tiff) JPEG-2000 (.jp2) Portable Network Graphics (.png) |
-| Video | Matroska (.mkv) | Matroska (.mkv) MPEG-4 (.mp4) |
-| Audio | MP3 (.mp3) Free Lossless Audio Codec (.flac) | Waveform Audio File Format (.wave) |
-| Spreadsheets and databases | Tab separated values (.tsv) Comma separated values (.csv) OpenDocument Spreadsheet (.ods) OpenDocument Database (.odb) SQLite (e.g. .db, .sqlite, etc) | Platform independent, character-based formats (.tsv, .csv, .db, .sqlite, etc) Proprietary formats that are de facto standards for a profession and/or supported by multiple tools (e.g. Excel) |
+| Text | <ul> <li> Plain text (.txt) </li> <li> Markdown (.md) </li> <li> LaTeX (.tex) </li> <li>Portable Document Format (.pdf) </li> <li>Office Open XML (.docx) </li> <li>OpenDocument (.odf) | <ul> <li> Electronic Publication (.epub) </li> <li> Portable Document Format (.pdf) </li> <li> XML-based document formats (e.g. .docx, .odf, etc)  |
+| Images | <ul> <li> Graphical Interchange Format (.gif) </li> <li>JPEG (.jpeg) </li> <li>Portable Network Graphics (.png) | <ul> <li> Tag Image File Format (.tiff) </li> <li> JPEG-2000 (.jp2) </li> <li> Portable Network Graphics (.png) |
+| Video | <ul> <li> Matroska (.mkv) | <ul> <li> Matroska (.mkv) MPEG-4 (.mp4) |
+| Audio | <ul> <li>MP3 (.mp3) </li> <li> Free Lossless Audio Codec (.flac) | <ul> <li> Waveform Audio File Format (.wave) |
+| Spreadsheets and databases | <ul> <li> Tab separated values (.tsv) </li> <li> Comma separated values (.csv) </li> <li> OpenDocument Spreadsheet (.ods) </li> <li> OpenDocument Database (.odb) </li> <li> SQLite (e.g. .db, .sqlite, etc) | Platform independent, character-based formats (.tsv, .csv, .db, .sqlite, etc) Proprietary formats that are de facto standards for a profession and/or supported by multiple tools (e.g. Excel) |
 
 **Naming Things**
 
