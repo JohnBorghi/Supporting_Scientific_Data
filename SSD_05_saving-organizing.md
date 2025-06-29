@@ -169,15 +169,20 @@ Balancing openness, lossiness, storage costs, and other considerations in choosi
 
 Storing and backing up data properly is vital, but maintaining multiple copies of a dataset is only valuable if the files can actually be found. We promise this is not actually a screenshot of anyone’s desktop, but **Figure 5.2.** demonstrates the necessity of keeping data-related materials well organized.
 
-| ![][image3] |
+| <img width="960" alt="Image" src="https://github.com/user-attachments/assets/95895501-d968-44ad-bed3-1384c1d3ef9e" />|
 | :---- |
 | **Figure 5.2.** An illustration of the necessity of maintaining a good file naming scheme. If a researcher were asked to pick the most recent file from this display, it would be quite the challenge. What is the difference between data\_v2? Data2? What is the divverence between data\_v2 final copy and data\_v2 final? |
 
 It may seem almost too rudimentary, but providing good names to things (files, variables, etc) is actually one of *the* cornerstones of good data management. Compare the following two files. Hopefully you can tell a lot more about one than the other just by looking at their names. 
 
-| A. | *Data.csv* | B. | *borghi\_rdm-project\_participant-data\_2024-12-31.csv* |
-| :---- | :---: | :---- | :---: |
-| Two example file names.  |  |  |  |
+_data.csv_
+
+This provides a limited amount of information. A user knows that this file is data, but for which research project? When was it was it modified and by whom? How does this file differ from other data-related files?
+
+_Borghi\_rdm-project\_participant-data\_2024-12-31.csv_
+
+This provides _some_ additional information. There is a researcher listed (this guide's author), a project name (very creative), some description of the file's contents, and a date that's useful for tracking versions.
+
 
 A **file naming convention** is a consistent way of naming files in a way that provides information about the contents of the file and how it relates to other files. A research group’s conventions related to naming files should be documented as part of their standard operating procedures. **Table 5.3** provides some practical tips for naming files.
 
