@@ -97,7 +97,7 @@ So, to prevent data from being lost, it is really important to maintain backups.
 
 But backup, what is a back-up?
 
-In the context of data management, **working data storage** refers to the methods and media used to store data that is currently being actively worked on \- data that is currently in the process of being transformed, analyzed, and evaluated.  The **working copy** of data stored in a working data storage system is “live” and the goal of working data storage is immediate access and use. 
+In the context of data management, **working data storage** refers to the methods and media used to store data that is currently being actively worked on \- data that is currently in the process of being transformed, analyzed, and evaluated.  The _working copy_ of data stored in a working data storage system is “live” and the goal of working data storage is immediate access and use. 
 
 In contrast, a **backup data storage** refers to the methods and media used to store *copies* of the working copy that can be used to restore the original if (or when) data loss occurs. The goal of backup data storage is redundancy. The ability to immediately access and use backup copies of a dataset can be helpful, but is not always necessary. Archival storage refers to methods and media that are intended for longer term preservation.
 
@@ -215,9 +215,9 @@ A **file naming convention** is a consistent way of naming files in a way that p
 
 File names may, of course, be part of a broader data standard. But researchers may find themselves in a position where they have to come up with a convention more or less from scratch. To facilitate this process, see the **Fantastic File Names** exercise. 
 
-> Tool Highlight: Fantastic File Names
+> **Tool Highlight: [Fantastic File Names](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing)**
 >
-> 
+> [View the Fantastic File Names exercise](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing).
 
 ### Versioning Files and Version Control
 
@@ -225,7 +225,7 @@ When working on a research project, it is quite likely that keeping track of a r
 
 Version control is probably (especially here in the Bay Area) most commonly invoked in a software development context, where a large number of people may be working on the same materials simultaneously. Tools like Github, Bitbucket, and SourceForge fulfill a large number of functions, but their primary purpose is to facilitate version control.
 
-This type of version control *can* be used for some types of scientific data. Indeed, there is quite a bit of scientific data hosted on platforms such as Github. However, this is not feasible for many types of data or many research groups. The data may be too big or two sensitive to be uploaded to a public repository while the research process is active. A research group may have tremendous expertise in many areas, but may not have the time or need to learn the ins and outs of “the stupid content tracker[^9]". In these cases, **versioning** is still important but may involve a more manual set of strategies and behaviors. 
+This type of version control *can* be used for some types of scientific data. Indeed, there is quite a bit of scientific data hosted on platforms such as Github. However, this is not feasible for many types of data or many research groups. The data may be too big or two sensitive to be uploaded to a public repository while the research process is active. A research group may have tremendous expertise in many areas, but may not have the time or need to learn the ins and outs of “the stupid content tracker[^9]". In these cases, _versioning_ is still important but may involve a more manual set of strategies and behaviors. 
 
 These include:
 
@@ -262,21 +262,33 @@ There is now even more room for printouts of journal articles.
 
 ## Definitions
 
-Archival Storage
+**3-2-1 Rule** - A good rule of thumb to ensure that data is not lost. Stipulates that 3 copies of data should be maintained (1 working copy, 2 backups) and that at least one of the backups should be in saved different location.
 
-Backup Storage
+**Archival Storage** - Refers to methods and media used to store data that is not needed day-to-day. The goal of archival storage is long-term preservation.
 
-Bit Rot
+**Backup Storage** - Refers to methods and media used to store *copies* of data that can be used to restore the original if (or when) data loss occurs. The goal of backup data storage is redundancy.
 
-Directory (e.g. File Folder)
+**Bit Rot** - Broadly refers to the gradual degradation of the integrity of stored data. This is largely caused by wear and tear on storage media. 
 
-File Format
+**Cloud Storage** - A system in which digital data is stored remotely rather than on a local storage medium.
 
-Version Control
+**Data Repository** - A platform that facilitates the preservation, organization, and discovery of research data.
 
-Working Copy
+**Data Storage** - The recording of information into a medium of some kind.
 
-Working Storage
+**Directory (e.g. File Folder)** - A structure that contains computer files and possibly other directories.
+
+**File Format** -Standardized ways in which information is encoded to be stored in a computer file. Think .XLSX, .CSV, etc.
+
+**File fixity** - The process of ensuring that a digital file in an archive has remained unchanged at the bit level.  
+
+**Lossiness** - The degree to which information is lost when information is encoded into a particular file type. “Lossy” compression involves the removal of information (and thus decreases the fidelity of the information) while “lossless” compression does not. 
+
+**Openness** - The degree to which the way a file type encodes information in a manner that is secret or restricted. Proprietary file formats typically can only be opened and used with specific software tools. In contrast, open (non-proprietary) file formats are unrestricted and free to use.
+
+**Version Control** - Systems that are responsible for managing changes in software and code, documents, and other sets of information. Can refer to tools like Git but also to more manual forms of keeping track of versions, such as using dates or version numbers in file names.
+
+**Working Data Storage** Refers to the methods and media used to store data that is currently being actively worked on \- data that is currently in the process of being transformed, analyzed, and evaluated.  The goal of working data storage is immediate access and use. 
 
 ## A Bonus GIF
 
