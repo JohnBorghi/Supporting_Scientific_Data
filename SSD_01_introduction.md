@@ -1,12 +1,16 @@
-# Chapter 01: Understanding Data Management
+# Understanding Data Management
+
+[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)
+
+## Chapter Summary
 
 What are we talking about when we talk about data management and data sharing? 
 
 This chapter defines these topics in both technical and functional terms.
 
-[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)
-
----
+| [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
+<br/>
+<br/>
 
 | | **Key Points for this Chapter** |
 | :---- | :---- |
@@ -14,13 +18,13 @@ This chapter defines these topics in both technical and functional terms.
 | 2\. | Everyone who works with research data is responsible for data management, though different individual researchers may have their own roles and responsibilities. |
 | 3\. | Data management helps make the research process more efficient and is foundational to ensuring that the research process is ethical, reproducible, accessible, and implemented in line with applicable regulations and policies. |
 | 4\. | As a practice, data management exists along a continuum. A research group may excel at one aspect of data management and need improvement on others. |
+<br/>
 
 | | **Supplementary Materials for this Chapter** |
 | :---- | :---- |
 | **[Good Data Management Principles](https://docs.google.com/document/d/1dZeyt_6qnnvjfI9PEIXbhRK1ELhfG1NS9jlAn7mFEF0/edit?usp=sharing)** | This document presents each of the ten principles of Good Data Management Practice along with a brief description of each. |
 | **[Good Enough Practices](https://docs.google.com/document/d/1RbdOQPJUMUKwMvxIgznEBr7_TT_MCGCCWQajCOdEJJY/edit?usp=sharing)** | Sometimes “Good enough” has to be good enough. This document provides a starting point for implementing data management practices. |
-
----
+<br/>
 
 ## 1.1. Introduction: What is research data management?
 
@@ -86,14 +90,14 @@ Again, this is certainly not meant to be a comprehensive set of activities. Diff
 | **Report and Share** | A “final” version of the data is saved, which directly underlies any results described in a published paper. | The “final” dataset is structured using an appropriate metadata schema and/or accompanied with sufficient documentation to ensure usability. | The process leading from the data to the conclusions derived from them are sufficiently described and communicated.  |
 | **Archive and Reuse** | Some or all of the data is deposited into the appropriate data repository so it can be discovered and reused | The data is shared in a format that ensures others will be able to use it (e.g. common file formats). | The data is stored in a manner that ensures it is reusable over time. |
 
-**Data Provenance**
+### Data Provenance
 
 Motivations for implementing good data management are covered in more depth in Section 1.3., but largely the answer to the question “Why do we do all of this data management stuff?” comes down to **data provenance**. If data is evidence for a scientific result, data provenance is an audit trail or chain of custody for that evidence. Data provenance describes the origin of a set of data, how it has been changed and transformed over time, where it has been, and where it is now. Breaks in this chain or trail can have consequences for a research effort that range from inconvenient but manageable to absolutely devastating for a research effort and individuals involved. 
 
 Good data management is absolutely foundational to ensuring that data provenance is maintained. The research process can be messy. It is almost never as linear or made up in phases that are as discreet as those described in Table 1.01. Decisions made at every stage can affect not only the final research results but also what can be done at subsequent stages.  
 Amid all of these paths not taken, data provenance represents how a research team ended up at their conclusions.
 
-**Data Sharing**
+### Data Sharing
 
 Throughout these modules, data sharing is referenced as an outcome for effective data management. Topics related to data sharing will be covered in much more detail in subsequent chapters. But, defined broadly, **data sharing** is the release of data for use by others. 
 
@@ -128,7 +132,6 @@ In scientific research, there are a number of stakeholders beyond the research t
 
 As a result, data management is also an administrative process \- often one that involves institutional offices and groups involved in research compliance, protection of research participants, privacy, information technology, and many others. Navigating this landscape can be challenging, hence the how-to guides, and workflows developed as part of the following modules.  
                                                                                                                    
-
 ## 1.3. Why do all this? \- Motivations for data management
 
 As will quickly become evident moving forward, properly managing scientific data takes time and effort. There’s a learning curve and, often, there is a financial cost. So why bother? 
@@ -150,7 +153,7 @@ Science is built on data. This data comes in all sorts of shapes, sizes, and for
 
 Beyond these, research data management lies at the intersection of a number of issues. These include, but are not necessarily limited to the following:
 
-**Research Ethics**
+### Research Ethics
 
 Sensitive data will be discussed in much more detail elsewhere in this guide, but certain data must be protected against unauthorized access and use. The reasons for this range from protecting endangered species to protecting national security, but the relationship between data management and research ethics is perhaps most easily illustrated with the case of data derived from human research participants.
 
@@ -160,19 +163,19 @@ Effective data management minimizes the risk posed to participants through the p
 
 Of course, facilitating the usability (or reusability) of data from human participants merits careful ethical consideration. Research data is a resource and, with any resource, there is potential for iniquity and exploitation. 
 
-**Efficiency and Team Science**
+### Efficiency and Team Science
 
 Preventing the loss of data is probably the most immediate benefit of implementing a data management strategy. All storage media have a rate of failure (more on backup procedures in a future chapter), but there are many ways to lose data; files can be misplaced, versions can be confused. details can be forgotten. Such a loss often means that an individual researcher or research team may need to spend time and other resources redoing or reconstructing their work. Depending on the circumstance, this might be a substantial or even impossible endeavor.
 
 Data management also helps the collaborative aspect of scientific research proceed efficiently. Scientific research is a process and that process proceeds much more efficiently when everyone involved can find and use the data they need. The most common collaboration in a given research effort is an individual researcher with their future self \- the version of themselves that has not opened a particular file in a couple of days (or months or years). But the same strategies and practices that will help that individual researcher find and use the data they need also do the same for other members of their research team (labmates, biostatisticians, etc), and the research community more broadly.
 
-**Research Quality**
+### Research Quality
 
 Over the last several decades, much has been written about the reproducibility of scientific findings. The term has proven somewhat difficult to define, but efforts to address **reproducibility** are generally concerned with establishing the credibility, reliability, and validity of scientific research. Addressing the conduct of “good science” is well beyond the scope of this guide and a subject heavily intertwined with politics, ethics, philosophy, and other areas. But assessing the “quality” of research \- however that may be defined \- is quite difficult when the data and materials that support a result have not been properly managed.
 
 This is not to raise the specter of fraud and scientific misconduct. Intentional breaches of trust do happen, of course. But they are exceedingly rare. But, it would be a disservice to narrow the utility of data management to just safeguarding against accusations of research impropriety. Scientific findings are supported by data. So any discussion of “quality” in the context of scientific research must also account for how well that data is supported.
 
-**Accessibility**
+### Accessibility
 
 These days, it is not common to consider the publication of scientific journals as a step forward for the accessibility of science. But, starting in the 1600s and beginning in earnest in the 1800s, this development in scholarly publishing meant that discussion of scientific results was no longer confined to the correspondence between individual scientists. 
 
@@ -182,7 +185,7 @@ The term **open science** covers a variety of efforts focused on making scientif
 
 There is an increasing recognition that data should be a “first class” research output in and of itself \- evaluated, disseminated, cited, and valued in a similar standing as publications. But, beyond just the incentive system of academic science, making data available (and accessible) has a number of benefits. For the individual researcher, sharing data and other materials can lend additional support to research results, as they can be verified and even expanded upon by others. Data sharing also enables data reuse, which greatly benefits the research enterprise as a whole, as datasets can be examined, combined, and used for the development of new tools, methods, and research and educational efforts.
 
-**Regulations and Requirements**
+### Regulations and Requirements
 
 Probably the most immediate motivation for data management is that it is required by the entities that support the scientific research enterprise. For example, at Stanford University, data management is written into the institution’s data retention policy and Research Policy Handbook.
 
@@ -205,7 +208,7 @@ So what can be done?
 
 Well, there are a few approaches that an individual or research team can take to support their data through data management.
 
-**Manage what can be managed**
+### Manage what can be managed
 
 The first approach, to manage what can be managed, is outlined in **Table 1.04.** So far data management has been discussed as a collaborative activity, one that involves multiple members of a given research team. This is ideal and good data management and team science are mutually beneficial. But an individual researcher may or may not be empowered to prescribe data management activities for the broader team of which they are a part. In such a case, that individual researcher can only ensure that they themselves are implementing good data management.
 
@@ -219,7 +222,7 @@ The first approach, to manage what can be managed, is outlined in **Table 1.04.*
 
 Though standards for certain types of data and research areas have been developed and implemented to great success, this is certainly not a universal phenomenon. If a more formal data standard has not been developed or widely adopted, a research team may need to develop their own *standardized practices* \- agreed upon strategies related to storing, organizing, and describing data.
 
-**Make incremental improvements**
+### Make incremental improvements
 
 One of the reasons this guide is so long is because data management encompasses a wide range of activities, each with their own considerations and vocabulary. So much so that sometimes the same word can mean slightly different things \- a *repo* in the context of a tool like Git is not exactly analogous to a *data repository* as described by individuals working in the broader context of data sharing, for example.
 
@@ -237,7 +240,7 @@ It is unlikely that a single researcher can necessarily be an expert in all of t
 
 Sometimes it might only be possible to improve data management by a small amount, but even something as seemingly minor as finding a way to continuously and automatically back up data represents a step in the right direction.
 
-**“Good enough” sometimes has to be good enough**
+### “Good enough” sometimes has to be good enough
 
 Ok, but where to start?
 
