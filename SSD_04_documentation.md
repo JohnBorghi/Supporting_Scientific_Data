@@ -276,7 +276,7 @@ A readme is typically intended to be a human readable document, that lays out ho
 >
 > Speaking of formats, this template uses minimal formatting so that it can be saved in any number of file types. By convention, ReadMe files are titled simply _readme.txt_ (or whatever file format), but it may be prudent to add the project’s name in there, for example _supportingdata-readme.txt._
 
-## 7.5. Managing Documentation
+## 4.5. Managing Documentation
 
 **Figure 4.3.** below is an unfinished image of a crape myrtle \- often called the “lilac of the south” \- by Anne Kingsbury Wollstonecraft. Her manuscript, *Specimens of the Plants & Fruits of the Island of Cuba* (1827) was donated to the archives of Cornell University by one of her relatives, the great great grandfather of this guide’s author.
 
@@ -290,7 +290,7 @@ This example is an illustration of the importance of managing metadata properly.
 
 It is very tempting to make assumptions when developing and preserving the type of documentation described in this chapter. The details of a procedure may seem too obvious to need recording, the variable names too clear. Maintaining good documentation does take time. But that time is an investment in preventing future headaches.
 
-## Definitions
+## Definitions of Key Terms
 
 **Data Dictionary** - A document that describes the contents and structure of a dataset.
 
