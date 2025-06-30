@@ -204,7 +204,7 @@ While CARE was developed specifically as a response to the suppression and co-op
 
 This conversation is much bigger than can be covered in this guide and there is a great deal of excellent work on this topic, some of which is highlighted in the “Further Reading” section below. But, as researchers and teams conceptualize their data, where it comes from, and what it will be used for, it is vital that they take care.
 
-## Definitions
+## Definitions of Key Terms
 
 **Data Sovereignty \-** A group's (or individual’s) right to control and maintain their own data, including its collection, storage, and interpretation 
 
