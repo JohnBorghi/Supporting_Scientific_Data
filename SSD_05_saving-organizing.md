@@ -24,7 +24,7 @@ The chapter is built around the principle that data management must be part of t
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
 | [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?tab=t.0) | This document provides guidance to research teams who need to keep a record of how and where their research data is saved. |
-|Fantastic File Names|This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
+|[Fantastic File Names](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing)|This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
 <br/>
 
 ## 5.1. Foundational Practices in Data Management
@@ -217,6 +217,8 @@ File names may, of course, be part of a broader data standard. But researchers m
 
 > **Tool Highlight: [Fantastic File Names](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing)**
 >
+> Sometimes file names are described as part of a broader data standard or are automatically determined by the software being used alongside the data. This exercise guides users through some best practices in naming digital files when neither of these situations apply. Similar principles can also be applied to other names, including the names of variables and column headers.
+>
 > [View the Fantastic File Names exercise](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing).
 
 ### Versioning Files and Version Control
@@ -278,11 +280,15 @@ There is now even more room for printouts of journal articles.
 
 **Directory (e.g. File Folder)** - A structure that contains computer files and possibly other directories.
 
+**File Naming Convention** - A consistent way of naming files in a way that provides information about the contents of the file and how it relates to other files.
+
 **File Format** -Standardized ways in which information is encoded to be stored in a computer file. Think .XLSX, .CSV, etc.
 
 **File fixity** - The process of ensuring that a digital file in an archive has remained unchanged at the bit level.  
 
 **Lossiness** - The degree to which information is lost when information is encoded into a particular file type. “Lossy” compression involves the removal of information (and thus decreases the fidelity of the information) while “lossless” compression does not. 
+
+**Obsolescence** - Refers to an inability to access digital data because the needed hardware or software are no longer available.
 
 **Openness** - The degree to which the way a file type encodes information in a manner that is secret or restricted. Proprietary file formats typically can only be opened and used with specific software tools. In contrast, open (non-proprietary) file formats are unrestricted and free to use.
 
