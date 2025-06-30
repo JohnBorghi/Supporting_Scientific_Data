@@ -240,7 +240,7 @@ NIH data management and sharing plans are expected to be updated over time. Chan
 
 Data-related SOPs should be revisited frequently and updated as needed. Data SOPs should be stored somewhere where they can be easily found by project team members, should be included in onboarding procedures, and should be addressed regularly at team meetings.
 
-## Definitions
+## Definitions of Key Terms
 
 **Data Management Plan** \- Documentation that describes data management and sharing-related practices and strategies. These include both data management and sharing plans written for grant and project proposals as well as more thorough documentation that describes standardized practices to be implemented during the day-to-day course of a research effort. This later category may include standalone documents or be included in broader materials (e.g. lab manuals).
 
