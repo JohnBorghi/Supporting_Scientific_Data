@@ -262,7 +262,7 @@ There is now even more room for printouts of journal articles.
 
 (Please use a citation management tool like [Zotero](https://www.zotero.org/) to address this last sentence).
 
-## Definitions
+## Definitions of Key Terms
 
 **3-2-1 Rule** - A good rule of thumb to ensure that data is not lost. Stipulates that 3 copies of data should be maintained (1 working copy, 2 backups) and that at least one of the backups should be in saved different location.
 
