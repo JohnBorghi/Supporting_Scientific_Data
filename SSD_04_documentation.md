@@ -1,12 +1,16 @@
 # Documentation and Description 
+[Last Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming Soon! 
+<br/>
+<br/>
+## Chapter Summary
 
 If it is not documented, it did not happen. This chapter covers strategies and processes related to developing protocols, recording research workflow, and documenting the contents of specific data files.
 
 This chapter is built on the principle that managing data requires managing metadata.
 
-[Last Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming Soon! 
-
----
+| [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
+<br/>
+<br/>
 
 |  | Key points for this chapter |
 | :---- | :---- |
@@ -16,14 +20,14 @@ This chapter is built on the principle that managing data requires managing meta
 |4\. | Documenting what actually happened, through a document like a lab notebook, is essential for establishing data provenance.|
 |5\. | Data that is saved without the documentation necessary for its use has not been effectively saved. 
 | 6\. | Documentation is a type of metadata. As such, it should be organized, stored, and archived alongside any relevant datasets and other materials.  |
+<br/>
 
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
 | [Chocolate chip cookie recipe](https://docs.google.com/document/d/1aGvheTT4Di5d5pjcceO_ukUOWWrn4kpbkpeDLJp7I7U/edit?usp=sharing) | By far the most tangential supplementary material in this whole guide, this is literally just the author’s recipe for chocolate chip cookies. |
 | [SOP Template](https://docs.google.com/document/d/1ATWE-zzJoMjR9dumo_e3fOROabIrvRct/edit) | A template for writing a Standard Operating Procedure. The example given is a very important activity in the scientific research enterprise, making a decent cup of coffee. |
 | [ReadMe Template](https://docs.google.com/document/d/15lOyAQZIkex0aySqZ4giNlXJ-lcN00-NMWGd1wjX5IE/edit?usp=sharing) | A template for writing a readme file that describes the contents of a dataset. |
-
----
+<br/>
 
 ## 4.1. A Meta Conversation about Metadata
 
@@ -35,7 +39,7 @@ Looking up a simple recipe for chocolate chip cookies often involves scrolling p
 
 This is not a guide to making apple pie or chocolate chip cookies. But a good recipe and a study protocol *are* roughly analogous. Ideally both should be legible, complete, and easily accessible. Just don’t run your cookie dough through gel electrophoresis.
 
-**Types of Documentation**
+### Types of Documentation
 
 To ease the transition from chocolate chip cookies to documentation and metadata, please see the most tangential supplement in this whole guide \- the author’s recipe for [chocolate chip cookies.](https://docs.google.com/document/u/0/d/1aGvheTT4Di5d5pjcceO_ukUOWWrn4kpbkpeDLJp7I7U/edit)
 
@@ -55,13 +59,11 @@ All of which is to say, an absolutely vital part of good data management is main
 
 This typology is not necessarily complete and the differences between each type can be fuzzy and context dependent. Different areas within biomedical science may also have different standards and expectations for different forms of documentation. But two statements hold true for all three.
 
->[!Important]
-> Document more than you think is necessary, in greater detail than you think is necessary.
+` Document more than you think is necessary, in greater detail than you think is necessary. `
 
->[!Important]
-> If it is not documented, it did not happen.
+` If it is not documented, it did not happen. `
 
-**Metadata Schemas and Ontologies**
+### Metadata Schemas and Ontologies
 
 Before getting into the details of how to develop and maintain each “type” of documentation, it is worth delving into the broader category of metadata.
 
@@ -140,7 +142,7 @@ The image presented in Figure 4.1. was originally acquired as part of a research
 > 
 > But even in circumstances where there is slightly less space for flexibility, prospectively developing documentation about the steps to be taken helps to increase efficiency, allows for procedures to be reviewed, and \- most importantly \- stands as a guide to ensure that members of the research team are on the same page.
 
-**Protocols**
+### Protocols
 
 Standard operating procedures related to data acquisition, processing, and analysis are often referred to by another name \- **experimental protocols.** Protocols are the precise steps that need to be followed for a particular procedure or for a particular study. In a social science experiment, there may be a protocol that dictates exactly what a researcher should say to a participant. For techniques used by groups across a field of research \- such a western blotting[^4] \- there may be published protocols that are commonly used and adapted as needed.
 
@@ -148,7 +150,7 @@ An experimental protocol can be distinguished from a **study protocol**, which i
 
 As shown in **Table 4.1.**, these documents can often be quite comprehensive. This is because such a protocol is reviewed and evaluated, depending on the work to be done, by an institutional review board, an animal care committee, the research team, or potentially by other experts (e.g. biostatisticians, regulatory experts, bioethics experts, etc) before the study is allowed to begin. Only after it is approved, does it subsequently act as a guide for the research team as they proceed.
 
-**Table 4.1: Elements of a Study Protocol**
+#### Table 4.1: Elements of a Study Protocol
 
 | Element | Description |
 | :---- | :---- |
@@ -179,7 +181,7 @@ In scientific research, such documentation often take the form of **lab notebook
 
 As shown in **Table 4.2.**, there are many different “types” of lab notebook. Each has their own strengths and weaknesses. The “best” notebook is whatever works best for a particular research group.
 
-**Table 4.2. Types of Lab Notebooks/Contemporaneous Documentation**
+### Table 4.2. Types of Lab Notebooks/Contemporaneous Documentation
 
 | Type of Lab Notebook | Description |
 | :---- | :---- |
@@ -194,7 +196,7 @@ In general, this type of documentation should be developed at a level of specifi
 
 **Table 4.3.** included additional information about the qualities of good contemporaneous documentation. These are adapted from **Good Documentation Practice**, a term used by the pharmaceutical and manufacturing industries to describe the creation and maintenance of documentation.
 
-**Table 4.3. The Qualities of Good Documentation**
+#### Table 4.3. The Qualities of Good Documentation
 
 | Quality of Good Documentation | Description |
 | :---- | :---- |
@@ -206,7 +208,7 @@ In general, this type of documentation should be developed at a level of specifi
 | Organized | Information should be included in the expected sequence and/or format.  |
 | Enduring and Available | Documentation and data should be accessible and usable as needed, both immediately and in the future. |
 
-## 4.4. Documentation of Content \- What’s happening here?
+## 4.4. Documentation of content 
 
 Take a look at the dataset below (**Table 4.4**. Without additional information, it is nearly impossible to understand the meaning behind these numbers. 
 
@@ -226,7 +228,7 @@ What is needed here is more metadata.
 
 In addition to documentation describing processes related to the above dataset, making use of it requires information about its structure and contents. In other words, a data dictionary or ReadMe file.
 
-**Data Dictionaries**
+### Data Dictionaries
 
 A **data dictionary** describes the elements of a collection of data. These documents may sound technical, but often can be as simple as a file containing the following:
 
@@ -258,7 +260,7 @@ So for the dataset above, a simple data dictionary may look something like the f
 | rt-second | Average reaction time for the second set of trials | milliseconds | Missing data is coded as “na”. |
 | rt-diff | The difference in average reaction time between the two sets of trials. | milliseconds. | This is a calculated variable (rt-second minus rt-first).  |
 
-**ReadMe Files**
+### ReadMe Files
 
 But what if a dataset is more complicated than a single file?
 
@@ -273,8 +275,6 @@ A readme is typically intended to be a human readable document, that lays out ho
 > The best way for teams or individuals to use this template is use it as a starting point for systematizing their routine practices. This is just a format for getting started.
 >
 > Speaking of formats, this template uses minimal formatting so that it can be saved in any number of file types. By convention, ReadMe files are titled simply _readme.txt_ (or whatever file format), but it may be prudent to add the project’s name in there, for example _supportingdata-readme.txt._
-
-
 
 ## 7.5. Managing Documentation
 
