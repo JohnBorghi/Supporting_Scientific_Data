@@ -181,11 +181,15 @@ Balancing openness, lossiness, storage costs, and other considerations in choosi
 
 ### Naming Things
 
-Storing and backing up data properly is vital, but maintaining multiple copies of a dataset is only valuable if the files can actually be found. We promise this is not actually a screenshot of anyone’s desktop, but **Figure 5.2.** demonstrates the necessity of keeping data-related materials well organized.
+Storing and backing up data properly is vital, but maintaining multiple copies of a dataset is only valuable if the files can actually be found. We promise this is not actually a screenshot of anyone’s desktop, but **Figure 5.2.** demonstrates the necessity of keeping data-related materials well organized. This is almost as bad as the anecdote that leads off this chapter. If a researcher were asked to pick the most recent file from this display, it would be quite the challenge. 
+
+What is the difference between data\_v2? Data2? 
+
+What is the difference between data\_v2 final copy and data\_v2 final?
 
 | <img width="960" alt="Image" src="https://github.com/user-attachments/assets/95895501-d968-44ad-bed3-1384c1d3ef9e" />|
 | :---- |
-| **Figure 5.2.** An illustration of the necessity of maintaining a good file naming scheme. If a researcher were asked to pick the most recent file from this display, it would be quite the challenge. What is the difference between data\_v2? Data2? What is the divverence between data\_v2 final copy and data\_v2 final? |
+| **Figure 5.2.** An illustration of the necessity of maintaining a good file naming scheme through the depiction of a lack of good file naming. The author of this guide promises that this is not the contents of his desktop |
 
 It may seem almost too rudimentary, but providing good names to things (files, variables, etc) is actually one of *the* cornerstones of good data management. Compare the following two files. Hopefully you can tell a lot more about one than the other just by looking at their names. 
 
@@ -209,7 +213,11 @@ A **file naming convention** is a consistent way of naming files in a way that p
 | Keep file names (relatively) short and do not use spaces and special characters | There is a hard limit on the number of characters in a file path (256 in Windows, for example). This may seem like a lot, but does demonstrate the need to keep file names as pithy as possible while still being informative. Whenever possible, file names should only use only Latin alphanumeric characters (a-z, 0-9), dashes, and hyphens. This is mostly because of issues with the command line. Spaces can cause file names to be cut off and other characters may have specific functions (and different functions for different operating systems) that would cause issues if included in the name of a file. |
 | Document your convention | Record the naming convention you come up with, as well as any abbreviations or code. This information can be articulated as a standard operating procedure (SOP) Information about the contents of data files (e.g. variable names, units, etc) and what has changed between versions should also be thoroughly documented (more on that in the next section). |
 
-File names may, of course, be part of a broader data standard. But you may find yourself in a position where you have to come up with a convention more or less from scratch. If so, consider exploring the **Fantastic File Names** exercise. 
+File names may, of course, be part of a broader data standard. But researchers may find themselves in a position where they have to come up with a convention more or less from scratch. To facilitate this process, see the **Fantastic File Names** exercise. 
+
+> Tool Highlight: Fantastic File Names
+>
+> 
 
 ### Versioning Files and Version Control
 
@@ -229,9 +237,9 @@ But remember, the most important thing is to be consistent.
 
 ### File Folders and Directories
 
-Let’s say you have your files properly saved and backed up. You also have a good system for naming things and demarcating different versions. But what if somebody else needs to look at what you’ve done? Would they know that every file is in the downloads folder of your computer? How loud of a sigh would you hear if they tried to access project-related files without you to help them?
+Let’s say a research team has their files properly saved and backed up. They also have a good system for naming things and demarcating different versions. But what if somebody else needs to look at what they have done? Would this individual know that every file is in the downloads folder of the PI's computer? How loud of a sigh would the research team hear if somebody else tried to access project-related files without team members around to help them?
 
-Another cornerstone of good data management is maintaining an easily navigable file folder/directory structure. For individuals who do the majority of their computing on a tablet or other mobile device, a **directory** (e.g. a file folder) is a location for storing files in a computer system. Directories can be organized in a hierarchical manner, with nested subdirectories. **Figure 6.3** provides a few examples of how files can be organized.
+Another cornerstone of good data management is maintaining an easily navigable file directory structure. For individuals who do the majority of their computing on a tablet or other mobile device, a **directory** (e.g. a file folder) is a location for storing files in a computer system. Directories can be organized in a hierarchical manner, with nested subdirectories. **Figure 6.3** provides a few examples of how files can be organized.
 
 There are some standardized ways to organize research project folders, including [Project Tier](https://www.projecttier.org/tier-protocol/protocol-4-0/), [Cookie Cutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) and [Gin-Tonic](https://gin-tonic.netlify.app/). But the precise organization of a set of files will depend on the needs of the research team. Some data standards impose an organizational structure. But in settings where there are no widely adopted standards, consistency \- as always \- is key. Project folders for different projects and maintained by different members of the research team should have the same basic structure. One member of the research team should be able to open any project folder and have a general sense of how to navigate it.
 
@@ -278,9 +286,11 @@ Among the many reasons why Excel is not always the best choice for storing data 
 
 ## Further Reading
 
+[Cookie Cutter Data Science](https://cookiecutter-data-science.drivendata.org/) - A flexible standard for organizing and sharing data science-related project
+
 [Gin Tonic](https://gin-tonic.netlify.app/standard/) - A simple adult beverage for those who partake (1 part gin, 2 parts tonic water, poured over lots of ice). Also a proposed standard for keeping research-related files organized in a common file structure.
 
-[Cookie Cutter Data Science](https://cookiecutter-data-science.drivendata.org/) - A flexible standard for organizing and sharing data science-related project
+[TIER Protocol](https://www.projecttier.org/tier-protocol/protocol-4-0/) - A specification for organzing the materials needed to reproduce the work underlying a research-related manuscript.
 
 [^1]:  This happened to this chapter’s author ahead of his qualifying exams. Another hard drive failed right before his PhD defense.
 
