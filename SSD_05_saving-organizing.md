@@ -1,8 +1,17 @@
 # Data Storage and Organization
 
+[Last Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Documentation](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation)
+<br/>
+<br/> 
+## Chapter Summary
+
 This chapter details strategies and processes related to ensuring that data and other research materials (documentation, code, physical samples, etc) can be found and used as needed. 
 
 The chapter is built around the principle that data management must be part of the everyday process of doing science.
+
+| [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
+<br/>
+<br/>
 
 |  | Key points for this chapter |
 | :---- | :---- |
@@ -10,34 +19,41 @@ The chapter is built around the principle that data management must be part of t
 | 2\. | Human readability and machine readability are BOTH important properties when storing and organizing research data, they are not interchangeable.  |
 | 3\. | To prevent the loss of data, data should be backed up and kept well organized. Organzing data can involve such rudimentary practices as providing effective names to data-related files.|
 | 4\. | When possible, it can be helpful to save data in open and/or widely adopted file formats. |
+<br/>
 
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
 | [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?tab=t.0) | This document provides guidance to research teams who need to keep a record of how and where their research data is saved. |
+|Fantastic File Names|This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
+<br/>
 
-# 5.1. Foundational Practices in Data Management
+## 5.1. Foundational Practices in Data Management
 
 Picture this:
 
 Our scene opens in an office at an academic institution. Stacks of books and piles of papers crowd every surface. There are multiple filing cabinets, mostly containing printouts of journal articles and boxes containing multiple generations of storage media. Somewhere in here is a three and half inch floppy disc containing an essential piece of scientific data. It is labeled simply “project data” and there are no other copies. 
 
-While perhaps amusing, definitely out of date (who has so much paper\!), and possibly too real, this image of a disorganized academic office helps to illustrate the immense value of relatively simple practices and strategies within Good Research Data Management Practice. Maybe, despite the chaos, the office’s occupant would be able to efficiently find the disk and access the information they need \- provided the disk has not degraded and the necessary hardware and software are still available \- but anyone else would have a very difficult time.
+A researcher who is not the main occupant of the office has been tasked with finding the data. They have a deadline and time is running out!
 
-Probably the most immediate benefit of adopting Good Data Management Practice is preventing the loss of data. There are A LOT of ways to lose scientific data. Data can be lost through human error, storage media can fail, software can become corrupted, natural disasters can occur, laptops can be stolen, sweet but clumsy pets can inadvertently knock a computer on the floor rendering it useless[^1], files can be mislabeled and lost to the abyss of a crowded desktop.
+While perhaps amusing, definitely out of date (who has so much paper\!), and almost certainly too dramatic, this image of a disorganized academic office helps to illustrate the immense value of relatively simple practices and strategies within Good Research Data Management Practice. Maybe, despite the chaos, the office’s occupant would be able to efficiently find the disk and access the information they need \- provided the disk has not degraded and the necessary hardware and software are still available \- but anyone else would have a very difficult time.
+
+### Loss Prevention
+
+The most immediate benefit of adopting Good Data Management Practice is preventing the loss of data. There are A LOT of ways to lose scientific data. Data can be lost through human error, storage media can fail, software can become corrupted, natural disasters can occur, laptops can be stolen, sweet but clumsy pets can inadvertently knock a computer on the floor rendering it useless[^1], files can be mislabeled and lost to the abyss of a crowded desktop.
 
 Depending on the circumstance, the consequences of losing data can range from inconvenience to catastrophic. For some forms of research, the cost of re-collecting or reanalyzing data that has been lost is just inefficiency. Re-running a workflow may take some extra time and resources, but the work is still able to proceed. In other cases, re-collection or reanalysis is simply not feasible. The loss of data jeopardizes the entire trajectory of the research effort. Preventing the loss of data through data management involves the implementation of relatively straightforward practices. Though storing and organizing data may seem almost overly simple, such practices go a long way towards ensuring that a research team can find, use, and share their data. 
 
-**But what about documentation?**
+### But what about documentation?
 
 This chapter is primarily focused on the implementation of some foundational data management practices. But ensuring maintaining good documentation is perhaps the _most_ foundational practice when managing data. Without sufficient documentation and metadata, even the most exquisitely saved and organized files are less than useful. See the chapter on [Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) for a deep dive into the different forms of documentation and decent recipes for chocolate chip cookies.
 
-**Standards and practices.**
+### Standards and practices
 
 This is true of many aspects of Good Data Management Practice, but when it comes to storing and organizing scientific data, consistency is really key. That said, there is not a single storage strategy or organizational scheme that will work across every area of science. A research team working with a dataset that contains a huge number of electronic health records will have to address a very different set of issues when storing and organizing their data than a team who are recording measurements taken from cells in a spreadsheet.
 
 Elsewhere in this guide, a **data standard** is defined as just an agreed upon way of organizing, structuring, and/or describing a particular form of research data. In the context of data storage and organization, the term is often invoked in the context of **file formats** \- standardized ways in which information is encoded to be stored in a computer file. This is an extension of what is discussed in the chapter on [Documentation on Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation), but is also relevant in the context of data storage and organization where the way in which data is structured within a file significantly affects how it can be later accessed and used.
 
-### 5.2. Storing and Backing Up Files
+## 5.2. Storing and Backing Up Files
 
 *It is imperative that you properly store and backup your research data*. 
 
@@ -57,7 +73,7 @@ And a megabyte could be 1,048,576 bytes or 1,000,000 bytes.
 
 This is one of those “everybody knows” sort of situations, where different groups may make reasonable assumptions depending on their context. But, due to the absence of agreement or standards, different assumptions lead to increasingly different conclusions[^2]. There’s a lesson here about maintaining good documentation, but for the purposes of Good Data Management Practice, this situation is all mostly useful as another illustration of the complexity around the word “data”.
 
-**What is data again?**
+### Wait, what is data again?
 
 This guide defines research data as “the inputs or outputs required to evaluate, reproduce, or build upon the analyses or conclusions of a given research project.” Notice that this definition does not include any reference to megabytes or file formats. This is because, as a guide written by a human for humans, this guide is biased towards **human readability** \- the degree to which data is easily understood and used by people. Research data is part of the research process. Characteristics like file size and format are certainly important properties of the data. But they are, as long as everything is working properly, secondary to how the data is used by researchers to support their findings.
 
@@ -67,7 +83,7 @@ It is useful to keep these distinctions in mind because any discussion of storin
 
 **Table 5.1.** below provides a brief overview of three major categories of data storage media.
 
-**Table 5.1.** Types of digital data storage media
+#### Table 5.1. Types of digital data storage media
 
 | Type | Description | Example |
 | :---- | :---- | :---- |
@@ -85,7 +101,7 @@ In the context of data management, **working data storage** refers to the method
 
 In contrast, a **backup data storage** refers to the methods and media used to store *copies* of the working copy that can be used to restore the original if (or when) data loss occurs. The goal of backup data storage is redundancy. The ability to immediately access and use backup copies of a dataset can be helpful, but is not always necessary. Archival storage refers to methods and media that are intended for longer term preservation.
 
-**The 3-2-1 Rule**
+### The 3-2-1 Rule
 
 Whenever possible, it is best practice to maintain *multiple* copies of a set of research data. 
 
@@ -99,11 +115,11 @@ Of course, maintaining multiple backups may not always be feasible.
 
 Throughout science, there are projects that involve the acquisition of extremely large and extremely complex datasets. It is relatively straightforward to store and backup data that is on the scale of megabytes and gigabytes. Strategies and cost effective options narrow considerably when datasets reach sizes counted in terabytes and petabytes. But one backup is better than no backups.
 
-**What about sensitive data?**
+### What about sensitive data?
 
 Managing sensitive data \- data that must be protected against unauthorized access \- is the topic of a whole (forthcoming) chapter, but it is always worth remembering that not every system for storing data provides the same level of security. Think of it this way, a locked filing cabinet provides a much higher degree of security for a paper file than just placing that same file on top of a desk. When considering the security of services for storing data, it is always best to consult with local IT professionals on topics such as encryption, access control, and other measures. 
 
-**Long term storage**
+### Long term storage**
 
 In the not too distant past, data from completed projects was stored on physical media for long-term storage. From magnetic tape and punch cards to boxes of floppy disks and spindles of DVDs to USB flash drives, SD cards, and everything in between, many of these forms of storage are still present in the closets and desk drawers of academic science. 
 
@@ -126,7 +142,7 @@ Often research data deposited into a **data repository** \- a platform that faci
 >
 > [The checklist can be accessed here](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?usp=sharing).
 
-# 5.3. File Formats and Names
+## 5.3. File Formats and Naming Things
 
 As we promised in the introduction, this guide does not advocate for the use of one software tool over another. However, that does not preclude a word of caution about the use of an overwhelmingly popular spreadsheet tool. More to the point, the ubiquity of Excel spreadsheets in and outside of scientific research provides a nice entrypoint to the exciting world of file formats.
 
@@ -138,7 +154,7 @@ As we promised in the introduction, this guide does not advocate for the use of 
 
 This is not a critique of Excel (or geneticists) per se. In recent versions of Excel, there are ways to disable automatic date conversion. Also, the HUGO Gene Nomenclature Committee (HGNC) recently recommended that the names of these particular genes be changed to SEPTIN1 and MARCHF1 to avoid this problem[^6]. Excel excels at many things, it is just not always the optimal tool for organizing scientific data. 
 
-**Choosing a file format (when possible)**
+### Choosing a file format (when possible)
 
 As already stated, file formats are standard ways that information is encoded for storage in a computer file. But, for the purposes of research data management, there are two axes that are important.
 
@@ -155,7 +171,7 @@ Balancing openness, lossiness, storage costs, and other considerations in choosi
 
 *When saving files, try to save in file formats that are non-proprietary and/or commonly adopted. That will prevent headaches when trying to use those files in the future.*
 
-**Table 5.2.** A non-exhaustive list of file formats. Best practice is, whenever possible, to share data in a non-proprietary and/or common file format.
+#### Table 5.2. A non-exhaustive list of file formats
 
 | Modality | Open Formats | Formats for Preservation[^7] |
 | :---- | :---- | :---- |
@@ -165,7 +181,7 @@ Balancing openness, lossiness, storage costs, and other considerations in choosi
 | Audio | <ul> <li>MP3 (.mp3) </li> <li> Free Lossless Audio Codec (.flac) | <ul> <li> Waveform Audio File Format (.wave) |
 | Spreadsheets and databases | <ul> <li> Tab separated values (.tsv) </li> <li> Comma separated values (.csv) </li> <li> OpenDocument Spreadsheet (.ods) </li> <li> OpenDocument Database (.odb) </li> <li> SQLite (e.g. .db, .sqlite, etc) | Platform independent, character-based formats (.tsv, .csv, .db, .sqlite, etc) Proprietary formats that are de facto standards for a profession and/or supported by multiple tools (e.g. Excel) |
 
-**Naming Things**
+### Naming Things
 
 Storing and backing up data properly is vital, but maintaining multiple copies of a dataset is only valuable if the files can actually be found. We promise this is not actually a screenshot of anyone’s desktop, but **Figure 5.2.** demonstrates the necessity of keeping data-related materials well organized.
 
@@ -175,18 +191,17 @@ Storing and backing up data properly is vital, but maintaining multiple copies o
 
 It may seem almost too rudimentary, but providing good names to things (files, variables, etc) is actually one of *the* cornerstones of good data management. Compare the following two files. Hopefully you can tell a lot more about one than the other just by looking at their names. 
 
-_data.csv_
+` data.csv `
 
 This provides a limited amount of information. A user knows that this file is data, but for which research project? When was it was it modified and by whom? How does this file differ from other data-related files?
 
-_Borghi\_rdm-project\_participant-data\_2024-12-31.csv_
+` Borghi_rdm-project_participant-data_2024-12-31.csv `
 
-This provides _some_ additional information. There is a researcher listed (this guide's author), a project name (very creative), some description of the file's contents, and a date that's useful for tracking versions.
-
+This provides _some_ additional information. There is a researcher listed (this guide's author), a project name (very creative), some description of the file's contents, and a date that's useful for tracking versions. But for this kind of file name to be truely useful, it needs to be used consistantly.
 
 A **file naming convention** is a consistent way of naming files in a way that provides information about the contents of the file and how it relates to other files. A research group’s conventions related to naming files should be documented as part of their standard operating procedures. **Table 5.3** provides some practical tips for naming files.
 
-**Table 5.3. File naming conventions**
+#### Table 5.3. Practical tips when naming files
 
 | Tip | Description |
 | :---- | :---- |
@@ -196,9 +211,9 @@ A **file naming convention** is a consistent way of naming files in a way that p
 | Keep file names (relatively) short and do not use spaces and special characters | There is a hard limit on the number of characters in a file path (256 in Windows, for example). This may seem like a lot, but does demonstrate the need to keep file names as pithy as possible while still being informative. Whenever possible, file names should only use only Latin alphanumeric characters (a-z, 0-9), dashes, and hyphens. This is mostly because of issues with the command line. Spaces can cause file names to be cut off and other characters may have specific functions (and different functions for different operating systems) that would cause issues if included in the name of a file. |
 | Document your convention | Record the naming convention you come up with, as well as any abbreviations or code. This information can be articulated as a standard operating procedure (SOP) Information about the contents of data files (e.g. variable names, units, etc) and what has changed between versions should also be thoroughly documented (more on that in the next section). |
 
-File names may, of course, be part of a broader data standard. But you may find yourself in a position where you have to come up with a convention more or less from scratch. If so, consider perusing the **File Naming and Organization Worksheet**. 
+File names may, of course, be part of a broader data standard. But you may find yourself in a position where you have to come up with a convention more or less from scratch. If so, consider exploring the **Fantastic File Names** exercise. 
 
-**Versioning Files and Version Control**
+### Versioning Files and Version Control
 
 When working on a research project, it is quite likely that keeping track of a research workflow will necessitate some degree of **version control**. This term refers to systems that are responsible for managing changes in software and code, documents, and other sets of information. 
 
@@ -214,7 +229,7 @@ These include:
 
 But remember, the most important thing is to be consistent.
 
-**File Folders and Directories**
+### File Folders and Directories
 
 Let’s say you have your files properly saved and backed up. You also have a good system for naming things and demarcating different versions. But what if somebody else needs to look at what you’ve done? Would they know that every file is in the downloads folder of your computer? How loud of a sigh would you hear if they tried to access project-related files without you to help them?
 
@@ -227,7 +242,7 @@ There are some standardized ways to organize research project folders, including
 | A. | ![][image4] | A relatively flat file hierarchy. In this example, a relatively small number of the same type of files need to be kept organized.  Specifically, within a project folder, there are three versions of one file (helpfully labeled as project data) and a notes document that contains information about the other files. Because of the small number of files, a more complex structure is not needed. In practice, a situation like this is unlikely. |
 | B. | ![][image5] | A more complex file hierarchy.  In this example, a (relatively) large number of different types of files need to be kept organized.  To facilitate this, the project folder contains subfolders \- one for data, one for documentation, and another for scripts. The subfolders may contain subfolders of their own, for example the data folder contains folders for raw, processed, and finalized data. A **readme file** is maintained at the top of this file structure, to  help make everything more navigable. This file, often a plain text file, contains information about the structure of the project file. Reading it should help someone opening the file for the first time understand where to look for the files they need. In practice, it is likely that project files will be even more complex than this example. |
 
-“Good Enough”
+### “Good Enough”
 
 There will be times when an individual researcher \- especially those working in academic settings \- will simply not be in position to dictate how everyone in their group is saving and organizing their data. This is why there is a whole chapter devoted to “Good Enough Practices” in data management. But, returning to the example that began this chapter, an ideal to shoot dor is something closer to the following:
 
@@ -235,7 +250,7 @@ Our scene closes in an office at an academic institution. There are stacks of bo
 
 There is now even more room for printouts of journal articles.
 
-(Please use a citation management tool like Zotero to address this last sentence).
+(Please use a citation management tool like [Zotero](https://www.zotero.org/) to address this last sentence).
 
 Definitions
 
