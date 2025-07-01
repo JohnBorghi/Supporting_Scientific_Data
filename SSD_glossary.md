@@ -1,5 +1,15 @@
 ## Glossary
 
+**3-2-1 Rule** - A good rule of thumb to ensure that data is not lost. Stipulates that 3 copies of data should be maintained (1 working copy, 2 backups) and that at least one of the backups should be in saved different location.
+
+**Archival Storage** - Refers to methods and media used to store data that is not needed day-to-day. The goal of archival storage is long-term preservation.
+
+**Backup Storage** - Refers to methods and media used to store *copies* of data that can be used to restore the original if (or when) data loss occurs. The goal of backup data storage is redundancy.
+
+**Bit Rot** - Broadly refers to the gradual degradation of the integrity of stored data. This is largely caused by wear and tear on storage media. 
+
+**Cloud Storage** - A system in which digital data is stored remotely rather than on a local storage medium.
+
 **Data Dictionary** - A document that describes the contents and structure of a dataset.
 
 **Data Management** \- Strategies and practices related to the storage, organization, and description of research data. The focus of data research data management is ensuring accessibility, reliability, and quality. As a shorthand, it can be useful to think about data management as processes related to ensuring that data is usable.
@@ -12,6 +22,10 @@
 
 **Data Quality** \- A broad concept that refers to the degree to which a set of data is fit for its intended purpose. Highly related to data management, but also includes issues more related to methodological rigor.
 
+**Data Repository** - A platform that facilitates the preservation, organization, and discovery of research data.
+
+**Data Storage** - The recording of information into a medium of some kind.
+
 **Data Sharing** \- The release of data for use by others. This includes forms of sharing that are relatively restricted (who data is shared with, what they users are able to do with shared data, etc) and more open forms of sharing (e.g. sharing of data through a publicly accessible repository. 
 
 **Data Sovereignty** - A group’s (or individual’s) right to control and maintain their own data, including its collection, storage, and interpretation
@@ -19,6 +33,8 @@
 **Data Standards** \- Agreed upon ways of organizing, structuring, and/or describing a particular form of research data.
 
 **Data Use Agreement** - A contractual agreement that establishes who is permitted to use and a dataset, the permitted uses of the dataset, as well as the responsibilities of the users of the dataset. The most typical consideration of a DUA is the protection of protected health data, but such agreements can be used in a variety of situations where the exchange of data is necessary.
+
+**Directory (e.g. File Folder)** - A structure that contains computer files and possibly other directories.
 
 **Documentation** - Recorded information that is used to describe or explain something.
 
@@ -31,15 +47,27 @@
 * **Interoperable \-** The dataset should be available in a form that enables it to be combined with like data and used by computational tools.  
 * **Reusable \-** The data should be well described (i.e. rich metadata) with detailed provenance.
 
+**File Naming Convention** - A consistent way of naming files in a way that provides information about the contents of the file and how it relates to other files.
+
+**File Format** -Standardized ways in which information is encoded to be stored in a computer file. Think .XLSX, .CSV, etc.
+
+**File fixity** - The process of ensuring that a digital file in an archive has remained unchanged at the bit level.  
+
 **Good Data Management Practice \-** A way of thinking about the support of research data in the context of twenty-first century science. Includes ten principles related to how data should be defined and how data management should be incorporated into research processes and workflows.
 
 **Good Documentation Practice** - A set of guidelines drawn from the pharmaceutical and manufactoring industries outlining how to maintain effective documentation.
 
 **Lab Notebook** - A formal record of the research process. In the context of data management, lab notebooks are a form of contemporaneous documentation.
 
+**Lossiness** - The degree to which information is lost when information is encoded into a particular file type. “Lossy” compression involves the removal of information (and thus decreases the fidelity of the information) while “lossless” compression does not. 
+
 **Metadata** - Refers to information that facilitates the interpretation and/or use of research data. Can refer to formal metadata schemas (e.g. standardized ontologies) or to related documentation (data dictionaries, codebooks, protocols, etc).
 
 **Metadata Schema** - A set of rules that are used to structure and describe metadata. A metadata schema defines metadata elements, what they mean, how they relate, and how they should be used.
+
+**Obsolescence** - Refers to an inability to access digital data because the needed hardware or software are no longer available.
+
+**Openness** - The degree to which the way a file type encodes information in a manner that is secret or restricted. Proprietary file formats typically can only be opened and used with specific software tools. In contrast, open (non-proprietary) file formats are unrestricted and free to use.
 
 **Open Science** \- An umbrella term for a variety of efforts aimed at making scientific research more transparent and accessible. In this guide, we are mostly focused on activities related to the outputs of the research process (datasets, code, etc), but the term also encompasses efforts to ensure that the scientific enterprise is inclusive and equitable.
 
@@ -57,4 +85,8 @@
 **Study Protocol** - A formal document that describes every aspect of a research project, including motivations, SOPs, data management, and planned statistical analyses.
 
 **Usability** \- In the context of data management and sharing, this refers to an ability to open, understand, make use of, and build upon a set of data. In the context of biomedical science, “re-use” encompasses a large number of potential activities, including using a dataset for education and training (of both human researchers and algorithms), testing new hypotheses (which can involve combining multiple extant datasets), and more.
+
+**Version Control** - Systems that are responsible for managing changes in software and code, documents, and other sets of information. Can refer to tools like Git but also to more manual forms of keeping track of versions, such as using dates or version numbers in file names.
+
+**Working Data Storage** Refers to the methods and media used to store data that is currently being actively worked on \- data that is currently in the process of being transformed, analyzed, and evaluated.  The goal of working data storage is immediate access and use. 
 
