@@ -168,11 +168,11 @@ Balancing openness, lossiness, storage costs, and other considerations in choosi
 
 | Modality | Open Formats | Formats for Preservation[^7] |
 | :---- | :---- | :---- |
-| Text | <ul> <li> Plain text (.txt) </li> <li> Markdown (.md) </li> <li> LaTeX (.tex) </li> <li>Portable Document Format (.pdf) </li> <li>Office Open XML (.docx) </li> <li>OpenDocument (.odf) | <ul> <li> Electronic Publication (.epub) </li> <li> Portable Document Format (.pdf) </li> <li> XML-based document formats (e.g. .docx, .odf, etc)  |
-| Images | <ul> <li> Graphical Interchange Format (.gif) </li> <li>JPEG (.jpeg) </li> <li>Portable Network Graphics (.png) | <ul> <li> Tag Image File Format (.tiff) </li> <li> JPEG-2000 (.jp2) </li> <li> Portable Network Graphics (.png) |
-| Video | <ul> <li> Matroska (.mkv) | <ul> <li> Matroska (.mkv) MPEG-4 (.mp4) |
-| Audio | <ul> <li>MP3 (.mp3) </li> <li> Free Lossless Audio Codec (.flac) | <ul> <li> Waveform Audio File Format (.wave) |
-| Spreadsheets and databases | <ul> <li> Tab separated values (.tsv) </li> <li> Comma separated values (.csv) </li> <li> OpenDocument Spreadsheet (.ods) </li> <li> OpenDocument Database (.odb) </li> <li> SQLite (e.g. .db, .sqlite, etc) | Platform independent, character-based formats (.tsv, .csv, .db, .sqlite, etc) Proprietary formats that are de facto standards for a profession and/or supported by multiple tools (e.g. Excel) |
+| Text | Plain text (.txt), Markdown (.md), LaTeX (.tex), Portable Document Format (.pdf), Office Open XML (.docx), OpenDocument (.odf) | Electronic Publication (.epub), Portable Document Format (.pdf), XML-based document formats (e.g. .docx, .odf, etc)  |
+| Images | Graphical Interchange Format (.gif), JPEG (.jpeg), Portable Network Graphics (.png) | Tag Image File Format (.tiff), JPEG-2000 (.jp2), Portable Network Graphics (.png) |
+| Video | Matroska (.mkv) | Matroska (.mkv), MPEG-4 (.mp4) |
+| Audio | MP3 (.mp3), Free Lossless Audio Codec (.flac) | Waveform Audio File Format (.wave) |
+| Spreadsheets and databases | Tab separated values (.tsv), Comma separated values (.csv), OpenDocument Spreadsheet (.ods), OpenDocument Database (.odb), SQLite (e.g. .db, .sqlite, etc) | Platform independent, character-based formats (.tsv, .csv, .db, .sqlite, etc) Proprietary formats that are de facto standards for a profession and/or supported by multiple tools (e.g. Excel) |
 
 ### Naming Things
 
