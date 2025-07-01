@@ -9,8 +9,6 @@ What are we talking about when we talk about data management and data sharing?
 This chapter defines these topics in both technical and functional terms.
 
 | [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
-<br/>
-<br/>
 
 | | **Key Points for this Chapter** |
 | :---- | :---- |
@@ -18,13 +16,11 @@ This chapter defines these topics in both technical and functional terms.
 | 2\. | Everyone who works with research data is responsible for data management, though different individual researchers may have their own roles and responsibilities. |
 | 3\. | Data management helps make the research process more efficient and is foundational to ensuring that the research process is ethical, reproducible, accessible, and implemented in line with applicable regulations and policies. |
 | 4\. | As a practice, data management exists along a continuum. A research group may excel at one aspect of data management and need improvement on others. |
-<br/>
 
 | | **Supplementary Materials for this Chapter** |
 | :---- | :---- |
 | **[Good Data Management Principles](https://docs.google.com/document/d/1dZeyt_6qnnvjfI9PEIXbhRK1ELhfG1NS9jlAn7mFEF0/edit?usp=sharing)** | This document presents each of the ten principles of Good Data Management Practice along with a brief description of each. |
 | **[Good Enough Practices](https://docs.google.com/document/d/1RbdOQPJUMUKwMvxIgznEBr7_TT_MCGCCWQajCOdEJJY/edit?usp=sharing)** | Sometimes “Good enough” has to be good enough. This document provides a starting point for implementing data management practices. |
-<br/>
 
 ## 1.1. Introduction: What is research data management?
 
