@@ -1,5 +1,5 @@
 # Documentation and Description 
-[Last Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming Soon! 
+[Last Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Data storage and organization](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_05_saving-organizing)
 
 ## Chapter Summary
 
