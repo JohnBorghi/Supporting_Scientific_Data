@@ -82,9 +82,9 @@ It is useful to keep these distinctions in mind because any discussion of storin
 
 | Type | Description | Example |
 | :---- | :---- | :---- |
-| **Magnetic** | Binary values are encoded on a hard disk or tape as positive or negative polarities. A read/write head then detects the direction of the magnetization and translates it back into usable information. | <ul> <li> Hard disc drives (HDD) </li> <li> Floppy disks </li> <li> Magnetic tape |
-| **Optical** | Binary values are encoded on a reflective surface of a disk. A laser scanner then reads these pits and translates them back into usable information. | <ul> <li> Compact Discs (CD) </li> <li> Digital Video Discs (DVD) </li> <li> Blu-ray Discs |
-| **Solid State** | Binary values are encoded as electrical charges in transistors. A controller (processor) then detects these charges and translates them back into usable information.  | <ul> <li> Solid state drives </li> <li> Secure Digital (SD) Cards, including microSD |
+| **Magnetic** | Binary values are encoded on a hard disk or tape as positive or negative polarities. A read/write head then detects the direction of the magnetization and translates it back into usable information. | Hard disc drives (HDD), Floppy disks, Magnetic tape |
+| **Optical** | Binary values are encoded on a reflective surface of a disk. A laser scanner then reads these pits and translates them back into usable information. | Compact Discs (CD), Digital Video Discs (DVD), Blu-ray Discs |
+| **Solid State** | Binary values are encoded as electrical charges in transistors. A controller (processor) then detects these charges and translates them back into usable information.  | Solid state drives, Secure Digital (SD) Cards |
 
 **Cloud storage**, in which digital data is stored remotely rather than on a local storage medium, also ultimately comes down to data stored on one or more of these types of media. While some of the examples listed here are more prone to failure or wear and tear than others, all of them have a rate of failure.
 
@@ -172,7 +172,7 @@ Balancing openness, lossiness, storage costs, and other considerations in choosi
 | Images | Graphical Interchange Format (.gif), JPEG (.jpeg), Portable Network Graphics (.png) | Tag Image File Format (.tiff), JPEG-2000 (.jp2), Portable Network Graphics (.png) |
 | Video | Matroska (.mkv) | Matroska (.mkv), MPEG-4 (.mp4) |
 | Audio | MP3 (.mp3), Free Lossless Audio Codec (.flac) | Waveform Audio File Format (.wave) |
-| Spreadsheets and databases | Tab separated values (.tsv), Comma separated values (.csv), OpenDocument Spreadsheet (.ods), OpenDocument Database (.odb), SQLite (e.g. .db, .sqlite, etc) | Platform independent, character-based formats (.tsv, .csv, .db, .sqlite, etc) Proprietary formats that are de facto standards for a profession and/or supported by multiple tools (e.g. Excel) |
+| Spreadsheets and databases | Tab separated values (.tsv), Comma separated values (.csv), OpenDocument Spreadsheet (.ods), OpenDocument Database (.odb), SQLite (e.g. .db, .sqlite, etc) | Platform independent, character-based formats (.tsv, .csv, .db, .sqlite, etc) or proprietary formats that are de facto standards for a profession and/or supported by multiple tools (e.g. Excel) |
 
 ### Naming Things
 
