@@ -1,8 +1,7 @@
 # Defining Research Data
 
 [Last Chapter - Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning)
-<br/>
-<br/>
+
 ## Chapter Summary
 
 Data is more than just an individual file or set of measurements. This chapter details how to understand all of the components of data as situated within a research workflow. 
@@ -232,6 +231,7 @@ Hummel, P., Braun, M., Tretter, M., & Dabrock, P. (2021). Data sovereignty: A re
 
 Miller, G., & Spiegel, E. (2025). Guidelines for Research Data Integrity (GRDI). *Scientific Data*, *12*(1), 95\. [https://doi.org/10.1038/s41597-024-04312-x](https://doi.org/10.1038/s41597-024-04312-x)  
 
+## Footnotes
 
 [^1]:  [Final NIH Policy for Data Management and Sharing](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
 
