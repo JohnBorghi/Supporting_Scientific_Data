@@ -178,9 +178,9 @@ Balancing openness, lossiness, storage costs, and other considerations in choosi
 
 Storing and backing up data properly is vital, but maintaining multiple copies of a dataset is only valuable if the files can actually be found. We promise this is not actually a screenshot of anyone’s desktop, but **Figure 5.2.** demonstrates the necessity of keeping data-related materials well organized. This is almost as bad as the anecdote that leads off this chapter. If a researcher were asked to pick the most recent file from this display, it would be quite the challenge. 
 
-What is the difference between data\_v2? Data2? 
+What is the difference between _data_v2?_ and _Data2_?
 
-What is the difference between data\_v2 final copy and data\_v2 final?
+What is the difference between _data_v2 final copy_ and _data_v2 final_?
 
 | <img width="960" alt="Image" src="https://github.com/user-attachments/assets/95895501-d968-44ad-bed3-1384c1d3ef9e" />|
 | :---- |
