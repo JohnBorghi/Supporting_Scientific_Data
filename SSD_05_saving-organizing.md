@@ -1,6 +1,6 @@
 # Data Storage and Organization
 
-| [Last Chapter - Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Data Storage and Organization](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_05_saving-organizing) |
+| [Last Chapter - Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
 
 ## Chapter Summary
 
