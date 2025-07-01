@@ -1,8 +1,7 @@
 # Planning for Data Management
 
 [Last Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Documentation](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation)
-<br/>
-<br/>
+
 ## Chapter Summary
 
 This chapter deals with the development of documentation describing how data is to be managed over the course of a project. This includes *data management and sharing plans* (DMSPs) as well as documentation designed for internal use, such as standard operating procedures.
@@ -10,8 +9,6 @@ This chapter deals with the development of documentation describing how data is 
 This chapter is built on the principle that it takes planning to manage data well.
 
 | [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
-<br/>
-<br/>
 
 || **Key Points for this Chapter** |
 | :---- | :---- |
@@ -19,14 +16,12 @@ This chapter is built on the principle that it takes planning to manage data wel
 | 2\. | Data Management and Sharing Plans (DMSPs) are intended to communicate to research funders how data will be archived and made available to others. For NIH, the contents of these plans are written into the terms and conditions of the award.   |
 | 3\. | Data-related standard operating procedures (SOPs) are more thorough descriptions of how data should be managed during the day-to-day course of research. These are created and implemented collaboratively by the research team. |
 | 4\. | Plans should be updated as needed and revisited often. |
-<br/>
 
 | | **Supplementary Materials for this Chapter** |
 | :---- | :---- |
 |[DMSP Rubric](https://zenodo.org/records/7710001)|A rubric for evaluating the contents of an NIH data management and sharing plan. This rubric is meant for educational purposes only and includes an annotated DMSP template. |
 |[SOP Template](https://docs.google.com/document/d/1ATWE-zzJoMjR9dumo_e3fOROabIrvRct/edit?usp=sharing&ouid=118445803869398413021&rtpof=true&sd=true)| A template for writing a Standard Operating Procedure. The example given is a very important activity in the scientific research enterprise, making a decent cup of coffee.
 |[Lab Manual Template](https://docs.google.com/document/d/1kPYt2Jo_eI18PlkoMMqAe0McgZC44cad1ErI8CJbF10/edit?usp=drive_link)| SOPs are not necessarily standalone documents. This template describes how to develop a lab manual.|
-<br/>
 
 ## 3.1. Planning for Data Management
 
@@ -276,6 +271,8 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 
 * [FINAL NIH Policy for Data Management and Sharing Policy](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)   
 * [Sharing.NIH.gov \- Guidance on data management and sharing from NIH](https://sharing.nih.gov/)
+
+## Footnotes
 
 [^1]:  Smale, N. A., Unsworth, K., Denyer, G., Magatova, E., & Barr, D. (2020). A Review of the History, Advocacy and Efficacy of Data Management Plans. *International Journal of Digital Curation*, *15*(1), 30\. [https://doi.org/10.2218/ijdc.v15i1.525](https://doi.org/10.2218/ijdc.v15i1.525)
 
