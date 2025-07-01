@@ -311,7 +311,7 @@ Among the many reasons why Excel is not always the best choice for storing data 
 
 [^1]:  This happened to this chapter’s author ahead of his qualifying exams. Another hard drive failed right before his PhD defense.
 
-[^2]:  For more on how this happened and an explanation of terms like kibibit and mebibit, see Barrow, B. (1997). [A Lesson in Megabytes](https://web.archive.org/web/20051217152918/http://standards.ieee.org/reading/ieee/SB/Jan97/bearer_jan97.pdf). *IEEE Standards Bearer*, 5\.
+[^2]:  For more on how this happened and an explanation of terms like kibibit and mebibit, see Barrow, B. (1997). [A Lesson in Megabytes](https://web.archive.org/web/20051217152918/http://standards.ieee.org/reading/ieee/SB/Jan97/bearer_jan97.pdf). *IEEE Standards Bearer*, 5\. Megabyte is also the main antagonist of the extremely 90's animated series _Reboot_. That doesn't really matter for data management purposes. Just checking that folks are reading the footnotes.
 
 [^3]:  Now ubiquitous, this rule was first described by Peter Krogh in his 2005 book “The DAM Book: Digital Asset Management for Photographers”.
 
