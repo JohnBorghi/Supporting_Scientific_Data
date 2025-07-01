@@ -1,6 +1,6 @@
 # Understanding Data Management
 
-[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)
+| [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) |
 
 ## Chapter Summary
 
