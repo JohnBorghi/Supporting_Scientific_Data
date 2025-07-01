@@ -1,12 +1,17 @@
 # Planning for Data Management
 
+[Last Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Documentation](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation)
+<br/>
+<br/>
+## Chapter Summary
+
 This chapter deals with the development of documentation describing how data is to be managed over the course of a project. This includes *data management and sharing plans* (DMSPs) as well as documentation designed for internal use, such as standard operating procedures.
 
 This chapter is built on the principle that it takes planning to manage data well.
 
-[Last Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Documentation](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation)
-
----
+| [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
+<br/>
+<br/>
 
 || **Key Points for this Chapter** |
 | :---- | :---- |
@@ -14,17 +19,16 @@ This chapter is built on the principle that it takes planning to manage data wel
 | 2\. | Data Management and Sharing Plans (DMSPs) are intended to communicate to research funders how data will be archived and made available to others. For NIH, the contents of these plans are written into the terms and conditions of the award.   |
 | 3\. | Data-related standard operating procedures (SOPs) are more thorough descriptions of how data should be managed during the day-to-day course of research. These are created and implemented collaboratively by the research team. |
 | 4\. | Plans should be updated as needed and revisited often. |
-
+<br/>
 
 | | **Supplementary Materials for this Chapter** |
 | :---- | :---- |
 |[DMSP Rubric](https://zenodo.org/records/7710001)|A rubric for evaluating the contents of an NIH data management and sharing plan. This rubric is meant for educational purposes only and includes an annotated DMSP template. |
 |[SOP Template](https://docs.google.com/document/d/1ATWE-zzJoMjR9dumo_e3fOROabIrvRct/edit?usp=sharing&ouid=118445803869398413021&rtpof=true&sd=true)| A template for writing a Standard Operating Procedure. The example given is a very important activity in the scientific research enterprise, making a decent cup of coffee.
 |[Lab Manual Template](https://docs.google.com/document/d/1kPYt2Jo_eI18PlkoMMqAe0McgZC44cad1ErI8CJbF10/edit?usp=drive_link)| SOPs are not necessarily standalone documents. This template describes how to develop a lab manual.|
+<br/>
 
----
-
-##3.1. Planning for Data Management
+## 3.1. Planning for Data Management
 
 “If you fail to plan, you plan to fail”.
 
@@ -38,7 +42,7 @@ Data management begins **BEFORE** any scientific data is collected or acquired. 
 
 The importance of documentation is the subject of another chapter. But a plan for data management is most effective when it has been properly documented and communicated. A “way of doing things” that is not written down can lead to confusion and ambiguity. A document that is never examined or revisited is just filling space in a filing cabinet or hard drive. 
 
-**The Data Management Plan**
+### The Data Management Plan
 
 There is a bit of irony in the fact that the term “Data Management Plan” (DMP) does not have a standardized definition. Historically, it has been used to describe both relatively short documents that are submitted as part of grant and project proposals and also more thorough protocols that researchers maintain internally (such as standard operating procedures). Confusing matters further, is the increasingly common use of “Data Management and Sharing Plan” (DMSP) among funding agencies in the United States.
 
@@ -71,7 +75,7 @@ Answering these questions through the development and communication of a data ma
 
 The FAIR Guiding Principles[^2] (see **Table 3.1**) were originally developed to describe data-related infrastructure (e.g. data repositories). However, **FAIR** is now often used colloquially to refer to the degree to which individual practices, strategies, and tools facilitate the (re)usability of research data. Individual datasets can even be considered as existing along a continuum of FAIRness. FAIR does not imply that data is open or available for free, but rather that it is usable.
 
-**Table 3.1 The Fair Guiding Principles**
+#### Table 3.1 The Fair Guiding Principles
 
 | Principle | Description |
 | :---- | :---- |
@@ -107,7 +111,7 @@ This policy has two basic elements:
 
 In general, this policy applies to any proposal that will result in the generation of research data[^3]. Individual Institutes, centers, and calls for proposals may have additional recommendations or requirements but, as outlined in **Table 3.2**, all DMSPs submitted under this policy have six required elements:
 
-**Table 3.2: Elements of an NIH DMSP**
+#### Table 3.2: Elements of an NIH DMSP
 
 | Element | Description |
 | :---- | :---- |
@@ -150,13 +154,13 @@ Over the course of a research project, there are instances in which a particular
 
 Within the context of Good Clinical Practice Guidelines, SOPs are detailed instructions meant to achieve uniformity in the performance of a specific function. This may sound very technical. But, in practical terms, a **standard operating procedure** is simply a document that contains instructions for completing a particular task the same way each time it needs to be completed.
 
-**Developing a Standard Operating Procedure**
+### Developing a Standard Operating Procedure
 
 Because it is meant to be put into practice, developing a standard operating procedure should be an iterative and collaboratve process. Before it is disseminated, it should be tested and validated. Providing the research team with an SOP and then ensuring that they are all interpreting and implementing it in the same way would have gone a long way towards preventing the hypothetical situation described at the start of this section. An SOP is only useful if it is effectively communicated and put into practice.
 
 SOPs should be formatted in a way that facilites their effective use. **Table 3.3** below provides an overview of what information should be included.
 
-**Table 3.3. Information to be Included in an SOP**
+#### Table 3.3. Information to be Included in an SOP
 
 | Section | Description |
 | :---- | :---- |
@@ -184,11 +188,11 @@ An SOP can cover even the most “mundane” of activities, including setting st
 
 SOPs are a resource. Training on them should be part of any onboarding process. They should be stored in a manner that is accessible to all team members, they should revisited regularly to ensure awareness among current personnel, and they should occasionally be audited to ensure they are being applied properly.
 
-**Lab Manuals**
+### Lab Manuals
 
 **Table 3.4.** provides an overview of the types of practices and details that can be covered in data management-related SOPs. This list of activities and expectations is not meant to be exhaustive or even applicable to all research settings. To the degree that it is possible, standardization of these types of practices within a research effort (and even between efforts) helps things proceed efficiently. That begins with having a plan.
 
-**Table 3.4: Standard Operating Procedures**
+#### Table 3.4: Standard Operating Procedures
 
 | Element | Description |
 | :---- | :---- |
@@ -226,17 +230,17 @@ Researchers plan and science laughs[^5].
 
 A consistent feature of the research process is that things sometimes just don’t go according to plan. This is also the case for data management. Your data management plans should establish standardized practices, but this does not mean that they should be static documents. Similarly, any data management plan is only as useful as the degree to which it has been communicated to project team members.
 
-**Updating and Communicating Data Management and Sharing Plans**
+### Updating and Communicating Data Management and Sharing Plans
 
 A DMSP is meant to reflect plans related to data management at the time it is written. SInce DMSPs are typically written for grant proposals, they are generally drafted before the processes of data acquisition and analysis have begun in earnest. Between the writing of the plan and implementation, a lot can change. 
 
 NIH data management and sharing plans are expected to be updated over time. Changes must be requested and approved beforehand via the [Prior Approval Module](https://www.era.nih.gov/erahelp/Commons/Commons/Prior_Approval%20Module/OtherRequest.htm). Investigators must select “Prior Approval – Other Request”.
 
-**Updating and Communicating Data-Related SOPs**
+### Updating and Communicating Data-Related SOPs
 
 Data-related SOPs should be revisited frequently and updated as needed. Data SOPs should be stored somewhere where they can be easily found by project team members, should be included in onboarding procedures, and should be addressed regularly at team meetings.
 
-## Definitions
+## Definitions of Key Terms
 
 **Data Management Plan** \- Documentation that describes data management and sharing-related practices and strategies. These include both data management and sharing plans written for grant and project proposals as well as more thorough documentation that describes standardized practices to be implemented during the day-to-day course of a research effort. This later category may include standalone documents or be included in broader materials (e.g. lab manuals).
 

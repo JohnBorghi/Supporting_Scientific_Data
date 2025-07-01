@@ -1,12 +1,17 @@
-# Module 02: Defining research data
+# Defining Research Data
+
+[Last Chapter - Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning)
+<br/>
+<br/>
+## Chapter Summary
 
 Data is more than just an individual file or set of measurements. This chapter details how to understand all of the components of data as situated within a research workflow. 
 
 This chapter is built on the principle that effective data management requires research data to be defined thoroughly and broadly.
 
-[Last Chapter - Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning)
-
----
+| [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
+<br/>
+<br/>
 
 || **Key Points for this Chapter** |
 | :---- | :---- |
@@ -14,9 +19,7 @@ This chapter is built on the principle that effective data management requires r
 | 2\. | Research data is more than just individual objects or files. All the information, materials, and documentation needed trace a research workflow count as data. |
 | 3\. | An individual researcher (probably) does not own the data they work with, but they (probably) have a lot of related rights and responsibilities. |
 | 4\. | Taking care of data also means considering where it comes from and what it will be used for, not just within a given research project but also within the broader context of power and self determination. |
-
----
-
+<br/>
 
 ## 2.1. What is Research Data?
 
@@ -28,7 +31,9 @@ To start us off, here is the definition of scientific data given by the National
 
 *“Scientific data is the recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings, regardless of whether the data are used to support scholarly publications.”*
 
-Stated a bit more simply, **research data** can be thought of as the materials and information that supports a research result. 
+Stated a bit more simply, **research data** can be thought of as the materials and information that supports a research result.
+
+Note that this a bit different than definitions of data used in coversations related to data storage and organization. That distinction is explored in-depth in the eponymous chapter.
 
 The next question is, of course, what is meant by “support”? 
 
@@ -96,7 +101,7 @@ Throughout this guide we’ll return to our expansive and workflow-based definit
 1. Ideally, a research workflow is planned in advance and builds toward fulfilling the goals of the research effort. Incorporating data management into research workflows helps incorporate related practices into the day-to-day routine of doing research rather than “extra work” to be done after the fact.   
 2. This definition helps to emphasize that data management is about data and other materials that are *in process,* meaning that they are acquired, processed, analyzed, archived, and shared in order to be acted upon in some way. 
 
-**All of the information and materials needed to reconstruct a research workflow can be considered data.**
+` All of the information and materials needed to reconstruct a research workflow can be considered data. `
 
 | <img width="800" alt="Image" src="https://github.com/user-attachments/assets/e3cc3bab-e933-47d8-956f-e43b72e511a3" />|
 | ----- |
@@ -114,7 +119,7 @@ So it might be helpful to take a step back.
 
 Throughout a research workflow, it is possible to talk about data as falling into several categories based on time point or degree of processing. These categories are described in **Table 2.1**.
 
-### Table 2.1: Stages of Research Data
+#### Table 2.1: Stages of Research Data
 
 | Stage | Description |
 | :---- | :---- |
@@ -126,7 +131,7 @@ These categories are not necessarily discrete or meant to account for every cate
 
 This is expanded upon in **Table 2.2**.
 
-### Table 2.2: Categories of Research Data
+#### Table 2.2: Categories of Research Data
 
 | Data Type | Description | Examples |
 | :---- | :---- | :---- |
@@ -136,13 +141,13 @@ This is expanded upon in **Table 2.2**.
 
 Though some fundamental practices remain the same, properly managing a set of data that a research team has collected themselves involves different considerations than managing a dataset that is being repurposed. Insofar as data management is necessary for establishing data provenance, managing data that was algorithmically generated involves different considerations than data that was not. These considerations are discussed in forthcoming modules.
 
-## 2.4 Data ownership
+## 2.4 Data Ownership
 
 Here is a question sure to catalyze spirited conversation: *Who actually owns research data?*
 
 The answer is not so simple and has serious implications for how data must be managed.
 
-**What is ownership anyway?**
+### What is ownership anyway?
 
 Even if simplifying a complex concept like data  “ownership” down to something like “Having a high level of rights and responsibilities over a set of data, this is not actually an easy question to answer. For research data, such rights and responsibilities are very granular and often spread amongst multiple parties.
 
@@ -158,13 +163,7 @@ Both outgoing data (data originated at one institution that is being shared with
 2. The permitted uses of the dataset,  
 3. The responsibilities of the users of the dataset
 
----
-
-Primer: [Data Policies at Stanford University and Stanford Medicine](https://docs.google.com/document/d/1ur0HwD1NTJtUGzpNOhKIojVWtDAplX_tDcxRKB0C73A/edit?usp=sharing)
-
----
-
-**But what about copyright?**
+### But what about copyright?
 
 Here is where things get (more) complicated.
 
@@ -176,7 +175,7 @@ Works of authorship (including databases) *are* copyrightable and there can be s
 
 For primary data, the issue of copyright typically arises at the point of sharing. As will be covered in a later section, many research data repositories ask authors to assign a license to any data that they upload. Some of the most common options are outlined in **Table 2.03** below.
 
-In general, it is preferable to assign as permissive a license as possible to a shared dataset in order to facilitate its reuse. Giving and receiving credit for contributions in academic research is typically based (rightly or wrongly) on authorship and citations. Credit is typically not connected to ownership and copyright. All of which is to say, cite your sources and peruse ***Module 8: Sharing with Yourself and Others***, which covers all of this in more detail.
+In general, it is preferable to assign as permissive a license as possible to a shared dataset in order to facilitate its reuse. Giving and receiving credit for contributions in academic research is typically based (rightly or wrongly) on authorship and citations. Credit is typically not connected to ownership and copyright. All of which is to say, cite your sources and peruse the forthcoming chapter on Data Sharing, which covers all of this in more detail.
 
 For secondary data, as with abiding with any other contract and regulation, it is imperative that a research team understand and follow through with the terms of the copyright license, the data use agreement, and any other terms that have been assigned to the data. There may be very specific provisions related to how the data should be managed, which will need to be integrated into the research workflow.
 
@@ -192,7 +191,7 @@ One model for considering such issues is the CARE Principles for Indigenous Data
 
 The four CARE Principles are described in **Table 2.3**.
 
-### Table 2.3. The CARE Principles
+#### Table 2.3. The CARE Principles
 
 | Principle | Description |
 | :---- | :---- |
@@ -205,7 +204,7 @@ While CARE was developed specifically as a response to the suppression and co-op
 
 This conversation is much bigger than can be covered in this guide and there is a great deal of excellent work on this topic, some of which is highlighted in the “Further Reading” section below. But, as researchers and teams conceptualize their data, where it comes from, and what it will be used for, it is vital that they take care.
 
-## Definitions
+## Definitions of Key Terms
 
 **Data Sovereignty \-** A group's (or individual’s) right to control and maintain their own data, including its collection, storage, and interpretation 
 
