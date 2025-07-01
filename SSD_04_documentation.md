@@ -1,7 +1,6 @@
 # Documentation and Description 
 [Last Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming Soon! 
-<br/>
-<br/>
+
 ## Chapter Summary
 
 If it is not documented, it did not happen. This chapter covers strategies and processes related to developing protocols, recording research workflow, and documenting the contents of specific data files.
@@ -9,8 +8,6 @@ If it is not documented, it did not happen. This chapter covers strategies and p
 This chapter is built on the principle that managing data requires managing metadata.
 
 | [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
-<br/>
-<br/>
 
 |  | Key points for this chapter |
 | :---- | :---- |
@@ -20,14 +17,12 @@ This chapter is built on the principle that managing data requires managing meta
 |4\. | Documenting what actually happened, through a document like a lab notebook, is essential for establishing data provenance.|
 |5\. | Data that is saved without the documentation necessary for its use has not been effectively saved. 
 | 6\. | Documentation is a type of metadata. As such, it should be organized, stored, and archived alongside any relevant datasets and other materials.  |
-<br/>
 
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
 | [Chocolate chip cookie recipe](https://docs.google.com/document/d/1aGvheTT4Di5d5pjcceO_ukUOWWrn4kpbkpeDLJp7I7U/edit?usp=sharing) | By far the most tangential supplementary material in this whole guide, this is literally just the author’s recipe for chocolate chip cookies. |
 | [SOP Template](https://docs.google.com/document/d/1ATWE-zzJoMjR9dumo_e3fOROabIrvRct/edit) | A template for writing a Standard Operating Procedure. The example given is a very important activity in the scientific research enterprise, making a decent cup of coffee. |
 | [ReadMe Template](https://docs.google.com/document/d/15lOyAQZIkex0aySqZ4giNlXJ-lcN00-NMWGd1wjX5IE/edit?usp=sharing) | A template for writing a readme file that describes the contents of a dataset. |
-<br/>
 
 ## 4.1. A Meta Conversation about Metadata
 
@@ -316,7 +311,7 @@ Bargaje, C. (2011). Good documentation practice in clinical research. *Perspecti
 
 Kanare, H. M. (1985). *Writing the Laboratory Notebook*. American Chemical Society. Available online: [https://eric.ed.gov/?id=ED344734](https://eric.ed.gov/?id=ED344734)
 
-
+## Footnotes
 
 [^1]:  This quote was featured in “The Lives of Stars, the ninth episode of *Cosmos: A Personal Voyage.* This episode was first broadcast on November 25, 1980\.
 
