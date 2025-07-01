@@ -1,8 +1,7 @@
 # Data Storage and Organization
 
 [Last Chapter - Documentation and Description ](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming Soon!
-<br/>
-<br/> 
+
 ## Chapter Summary
 
 This chapter details strategies and processes related to ensuring that data and other research materials (documentation, code, physical samples, etc) can be found and used as needed. 
@@ -10,8 +9,6 @@ This chapter details strategies and processes related to ensuring that data and 
 The chapter is built around the principle that data management must be part of the everyday process of doing science.
 
 | [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
-<br/>
-<br/>
 
 |  | Key points for this chapter |
 | :---- | :---- |
@@ -19,13 +16,11 @@ The chapter is built around the principle that data management must be part of t
 | 2\. | Human readability and machine readability are BOTH important properties when storing and organizing research data, they are not interchangeable.  |
 | 3\. | To prevent the loss of data, data should be backed up and kept well organized. Organzing data can involve such rudimentary practices as providing effective names to data-related files.|
 | 4\. | When possible, it can be helpful to save data in open and/or widely adopted file formats. |
-<br/>
 
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
 | [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?tab=t.0) | This document provides guidance to research teams who need to keep a record of how and where their research data is saved. |
 |[Fantastic File Names](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing)|This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
-<br/>
 
 ## 5.1. Foundational Practices in Data Management
 
@@ -311,6 +306,8 @@ Among the many reasons why Excel is not always the best choice for storing data 
 [Gin Tonic](https://gin-tonic.netlify.app/standard/) - A simple adult beverage for those who partake (1 part gin, 2 parts tonic water, poured over lots of ice). Also a proposed standard for keeping research-related files organized in a common file structure.
 
 [TIER Protocol](https://www.projecttier.org/tier-protocol/protocol-4-0/) - A specification for organzing the materials needed to reproduce the work underlying a research-related manuscript.
+
+## Footnotes
 
 [^1]:  This happened to this chapter’s author ahead of his qualifying exams. Another hard drive failed right before his PhD defense.
 
