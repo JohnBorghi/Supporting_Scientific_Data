@@ -7,4 +7,5 @@
 |**[Lab Manual Template](https://docs.google.com/document/d/1kPYt2Jo_eI18PlkoMMqAe0McgZC44cad1ErI8CJbF10/edit?usp=drive_link)**| SOPs are not necessarily standalone documents. This template describes how to develop a lab manual.|
 | **[Chocolate chip cookie recipe](https://docs.google.com/document/d/1aGvheTT4Di5d5pjcceO_ukUOWWrn4kpbkpeDLJp7I7U/edit?usp=sharing)** | By far the most tangential supplementary material in this whole guide, this is literally just the author’s recipe for chocolate chip cookies. |
 | **[ReadMe Template](https://docs.google.com/document/d/15lOyAQZIkex0aySqZ4giNlXJ-lcN00-NMWGd1wjX5IE/edit?usp=sharing)** | A template for writing a readme file that describes the contents of a dataset. |
-
+| **[Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?tab=t.0)** | This document provides guidance to research teams who need to keep a record of how and where their research data is saved. |
+|**[Fantastic File Names](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing)**|This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
