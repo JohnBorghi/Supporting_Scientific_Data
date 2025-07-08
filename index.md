@@ -37,3 +37,9 @@ Cite this project (and view archived releases): [![DOI](https://zenodo.org/badge
 All chapters are licensed under a [Creative Commons Attribution-NonCommercial 4.0 Generic (CC BY-NC 4.0) License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 If you'd like, you can [view this project on Github](https://github.com/JohnBorghi/Supporting_Scientific_Data/).
+
+---
+
+### Statement on the use of Generative AI
+
+Despite the ubiquity of em-dashes, no generative AI was used in the writing of this guide. If the writing seems robotic, that's due to the (definitely human, totally not a robot) author. beep boop.
