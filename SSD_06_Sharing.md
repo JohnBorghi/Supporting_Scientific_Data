@@ -1,6 +1,6 @@
 # Sharing Data 
 
-| [Last Chapter - Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
+| [Last Chapter - Saving and Organization](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_05_saving-organizing)) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
 
 ## Chapter Summary
 
@@ -24,25 +24,27 @@ The chapter is built around the principle that all data must be managed, but not
 
 ## 6.1. Sharing with yourself and others
 
-It may be a little strange to consider it in these terms now, but the advent of scientific journals substantially increased the accessibility of scientific research results. 
+It may be a little strange to consider it in these terms now, but the advent of scientific journals substantially increased the accessibility of scientific research. 
 
-This wasn’t exactly science communication as we understand it today of course. For example, almost everyone who has taken high school biology has the phrase “the mitochondria is the powerhouse of the cell” burned into their memory. This idea was first postulated at the turn of the 20th century by Benjamin F. Kingsbury \- the great great grandfather of this chapter’s author \- in an almost incomprehensibly dense article[^1]. 
+This did not always look like science communication as we understand it today, of course. Almost everyone who has taken high school biology has the phrase “the mitochondria is the powerhouse of the cell” burned into their memory. This idea was first postulated at the turn of the 20th century by Benjamin F. Kingsbury \- the great great grandfather of this chapter’s author \- in an almost incomprehensibly dense article[^1]. 
 
-But still, the advent of the scientific journal was a watershed moment in the dissemination of science. No longer was the dissemination of research findings limited to personal correspondence or, later, research society meetings. With a scientific journal, anyone with a subscription and sufficient expertise could stay up-to-date with the latest research in their field. This change was due largely due to technological development \- the invention of the printing press. 
+But still, the advent of the scientific journal was a watershed moment in the dissemination of science. No longer were research findings communicated only through personal correspondence or research society meetings. Any researcher with a subscription to the journal and sufficient expertise could stay up-to-date with the latest research in their field. This change came from technological development \- namely, the invention of the printing press. 
 
 Another technological development, the internet, has helped researchers disseminate their findings even further. Open Access[^2] is a set of practices through which research outputs are disseminated freely online. Though often discussed in financial terms, open access has multiple dimensions related to the rights of both authors and readers to post and make use of an article’s content. A given paper may, colloquially, be said to be “open” but it is more accurate to say that it exists along a continuum of “openness”.
 
-The internet has not only made sharing scientific findings easier, it has also significantly eased the process of more directly sharing the evidence that underlies those findings. Kingsbury’s proposal that mitochondria plays a role in cellular respiration was based mostly on morphological observations. But his paper lacks any figures or materials to strengthen his point. Fast forward more than a century and now it is very common for data, code, and other materials to be shared alongside a research paper.
+The internet has not only made sharing scientific findings easier, it has also significantly eased the process of directly sharing the evidence that underlies those findings. Kingsbury’s proposal that mitochondria plays a role in cellular respiration was based mostly on morphological observations. His paper lacked the figures or materials that would be commonly included in a modern research paper to strengthen his point. But fast forward more than a century and it is now very common for data, code, and other materials to be shared alongside a research paper.
 
-**Data sharing** \- which can be broadly defined as making data available for use by others \- can be thought of as continuous with data management. Many of the same considerations and motivations apply. In fact, managing data as if it were going to be shared with another researcher can be a helpful shorthand for determining how to proceed. But Good Data Management Practice does not necessarily require that data be shared broadly. There are often very good reasons why the sharing of certain forms of data or data related to certain topics needs to be carefully controlled.
+Central to both this guide and the Good Data Management Practice more generally is understanding that science is a process. Historically, the communication of science has focused on the communication of findings or results. Benjamin Kingsbury did not communicate every single step of his experimental protocols or share the images that underlied his theories about mitochondria. But how could he? The electron micrograph had yet to be invented. But researchers today have far more tools at their disposal to share not just their conclusions but the process that gave rise to those conclusions.
 
-Before proceeding, it would be helpful to divide data sharing into two categories:
+**Data sharing** \- which can be broadly defined as making data available for use by others \- can be thought of as continuous with data management. Many of the same considerations and motivations apply. In fact, managing data as if it were going to be shared with another researcher can be a helpful shorthand when deciding how data should be managed. This chapter is unapologetically pro-data sharing, if for no other reason than it aligns with the notion that science is a process not a result. But Good Data Management Practice does not _necessarily_ require that data be shared broadly. There are often very good reasons why the sharing of certain forms of data or data related to certain topics needs to be carefully controlled.
+
+When considering related practices and strategies, it can be useful to describe data sharing based on purpose:
 
 * **Sharing for collaboration** \- The sharing of research data *within* the confines of a given research effort. Typically, this involves one researcher (or team) sharing data amongst themselves and with their collaborators (e.g. statisticians, other research professionals).  
 * **Sharing for reuse** \- The sharing of research data *beyond* the confines of a given research effort. Most often, this refers to sharing with individuals who were not involved in the data’s acquisition, transformation, analysis, or initial publication.
 
 
-Researchers don’t just share data, they also make extensive use of shared data. So it can also be useful to divide data sharing based on its direction.
+But researchers don’t just share data, they also make extensive use of shared data. So it can also be useful to describe data sharing based on direction:
 
 * **Incoming Data** \- Data that has been acquired or received from an external source (i.e. from parties outside of a researcher’s institution).   
 * **Outgoing Data** \- Data that is being shared with an external source (i.e. with parties outside of a researcher’s institution).
@@ -59,9 +61,9 @@ But, before sharing any data or working with any shared data, it is important to
 | What do you need to do? | Are you subject to expectations or policies that require you to control access to the data, restrict use of the data, or share (or not share) the data (i.e. those meant to protect participant privacy).  | Do you need to abide by expectations or policies that require you to control access to the data, restrict use of the data, or share (or not share) the data (i.e. those set by copyright terms, data use agreements, etc). |
 | What do you want to do? | With your answers to the first two questions in mind, are there data sharing-related activities that you would like to pursue (i.e. to foster openness, reproducibility, etc) that exceed what is strictly required?  | With your answers to the first two questions in mind, are what uses of shared data would you like to pursue?  |
 
-### 6.2. Sharing and Not Sharing
+## 6.2. Sharing and Not Sharing
 
-The chapter on [Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_01_introduction) outlines the motivations for engaging in Good Data Management Practice. Many of those same motivations apply to data sharing. But, before delving deeper into the nuts and bolts of making data available to others, it would be prudent to address some common objects to data sharing.
+The chapter on [Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_01_introduction) outlines the motivations for engaging in Good Data Management Practice. Many of those same motivations apply to data sharing. But, before delving deeper into the nuts and bolts of releasing data to others, here are some common objections to data sharing.
 
 ### Why not share with others?
 
