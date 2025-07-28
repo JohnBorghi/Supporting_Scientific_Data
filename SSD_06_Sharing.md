@@ -1,17 +1,26 @@
-## Sharing Data 
+# Sharing Data 
 
-Someone is going to need to understand what you have done. This section covers how to share your data in an appropriate form with yourself, your collaborators, and maybe even everyone. 
+| [Last Chapter - Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
 
-Good Data Management Principle
+## Chapter Summary
 
-**Key Points**
+This chapter covers how researchers can share data effectively and appropriately with themselves, their collaborators, and maybe even the public.
 
-* Data sharing is the release of data for use by others. This encompasses both sharing for collaborative purposes (e.g. sharing with your labmates or collaborators) and sharing more broadly for the purpose of facilitating reuse.  
-* Some research data can be shared without restrictions. But a good rule of thumb is to be “as open as possible, as closed as necessary”.  
-* In general, when sharing data for reuse purposes, sharing should occur via established data repositories. If this is not possible, it is important to clearly communicate what mechanisms (if any) can be used to access the data.  
-* If specialized repositories are not available for the type(s) of data you want to share, multiple “generalized” data repository solutions are available free of charge at Stanford.
+The chapter is built around the principle that all data must be managed, but not all data necessarily needs to be shared (openly).
 
-\_\_\_
+| [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
+
+|  | Key points for this chapter |
+| :---- | :---- |
+| 1\. | Data sharing is the release of data for use by others. This encompasses both sharing for collaborative purposes (e.g. sharing with your labmates or collaborators) and sharing more broadly for the purpose of facilitating reuse.   |
+| 2\. | Some research data can be shared without restrictions. But a good rule of thumb is to be “as open as possible, as closed as necessary”|
+| 3\. | In general, when sharing data for reuse purposes, sharing should occur via established data repositories. If this is not possible, it is important to clearly communicate what mechanisms (if any) can be used to access the data. |
+| 4\. | If specialized repositories are not available for the type(s) of data you want to share, multiple “generalized” data repository solutions are available. |
+
+|  | Supplementary materials for this chapter |
+| :---- | :---- |
+| [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?tab=t.0) | This document provides guidance to research teams who need to keep a record of how and where their research data is saved. |
+|[Fantastic File Names](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing)|This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
 
 ## 6.1. Sharing with yourself and others
 
