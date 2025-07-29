@@ -42,6 +42,17 @@ But researchers today have far more tools at their disposal to share not just th
 
 **Data sharing** \- which can be broadly defined as making data available for use by others \- can be thought of as continuous with data management. Many of the same considerations and motivations apply. In fact, managing data as if it were going to be shared with another researcher can be a helpful shorthand when deciding how data should be managed. This chapter is unapologetically pro-data sharing, if for no other reason than it aligns with the notion that science is a process not a result. But Good Data Management Practice does not _necessarily_ require that data be shared broadly. There are often very good reasons why the sharing of certain forms of data or data related to certain topics needs to be carefully controlled.
 
+> A Note on Planning
+>
+> Planning is discussed elsewhere in this guide as a vital element of Good Data Management Practice, and nowhere is that more true than data sharing.
+>
+> From a purely practical standpoint, the process of sharing data is most efficient when it has been planned for in advance. It is certainly possible to develop a system of data management that is designed such that data can be shared in a usable form whenever a researcher needs with whomever a researcher needs.
+>
+> But sharing also brings up issues related to the sensitivity of the data. It is one thing for a research team to store personally identifiable information about their participants on an encrypted system. It is quite another to share that information with others. There are policies and regulations to consider certainly, but there is also the issue of the participants giving their informed consent.
+>
+> A future chapter will focus specifically on sensitive data. But, while there are ways to share information that once sensitive or enable participants to give their informed consent for data to be shared, *data sharing must be planned for in advance*.
+
+
 When considering related practices and strategies, it can be useful to describe data sharing based on purpose:
 
 * **Sharing for collaboration** \- The sharing of research data *within* the confines of a given research effort. Typically, this involves one researcher (or team) sharing data amongst themselves and with their collaborators (e.g. statisticians, other research professionals).  
@@ -149,7 +160,7 @@ A good rule of thumb when considering what data and materials to share for reuse
 
 In practice this means sharing what would be the most useful for other researchers while also being vigilant in respecting factors that limit the degree to which data can be shared. Some of these factors are outlined in **Table 6.4**.
 
-Some forms of data simply cannot be shared in a usable form. In such cases, it may be most appropriate to consider sharing in a more *constrained* fashion.
+Some forms of data simply cannot be shared in a usable form. In such cases, it may be most appropriate to consider sharing in a more *constrained* fashion. 
 
 **Table 6.4. Limitations on sharing data**
 
@@ -274,7 +285,7 @@ To avoid all this, we recommend the following:
 
 *Because of concerns about patient privacy, the raw data collected for this study cannot be made publicly available. This data is currently archived in secure storage. Use of this data may be granted following approval from our data access committee, any relevant institutional review boards, and other institutional offices and/or stakeholders as appropriate (e.g. Privacy Office, Information Technology, etc.) Applications, describing both how the proposed use of the data and the information security measures in place, should be submitted through our online portal (URL: XYZ). Questions about this process may be directed to the corresponding author.*
 
-**Giving and receiving credit**
+### Giving and receiving credit
 
 Over the last several decades, a great deal of effort has been put into elevating the status of research data as a “first class” output of the research process, one that carries similar incentives as the publication of a scholarly manuscript. After all, a well curated dataset comes after an investment of time, effort, and applied expertise and can represent a tremendous addition to the scholarly record.
 
@@ -282,8 +293,7 @@ The question of ownership of research data is addressed in more [detail elsewher
 
 In general, when sharing data in any kind of open fashion, it is best to assign as permissive a license as possible in order to facilitate the reuse of data. It may be tempting to choose a license that includes an explicit expectation that any additional use of the data will credit the initial authors (e.g. CC-BY)
 
-_But what happens when multiple datasets carrying this license are combined into a new dataset? _
-
+_But what happens when multiple datasets carrying this license are combined into a new dataset?_
 
 This refers to a situation called **license stacking** (or a rights mess), in which two or more licenses have terms that cannot be legally or practically combined. For example, a CC-BY-SA grants the ability of others to use an object (such as a database) whoever they like as long as they give attribution to the authors and share any derivative works under the same license. But if that object is combined with another, that carries a CC-BY-NC license, things get messy. The latter license allows for *noncommercial* use as long as attribution is given. The restriction against commercial use is not included in the share alike license, but the derivative work must carry the same work as that original object. Oh no, brain error\!
 
@@ -303,6 +313,9 @@ Of course, it is always important to adhere to whatever terms and conditions may
 
 That all happens with a persistent identifier.
 
+### Sharing Usable Data
+
+
 
 **Data availability statement** \- a short section of a research paper that outlines if, when, and how any related data can be accessed. 
 
@@ -320,6 +333,13 @@ That all happens with a persistent identifier.
 **Persistent Identifier** \- A digital identifier that permanently and unambiguously identifies a digital object or an individual. 
 
 Public Domain
+
+## Further Reading
+
+
+
+
+## Footnotes
 
 [^1]:  Kingsbury, B. F. (1912). Cytoplasmic fixation. The Anatomical Record, 6(2), 39–52. https://doi.org/10.1002/ar.1090060202
 
