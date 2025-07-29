@@ -12,15 +12,17 @@ The chapter is built around the principle that all data must be managed, but not
 
 |  | Key points for this chapter |
 | :---- | :---- |
-| 1\. | Data sharing is the release of data for use by others. This encompasses both sharing for collaborative purposes (e.g. sharing with your labmates or collaborators) and sharing more broadly for the purpose of facilitating reuse.   |
+| 1\. | Data sharing is the release of data for use by others. This encompasses both sharing for collaborative purposes (e.g. sharing with your labmates or collaborators) and sharing more broadly for the purpose of facilitating reuse. |
 | 2\. | Some research data can be shared without restrictions. But a good rule of thumb is to be “as open as possible, as closed as necessary”|
 | 3\. | In general, when sharing data for reuse purposes, sharing should occur via established data repositories. If this is not possible, it is important to clearly communicate what mechanisms (if any) can be used to access the data. |
 | 4\. | If specialized repositories are not available for the type(s) of data you want to share, multiple “generalized” data repository solutions are available. |
+| 5\. | Data that is shared should be shared in a usable form. |
 
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
 | [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?tab=t.0) | This document provides guidance to research teams who need to keep a record of how and where their research data is saved. |
-|[Fantastic File Names](https://docs.google.com/document/d/1sITntof9Xn5N0VpfnRnJT_b24C6CEqPAx-Y23uNdnkA/edit?usp=sharing)|This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
+|[Data Availability Checklist] |ff|
+|[Data Sharing Cheklist] |This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
 
 ## 6.1. Sharing with yourself and others
 
@@ -45,8 +47,7 @@ When considering related practices and strategies, it can be useful to describe 
 * **Sharing for collaboration** \- The sharing of research data *within* the confines of a given research effort. Typically, this involves one researcher (or team) sharing data amongst themselves and with their collaborators (e.g. statisticians, other research professionals).  
 * **Sharing for reuse** \- The sharing of research data *beyond* the confines of a given research effort. Most often, this refers to sharing with individuals who were not involved in the data’s acquisition, transformation, analysis, or initial publication.
 
-
-But researchers don’t just share data, they also make extensive use of shared data. So it can also be useful to describe data sharing based on direction:
+Of course, researchers don’t just share data, they also make extensive use of shared data. So it can also be useful to describe data sharing based on direction:
 
 * **Incoming Data** \- Data that has been acquired or received from an external source (i.e. from parties outside of a researcher’s institution).   
 * **Outgoing Data** \- Data that is being shared with an external source (i.e. with parties outside of a researcher’s institution).
@@ -232,7 +233,7 @@ Other repositories issue ***accession numbers*** to deposited data \- unique ide
 
 **Choosing a repository**
 
-Choosing the most appropriate repository is no small challenge. As described in **Table 6.7.** research data repositories can be divided into several categories. 
+If data can be shared through a repository, researchers have a series of decisions to make. The first is "which?" Choosing the most appropriate repository is no small challenge. As described in **Table 6.7.** data repositories can be divided into several categories. 
 
 **Table 6.7. Types of data repositories**
 
@@ -257,7 +258,7 @@ The data repository ecosystem is constantly growing and evolving. Data from the 
 
 Over the last few years, tools like [Google Dataset Search](https://datasetsearch.research.google.com/) and the [NLM dataset catalog](https://www.datasetcatalog.nlm.nih.gov/) have emerged to help researchers find data shared by others. These tools are useful, but limited. They do not cover every repository, do not (necessarily) reveal links between datasets deposited in separate repositories, and do not (necessarily) reveal datasets with limitations or restrictions on (re)use. 
 
-Like a [library catalog](https://lane.stanford.edu/index.html), a **data catalog** facilitates the discovery of research data by providing a searchable and browsable collection of datasets. Stanford is currently in the process of developing a data catalog. So, at present, it is up to individual researchers to keep track of and communicate where their data is shared. This means maintaining both an internal index of where your data has been uploaded and clearly communicating where data can be found through a **data availability statement** \- a short section of a research paper that outlines if, when, and how any related data can be accessed. 
+Like a library catalog, a **data catalog** facilitates the discovery of research data by providing a searchable and browsable collection of datasets. Stanford is currently in the process of developing a data catalog. So, at present, it is up to individual researchers to keep track of and communicate where their data is shared. This means maintaining both an internal index of where your data has been uploaded and clearly communicating where data can be found through a **data availability statement** \- a short section of a research paper that outlines if, when, and how any related data can be accessed. 
 
 An internal data index can be relatively straightforward, consisting of several columns in a spreadsheet. A template is available in the supplementary materials for this chapter. This index does not have to be publicly available, but should be available to members of the research team as appropriate.
 
@@ -265,48 +266,43 @@ Writing a data availability statement can be challenging. Even a cursory analysi
 
 To avoid all this, we recommend the following:
 
-1. If data is shared via one or more repositories: Provide BOTH the name of the repository and the PID where shared data can be found. For every dataset, make sure the PID actually resolves to the dataset.  
-2. If you cannot share data via a repository or such sharing must be constrained (e.g. to study metadata, to sample or simulated data): Provide a description of the factors (e.g. protecting patient privacy) that limit the degree to which data can be shared.   
-3. If data sharing must occur through another mechanism (e.g. via request): Provide a description the pathway for gaining access to the data (even if it is heavily restricted) would entail (e.g. data is only available to institutional affiliates, access requires signing a DUA, etc).
+**If data is shared via one or more repositories:** Provide BOTH the name of the repository and the PID where shared data can be found. For every dataset, make sure the PID actually resolves to the dataset.
 
-| *Single Repository* | *All of the processed and de-identified data underlying the findings described in this paper can be found on the Dryad data repository (DOI: XYZ).*  |
-| :---- | :---- |
-| *Multiple Repositories* | *The data underlying the findings described in this paper can be accessed via the following repositories. Neuroimaging data is available on Open-Neuro (DOI: XYZ). Sequencing data is available on dbgap (Accession number: ABC). All other data is available on figshare (DOI: XYZ). The code used to clean, analyze, and visualize this data is available on Github repo, with an archived and timestamped version on Zenodo (DOI: XYZ).* |
-| *Data is available by request* | *Because of concerns about patient privacy, the raw data collected for this study cannot be made publicly available. This data is currently archived in secure storage. Use of this data may be granted following approval from our data access committee, any relevant institutional review boards, and other institutional offices and/or stakeholders as appropriate (e.g. Privacy Office, Information Technology, etc.) Applications, describing both how the proposed use of the data and the information security measures in place, should be submitted through our online portal (URL: XYZ). Questions about this process may be directed to the corresponding author.* |
-| *Used data collected by others (publicly available)* | *The results of this study were derived from data collected or generated by others. This data is available through the following repositories:*  |
-|  |  |
+*The data underlying the findings described in this paper can be accessed via the following repositories. Neuroimaging data is available on Open-Neuro (DOI: XYZ). Sequencing data is available on dbgap (Accession number: ABC). All other data is available on figshare (DOI: XYZ). The code used to clean, analyze, and visualize this data is available on Github repo, with an archived and timestamped version on Zenodo (DOI: XYZ).*
+   
+**If data sharing must be constrained or occur through another mechanism (e.g. via request):** Provide a description of why the data must be restricted and information about any paths for gaining access to the data, even if it is heavily restricted (e.g. data is only available to institutional affiliates, access requires signing a DUA, etc).
+
+*Because of concerns about patient privacy, the raw data collected for this study cannot be made publicly available. This data is currently archived in secure storage. Use of this data may be granted following approval from our data access committee, any relevant institutional review boards, and other institutional offices and/or stakeholders as appropriate (e.g. Privacy Office, Information Technology, etc.) Applications, describing both how the proposed use of the data and the information security measures in place, should be submitted through our online portal (URL: XYZ). Questions about this process may be directed to the corresponding author.*
 
 **Giving and receiving credit**
 
 Over the last several decades, a great deal of effort has been put into elevating the status of research data as a “first class” output of the research process, one that carries similar incentives as the publication of a scholarly manuscript. After all, a well curated dataset comes after an investment of time, effort, and applied expertise and can represent a tremendous addition to the scholarly record.
 
-The question of ownership of research data is addressed in more [detail elsewhere in this guide](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data#24-data-ownership), but it is worth revisiting in the context of data sharing. When depositing research data into a repository, a researcher may be confronted with a difficult question \- what license should be applied to the data?
+The question of ownership of research data is addressed in more [detail elsewhere in this guide](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data#24-data-ownership), but it is worth revisiting in the context of data sharing. When depositing research data into a repository, a researcher may be confronted with a difficult question \- _what license should be applied to the data?_
 
-In general, when sharing data in any kind of open fashion, it is best to assign as permissive a license as possible in order to facilitate the reuse of data. It may be tempting to choose CC-BY because it carries the expectation that any additional use of the data will credit the initial authors.   
-But what happens when multiple datasets carrying CC-BY licenses are combined into a new dataset? 
+In general, when sharing data in any kind of open fashion, it is best to assign as permissive a license as possible in order to facilitate the reuse of data. It may be tempting to choose a license that includes an explicit expectation that any additional use of the data will credit the initial authors (e.g. CC-BY)
 
-And what happens when copyright is ignored? 
+_But what happens when multiple datasets carrying this license are combined into a new dataset? _
 
-The first question refers to a situation called **license stacking** (or a rights mess), in which two or more licenses have terms that cannot be legally or practically combined. For example, a CC-BY-SA grants the ability of others to use an object (such as a database) whoever they like as long as they give attribution to the authors and share any derivative works under the same license. But if that object is combined with another, that carries a CC-BY-NC license, things get messy. The latter license allows for *noncommercial* use as long as attribution is given. The restriction against commercial use is not included in the share alike license, but the derivative work must carry the same work as that original object. Oh no, brain error\!
 
-This second question may seem snarky, and admittedly it is a little bit. But, in a research context, the use of a work is acknowledged through adherence to a broadly accepted norm \- Cite your sources. No scientific paper has ever been cited or not cited because of its license. Instead, credit is given and received through citations.
+This refers to a situation called **license stacking** (or a rights mess), in which two or more licenses have terms that cannot be legally or practically combined. For example, a CC-BY-SA grants the ability of others to use an object (such as a database) whoever they like as long as they give attribution to the authors and share any derivative works under the same license. But if that object is combined with another, that carries a CC-BY-NC license, things get messy. The latter license allows for *noncommercial* use as long as attribution is given. The restriction against commercial use is not included in the share alike license, but the derivative work must carry the same work as that original object. Oh no, brain error\!
+
+_And what happens when copyright is ignored?_
+
+This question may seem snarky, and admittedly it is a little bit. B
+
+A piece of advice here at the end of the chapter: For researchers in a position to choose licenses for data, chose the most permissive license possible. 
+
+It may seem almost counterintuitive to place data in the **public domain**, meaning that the copyright holder has relinquished copyright protections enabling others to make use of data without restriction. Indeed, researchers should absolutely not do this if they intend use the data to support a patent or other intellectual property claim. But
+
+In a research context, the use of a work is acknowledged through adherence to a broadly accepted norm \- Cite your sources. No scientific paper has ever been cited or not cited because of its license. Instead, credit is given and received through citations.
 
 The same can be said (often) about research data.
 
-Of course, it is always important to adhere to whatever terms and conditions may apply. But in the absence of other guidance, researchers should cite the data they use and expect that others will cite their data as well. There are also cases in which data… intellectual property.
+Of course, it is always important to adhere to whatever terms and conditions may apply. But in the absence of other guidance, researchers should cite the data they use and expect that others will cite their data as well. 
 
 That all happens with a persistent identifier.
 
-A piece of advice here at the end of the chapter: For researchers in a position to choose licenses for data, chose the most permissive license possible. It may seem almost counterintuitive to place data in the **public domain** but… 
-
-| public license or public copyright license | public license or public copyright license is a [license](https://en.wikipedia.org/wiki/License) by which a copyright holder as licensor can grant additional copyright permissions to any and all persons in the general public as licensees |
-| :---- | :---- |
-| CC-BY |  |
-| CC-BY-SA |  |
-|  |  |
-|  |  |
-
-**Controlled Access**
 
 **Data availability statement** \- a short section of a research paper that outlines if, when, and how any related data can be accessed. 
 
