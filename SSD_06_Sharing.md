@@ -83,7 +83,7 @@ Some of the most common objections to data sharing are discussed in **Table 6.2.
 
 ### Why share with others?
 
-Stanford seismologist and champion of “really reproducible” research Jon Clærbout was among the first to emphasize the importance of sharing the data and code underlying research findings[^4]. His views were distilled by Jonathon Buckheit and David Donoho (also from Stanford) into the following slogan (emphasis from the original)[^5]:
+Stanford seismologist and champion of “really reproducible” research Jon Clærbout emphasized the importance of sharing the data and code underlying research findings[^4]. His views were later distilled by Jonathon Buckheit and David Donoho (also from Stanford) into the following slogan (emphasis from the original)[^5]:
 
 *“An article about computational science in a scientific publication is not the scholarship itself, it is merely **advertising** of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.”*
 
@@ -103,7 +103,7 @@ Like many things in science, data sharing is a continuum. **Table 6.3.** below l
 
 This organization is not meant to be prescriptive, there are very important reasons why the sharing of certain types of data needs to be carefully controlled. 
 
-**Table 9.3. Dimensions of Data Sharing**
+**Table 6.3. Dimensions of Data Sharing**
 
 |  Dimension | Restricted | Controlled | Unrestricted  |
 | :---- | :---- | :---- | :---- |
@@ -116,19 +116,21 @@ Note that this table does not address the issue of “how” data should be shar
 
 ## 6.3 What to share (and what not to share)
 
-As we previously discussed, all of the information and materials needed to reconstruct a research workflow can be considered data. In practice, this can include quite a large number of files, documents, and other materials. The characteristics of a set of data will substantially affect how and with whom it can be shared. For example, in general, it is more straightforward to share de-identified data than data containing personally identifying information. 
+As we previously discussed, all of the information and materials needed to reconstruct a research workflow can be considered as scientific data. In practice, this can include quite a large number of files, documents, and other materials. The good news is that, while all of this needs to be managed, (probably) not all of it needs to be shared.
+
+The characteristics of a set of data will also substantially affect how and with whom it can be shared. For example, in general, it is more straightforward to share de-identified data than data containing personally identifying information. For more on this, 
 
 When approaching the question of *what* in the context of data sharing, consider what recipients will need and expect from the data. Or conversely, what would *you* need and expect from shared data.
 
 ### What to share for collaboration
 
-The forms of data that should be shared for the purposes of collaboration will depend on the characteristics of the data and the needs of the collaborative work. This is, admittedly, not particularly specific guidance. Additional insight can be gleaned from expectations for authorship.
+The forms of data that should be shared for the purposes of collaboration will depend on the characteristics of the data and the needs of the collaborative work. This is, admittedly, not particularly specific or helpful guidance. But some additional insight can be gleaned from expectations for authorship.
 
 For example, the International Committee of Medical Journal Editors (ICMJE) states[^7] that authors on scholarly works should:
 
 *“...Be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.”*
 
-In practice, this means anyone listed as an author on a scholarly work should \- at the very least \- should be able to locate and navigate through the related data during and following the research process. As covered in the chapter on [Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data), scientific data takes many forms over time, including: 
+In practice, this means anyone listed as an author on a scholarly work should \- at the very least \- be able to locate and navigate through the related data during and following the research process. As covered in the chapter on [Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data), scientific data takes many forms over time, including: 
 
 * The raw data  
 * Intermediate forms of the data  
@@ -136,7 +138,7 @@ In practice, this means anyone listed as an author on a scholarly work should \-
 * “Final” versions of the data (i.e. those that underlie research findings)  
 * Any other related materials (e.g. custom code).
 
-Ensuring that members of a collaborative research team have access to data DOES NOT necessarily mean that everyone should have the ability to edit or change all of these materials at any time. Even when sharing for collaboration, there are occasions when data sharing must be limited. The issues outlined in **Table 9.2**. Are typically discussed in terms of sharing for re-use, but also apply in the context of sharing with more immediate collaborators.
+Ensuring that members of a collaborative research team have access to data DOES NOT necessarily mean that everyone should have the ability to edit or change all of these materials at any time. Even when sharing for collaboration, there are occasions when data sharing must be limited. The issues outlined in **Table 6.4**. Are typically discussed in terms of sharing for re-use, but also apply in the context of sharing with more immediate collaborators.
 
 ### What to share for reuse
 
@@ -144,7 +146,7 @@ It depends.
 
 A good rule of thumb when considering what data and materials to share for reuse (i.e. the data that is made available to those outside a research group) is to work towards being “as open as possible, but as closed as necessary[^8]”.
 
-In practice this means sharing what would be the most useful for other researchers while also being vigilant in respecting factors that limit the degree to which data can be shared. Some of these factors are outlined in **Table 6.6**.
+In practice this means sharing what would be the most useful for other researchers while also being vigilant in respecting factors that limit the degree to which data can be shared. Some of these factors are outlined in **Table 6.4**.
 
 Some forms of data simply cannot be shared in a usable form. In such cases, it may be most appropriate to consider sharing in a more *constrained* fashion.
 
@@ -190,6 +192,8 @@ Considering the multifarious nature of scientific data and the constellation of 
 
 Some of the most common ways of sharing data are described in **Table 6.5.**
 
+**Table 6.5. Mechanisms for Sharing Data**
+
 | Mechanism | Description |
 | :---- | :---- |
 | “By Request” | Access to the data is provided by the corresponding author of any associated manuscripts. This mechanism is simple to describe, but logistically difficult in practice.  The requestor must have the author’s current contact information (which may or may not be listed in the article) and the author must continuously have the data on hand to respond efficiently to requests.  We do not recommend this approach under most circumstances. But, particularly if some degree of access control is required, it can work if there are established processes in place for requesting, sending, and receiving the data.  |
@@ -215,11 +219,16 @@ For American readers of this guide, think of a PID as a dataset’s social secur
 
 Other repositories issue ***accession numbers*** to deposited data \- unique identifiers that are assigned to a record or item in an archive. For most purposes, an accession number is mostly interchangeable with a PID. But an accession number may or may not have some of the more technical characteristics of a PID (see below).
 
-\> PIDapalooza  
-\>  
-\> The United States Office of Science and Technology Policy (OSTP) defines a persistent identifier as \*A digital identifier that is globally unique, persistent, machine-resolvable and processable, and has an associated metadata schema.\* 
-
-\> Persistent identifiers can be used for more than just data and articles of course. There are PIDs for organizations \- called RORs. There are PIDs for equipment \- called RRIDs. There are even PIDs for people \- ORCIDs. All of these help with problems related to disambiguating one object from another. This is useful when less consistent information \- such as a name \- changes over time, but is also useful when multiple objects have the same name. The author of this chapter was once shocked to read an obituary [carrying his own name](https://obituaries.paloaltoonline.com/obituaries/memorials/dr-john-borghi?o=8288)\!
+> ### PIDapalooza
+> 
+> The United States Office of Science and Technology Policy (OSTP) defines a persistent identifier as *A digital identifier that is globally unique, persistent, machine-resolvable and processable, and has an associated metadata schema*.
+>
+> Persistent identifiers can be used for more than just data and articles of course.
+> * There are PIDs for organization, such as the [Research Organization Registry (ROR)](https://ror.org/).
+> * There are PIDs for tools, equipment, and resources, such as [Research Resource Identifiers (RRIDs)](https://www.rrids.org/)
+> * There are even PIDs for people, like [Open Researcher and Contributor IDs (ORCIDs)](https://orcid.org/).
+>
+> All of these help with problems related to disambiguating one object from another. This is useful when less consistent information \- such as a name \- changes over time, but is also useful when multiple objects have the same name. The author of this chapter was once shocked to read an obituary [carrying his own name](https://obituaries.paloaltoonline.com/obituaries/memorials/dr-john-borghi?o=8288)\!
 
 **Choosing a repository**
 
