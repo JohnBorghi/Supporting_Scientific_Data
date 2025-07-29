@@ -75,6 +75,16 @@ But, before sharing any data or working with any shared data, it is important to
 | What do you need to do? | Are you subject to expectations or policies that require you to control access to the data, restrict use of the data, or share (or not share) the data (i.e. those meant to protect participant privacy).  | Do you need to abide by expectations or policies that require you to control access to the data, restrict use of the data, or share (or not share) the data (i.e. those set by copyright terms, data use agreements, etc). |
 | What do you want to do? | With your answers to the first two questions in mind, are there data sharing-related activities that you would like to pursue (i.e. to foster openness, reproducibility, etc) that exceed what is strictly required?  | With your answers to the first two questions in mind, are what uses of shared data would you like to pursue?  |
 
+Sharing data is only helpful if the data is actually (re)usable. This chapter will circle back to these but, when sharing data, five additional questions need to be addressed.
+
+1. Is there a clear path for accessing the shared data?
+2. Is the data shared in a form or format that would allow it to be used by others?**
+3. Is the data sufficiently well described to allow it to be used by others?
+4. Are the links between the data and any related materials (or versions) defined?
+5. Is the data shared in a manner that allows credit for its use to be given and received?
+
+But, before delving into these, why share at all?
+
 ## 6.2. Sharing and Not Sharing
 
 The chapter on [Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_01_introduction) outlines the motivations for engaging in Good Data Management Practice. Many of those same motivations apply to data sharing. But, before delving deeper into the nuts and bolts of releasing data to others, here are some common objections to data sharing.
@@ -107,7 +117,7 @@ The other major motivation for sharing research data is to facilitate its reuse.
 
 Of course, this does not mean that all data can be shared in the same way.
 
-## The Dimensions of Data Sharing
+### The Dimensions of Data Sharing
 
 At first blush, making data available for use by others might seem like a relatively straightforward proposition. Most researchers have some degree of experience looking over a dataset with a colleague or sending data to collaborators via e-mail or cloud storage. But effectively and appropriately sharing data requires navigating a number of considerations about what data should be shared, with whom, and for what purpose.
 
@@ -271,7 +281,15 @@ Over the last few years, tools like [Google Dataset Search](https://datasetsearc
 
 Like a library catalog, a **data catalog** facilitates the discovery of research data by providing a searchable and browsable collection of datasets. Stanford is currently in the process of developing a data catalog. So, at present, it is up to individual researchers to keep track of and communicate where their data is shared. This means maintaining both an internal index of where your data has been uploaded and clearly communicating where data can be found through a **data availability statement** \- a short section of a research paper that outlines if, when, and how any related data can be accessed. 
 
-An internal data index can be relatively straightforward, consisting of several columns in a spreadsheet. A template is available in the supplementary materials for this chapter. This index does not have to be publicly available, but should be available to members of the research team as appropriate.
+> **Tool Highlight: [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?usp=sharing)**
+>
+> Over the last few years, tools like [Google Dataset Search](https://datasetsearch.research.google.com/) and the [NLM dataset catalog](https://www.datasetcatalog.nlm.nih.gov/) have emerged to help researchers find data shared by others. These tools are useful, but limited by the fact that only a portion of the data related to a project may ultimately be shared.
+>
+> This checklist is intended for groups who need to preserve the rest of their data themselves.
+>
+> [The checklist can be accessed here](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?usp=sharing).
+
+An internal data index can be relatively straightforward, consisting of several columns in a spreadsheet. This index does not have to be publicly available, but should be available to members of the research team as appropriate.
 
 Writing a data availability statement can be challenging. Even a cursory analysis of data availability statements in the published literature will demonstrate that they are often of mixed utility[^9]. One reason for this is that these statements are often written early in the submission process, before the data is actually in a state where it is ready to be shared for the purposes of reuse. As a result, these statements may be overly vague or point readers towards repositories that do not actually include the data. 
 
@@ -285,7 +303,7 @@ To avoid all this, we recommend the following:
 
 *Because of concerns about patient privacy, the raw data collected for this study cannot be made publicly available. This data is currently archived in secure storage. Use of this data may be granted following approval from our data access committee, any relevant institutional review boards, and other institutional offices and/or stakeholders as appropriate (e.g. Privacy Office, Information Technology, etc.) Applications, describing both how the proposed use of the data and the information security measures in place, should be submitted through our online portal (URL: XYZ). Questions about this process may be directed to the corresponding author.*
 
-### Giving and receiving credit
+## 6.6. Giving and receiving credit
 
 Over the last several decades, a great deal of effort has been put into elevating the status of research data as a “first class” output of the research process, one that carries similar incentives as the publication of a scholarly manuscript. After all, a well curated dataset comes after an investment of time, effort, and applied expertise and can represent a tremendous addition to the scholarly record.
 
@@ -309,11 +327,26 @@ In a research context, the use of a work is acknowledged through adherence to a 
 
 The same can be said (often) about research data.
 
-Of course, it is always important to adhere to whatever terms and conditions may apply. But in the absence of other guidance, researchers should cite the data they use and expect that others will cite their data as well. 
+Of course, it is always important to adhere to whatever terms and conditions may apply. But in the absence of other guidance or requirements, researchers should cite the data they use and expect that others will cite their data as well. 
 
-That all happens with a persistent identifier.
+Many citation formats include instructions for how to cite a dataset, but almost all of them rely on persistant identifiers.
 
-### Sharing Usable Data
+## Sharing Usable Data
+
+Whether its shared through e-mail, a state-of-the art repository, or is available upon "reasonable request", sharing data is only worth the time and effort if it is shared in a manner that enables it to be (re)used.
+
+The good news is that, if data is effectively managed throughout the research process, the lift of data sharing is relatively minimal. Here are five checklist items to ensure that shared data is usable data.
+
+**1\. Is there a clear path for accessing the shared data?**
+
+**2\. Is the data shared in a form or format that would allow it to be used by others?**
+
+**3\. Is the data sufficiently well described to allow it to be used by others?
+
+**4.\Are the links between the data and any related materials (or versions) defined?
+
+**5/. Is the data shared in a manner that allows credit for its use to be given and received?
+
 
 
 
