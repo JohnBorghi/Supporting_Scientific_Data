@@ -21,8 +21,6 @@ The chapter is built around the principle that all data must be managed, but not
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
 | [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?tab=t.0) | This document provides guidance to research teams who need to keep a record of how and where their research data is saved. |
-|[Data Availability Checklist] |ff|
-|[Data Sharing Cheklist] |This exercise guides users through some best practices in naming digital files. Similar principles can also be applied to other names, including the names of variables and column headers.|
 
 ## 6.1. Sharing with yourself and others
 
@@ -343,21 +341,21 @@ As covered in the chapter on [Data Storage and Organization](https://johnborghi.
 
 As covered in the chapter on [Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) data that has not been saved alongside the documentation needed for its use has not really been saved at all. One of the great advantages of sharing data through a repository is efficiency, but if the researcher who downloads the data needs to sit with the original research team to make sense of the files, than the upload is mostly just taking up space in a server somewhere.
 
-**4.\Are the links between the data and any related materials (or versions) defined?**
+**4\. Are the links between the data and any related materials (or versions) defined?**
 
 If a set of shared data is related to the conclusions described in a research paper, then a user should be able to find the dataset from the paper. The reverse is probably also true, but can be a bit trickier from a practical perspective. The locations of shared data should be properly described in data availability statements and other indices.
 
-**5/. Is the data shared in a manner that allows credit for its use to be given and received?
+**5\. Is the data shared in a manner that allows credit for its use to be given and received?**
 
 It should be! Almost every citation style has a format for crediting the use of a shared dataset and, when in doubt, a researcher can always state explicitly how they'd like their data to be cited.
 
 ## Definitions of Key Terms
 
-**Data availability statement** \- A short section of a research paper that outlines if, when, and how any related data can be accessed. 
+**Data Availability Statement** \- A short section of a research paper that outlines if, when, and how any related data can be accessed. 
 
-**Data repository** is a platform that facilitates the preservation, organization, and discovery of research data. 
+**Data Repository** is a platform that facilitates the preservation, organization, and discovery of research data. 
 
-**Data sharing** \- Broadly defined as making data available for use by others \- can be thought of as continuous with data management. 
+**Data Sharing** \- Broadly defined as making data available for use by others \- can be thought of as continuous with data management. 
 
 * **Sharing for collaboration** \- The sharing of research data *within* the confines of a given research effort. Typically, this involves one researcher (or team) sharing data amongst themselves and with their collaborators (e.g. statisticians, other research professionals).  
 * **Sharing for reuse** \- The sharing of research data *beyond* the confines of a given research effort. Most often, this refers to sharing with individuals who were not involved in the data’s acquisition, transformation, analysis, or initial publication.
