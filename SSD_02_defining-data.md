@@ -8,9 +8,9 @@ Data is more than just an individual file or set of measurements. This chapter d
 
 This chapter is built on the principle that effective data management requires research data to be defined thoroughly and broadly.
 
-|[Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice)| ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough)|
+| [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice)| ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough)|
 
-|| **Key Points for this Chapter** |
+| | **Key Points for this Chapter** |
 | :---- | :---- |
 | 1\. | In the context of data management, a research workflow can be considered the series of steps that are implemented to reach a research finding. |
 | 2\. | Research data is more than just individual objects or files. All the information, materials, and documentation needed trace a research workflow count as data. |
