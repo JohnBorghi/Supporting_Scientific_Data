@@ -1,6 +1,6 @@
 # Sharing Data 
 
-| [Last Chapter - Saving and Organization](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_05_saving-organizing)) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
+| [Last Chapter - Saving and Organization](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_05_saving-organizing) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
 
 ## Chapter Summary
 
