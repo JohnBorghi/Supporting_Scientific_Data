@@ -1,6 +1,6 @@
 # Defining Research Data
 
-|[Last Chapter - Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)|[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/)|[Next Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning)|
+|[Last Chapter - Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Planning for Data Management (https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) |
 
 ## Chapter Summary
 
