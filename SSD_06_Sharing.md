@@ -4,7 +4,7 @@
 
 ## Chapter Summary
 
-This chapter covers how researchers can share data effectively and appropriately with themselves, their collaborators, and maybe even the public.
+This chapter covers how researchers can share data effectively and appropriately with themselves, their collaborators, and more broadly.
 
 The chapter is built around the principle that all data must be managed, but not all data necessarily needs to be shared (openly).
 
@@ -12,11 +12,11 @@ The chapter is built around the principle that all data must be managed, but not
 
 |  | Key points for this chapter |
 | :---- | :---- |
-| 1\. | Data sharing is the release of data for use by others. This encompasses both sharing for collaborative purposes (e.g. sharing with your labmates or collaborators) and sharing more broadly for the purpose of facilitating reuse. |
-| 2\. | Some research data can be shared without restrictions. But a good rule of thumb is to be “as open as possible, as closed as necessary”|
+| 1\. | Data sharing is the release of data for use by others. This encompasses both sharing for collaborative purposes (e.g. sharing with labmates or collaborators) and sharing more broadly for the purpose of facilitating reuse. |
+| 2\. | Some research data can be shared without restrictions. But a good rule of thumb is to share “as openly as possible, as closed as necessary”|
 | 3\. | In general, when sharing data for reuse purposes, sharing should occur via established data repositories. If this is not possible, it is important to clearly communicate what mechanisms (if any) can be used to access the data. |
 | 4\. | If specialized repositories are not available for the type(s) of data you want to share, multiple “generalized” data repository solutions are available. |
-| 5\. | Data that is shared should be shared in a usable form. |
+| 5\. | Any data that is shared should be shared in a usable form. |
 
 |  | Supplementary materials for this chapter |
 | :---- | :---- |
@@ -38,17 +38,21 @@ The internet has not only made sharing scientific findings easier, it has also s
 
 Central to both this guide and the Good Data Management Practice more generally is understanding that science is a process. Historically, the communication of science has focused on the communication of findings or results. Benjamin Kingsbury did not communicate every single step of his experimental protocols or share the images that underlied his theories about mitochondria. But how could he? The technology to even capture his data in a way that could be reliably shared did not exist until the invention of the electron microscope and the first high resolution photos of mitochondria weren’t published until the 1950s[^3].
 
-But researchers today have far more tools at their disposal to share not just their conclusions but also the process that gave rise to those conclusions.
+But researchers today have far more tools at their disposal to share not just their conclusions but also the processes that gave rise to those conclusions.
 
-**Data sharing** \- which can be broadly defined as making data available for use by others \- can be thought of as continuous with data management. Many of the same considerations and motivations apply. In fact, managing data as if it were going to be shared with another researcher can be a helpful shorthand when deciding how data should be managed. This chapter is unapologetically pro-data sharing, if for no other reason than it aligns with the notion that science is a process not a result. But Good Data Management Practice does not _necessarily_ require that data be shared broadly. There are often very good reasons why the sharing of certain forms of data or data related to certain topics needs to be carefully controlled.
+**Data sharing** \- which can be broadly defined as making data available for use by others \- can be thought of as continuous with data management. Many of the same considerations and motivations apply. In fact, managing data as if it were going to be shared with another researcher can be a helpful shorthand when considering related practices and strategies. 
+
+This chapter is unapologetically pro-data sharing, if for no other reason than it aligns with the notion that science is a process not a result. But Good Data Management Practice does not necessarily require that all data be shared broadly. Not all data is useful to share broadly and there are often very good reasons why the sharing of certain forms of data or data related to certain topics needs to be carefully controlled.
 
 > A Note on Planning
 >
-> Planning is discussed elsewhere in this guide as a vital element of Good Data Management Practice, and nowhere is that more true than data sharing.
+> Planning is discussed [elsewhere in this guide](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) as a vital element of Good Data Management Practice, and nowhere is that more true than data sharing.
 >
-> From a purely practical standpoint, the process of sharing data is most efficient when it has been planned for in advance. It is certainly possible to develop a system of data management that is designed such that data can be shared in a usable form whenever a researcher needs with whomever a researcher needs.
+> From a purely practical standpoint, the process of sharing data is most efficient when it has been planned for in advance. It is not (always) impossible to curate a dataset so that it can be effectively shared after the fact, but it is (usually) quite the headache. While there may be some real startup costs to developing a robust system for data management, good day-to-day data management makes it far easier for shared in a usable form whenever a researcher needs with whomever a researcher needs.
 >
-> But sharing also brings up issues related to the sensitivity of the data. It is one thing for a research team to store personally identifiable information about their participants on an encrypted system. It is quite another to share that information with others. There are policies and regulations to consider certainly, but there is also the issue of the participants giving their informed consent.
+> But not every difficulty in data sharing comes down to practicality. Especially when dealing with data from human research participants, some data absolutely needs to be protected from unauthorized access. The safety, privacy, confidentiality of partificants must be ensured. And consenting to participate in a research study is very different than consenting to have your data shared with the world.
+>
+> It is one thing for a research team to store personally identifiable information about their participants on an encrypted system. It is quite another to share that information with others.
 >
 > A future chapter will focus specifically on sensitive data. But, while there are ways to share information that once sensitive or enable participants to give their informed consent for data to be shared, *data sharing must be planned for in advance*.
 
@@ -62,9 +66,7 @@ Of course, researchers don’t just share data, they also make extensive use of 
 * **Incoming Data** \- Data that has been acquired or received from an external source (i.e. from parties outside of a researcher’s institution).   
 * **Outgoing Data** \- Data that is being shared with an external source (i.e. with parties outside of a researcher’s institution).
 
-In practice, these distinctions can be a little blurry. A researcher may share data with a collaborator for them to reuse. A research effort may involve acquiring original data and combining it with datasets from a variety of outside sources. 
-
-But, before sharing any data or working with any shared data, it is important to know the answer to three very important questions (see **Table 6.1**).
+In practice, these distinctions can be a little blurry. A researcher may share data with a collaborator for them to reuse. A research effort may involve acquiring original data and combining it with datasets from a variety of outside sources. Every possible situation is probably occuring at the nearest research institution. But, before sharing any data or working with any shared data, it is important to know the answer to three very important questions (see **Table 6.1**).
 
 **Table 6.1. Three questions about data sharing**
 
@@ -76,7 +78,7 @@ But, before sharing any data or working with any shared data, it is important to
 
 ## 6.2. Sharing and Not Sharing
 
-The chapter on [Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_01_introduction) outlines the motivations for engaging in Good Data Management Practice. Many of those same motivations apply to data sharing. But sharing data is only worthwhile if the data is actually (re)usable. This chapter will circle back to and expand upon these but, when considering data sharing, researchers must ask themselvesL
+The chapter on [Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_01_introduction) outlines the motivations for engaging in Good Data Management Practice. Many of those same motivations apply to data sharing. But sharing data is only worthwhile if the data is actually (re)usable. This chapter will circle back to and expand upon these but, when considering if data has been shared effectively, researchers should themselves:
 
 1. Is there a clear path for accessing the shared data?
 2. Is the data shared in a form or format that would allow it to be used by others?**
@@ -195,19 +197,15 @@ In terms of sharing beyond the immediate research team, we have often encountere
 
 There are a variety of mechanisms for controlling access to data. **Data use agreements** (DUAs) are contracts between the individual or organization that owns access to a data source and another individual or organization who wants to use the data for something. DUAs often place limits on who is able to access the data and the purposes for which it can be used. 
 
-Some data repositories, such as the NIMH Data Archive, have “restricted access” features, meaning that data will only be shared under conditions set by the depositor and the repository. These conditions can include a formal application and approval process, IRB approval, to signing onto data use agreements.
-
-These types of access control are used for data in which there could be harm if the data were shared openly, there are limitations on usage within the consent, or certain indirect identifiers must remain in order for the data to remain usable for analysis.
+Some data repositories, such as the NIMH Data Archive, have “restricted access” features, meaning that data will only be shared under conditions set by the depositor and the repository. These conditions can include a formal application and approval process, IRB approval, or signing onto data use agreements. These types of access control are used for data in which there could be harm if the data were shared openly, there are limitations on usage within the consent, or certain indirect identifiers must remain in order for the data to remain usable for analysis.
 
 ## 6.5. How to share data
 
-A common way of sharing data for the purposes of collaboration is by sending files back and forth; through e-mail, or slack, or any of the other innumerable tools used by researchers in the 21st century. This is not necessarily problematic in every circumstance but, especially as the number of collaborators grows, access problems and version-related confusion can become major issues. 
-
-As an e-mail conversation grows in length, it can become more difficult to track who is accessing the data and what changes are being made between different versions. To minimize these kinds of issues, it is often preferable to share data for collaborative purposes through platforms and tools that allow for some form of managed access and version tracking.
+A common way of sharing data for the purposes of collaboration is by sending files back and forth; through e-mail, or slack, or any of the other innumerable tools used by researchers in the 21st century. This is not necessarily problematic in every circumstance but, especially as the number of collaborators grows, access problems and version-related confusion can become major issues.  As an e-mail conversation grows in length, it can become more difficult to track who is accessing the data and what changes are being made between different versions. To minimize these kinds of issues, it is often preferable to share data for collaborative purposes through platforms and tools that allow for some form of managed access and version tracking.
 
 ### How to share for reuse
 
-Considering the multifarious nature of scientific data and the constellation of factors that affect how, where, and with whom it can be made accessible, it is not surprising that there are a number of different ways data is shared. 
+Considering the multifarious nature of scientific data and the constellation of factors that affect how, where, and with whom it can be made accessible, it is not surprising that there are a number of different mechanisms through which data can be shared.
 
 Some of the most common ways of sharing data are described in **Table 6.5.**
 
@@ -232,6 +230,8 @@ The functions of a **data repository** are outlined in **Table 6.6.** below. As 
 | Stores and preserves data | A data repository archives deposited data in a fashion that renders it usable at present and also years (or even decades) in the future. This occurs through replication (backups), migration, and processes that ensure integrity/fixity. Some repositories even provide emulation. Alternative/complementary tool: Working storage systems, archival storage |
 | Sets standards and curates data | A data repository provides formal or informal rules for keeping data organized and well described so that it can be used. This may involve using community metadata standards or setting *de facto* standards. Alternative/complementary tool: Data policies, DMSPs, data SOPs, etc. |
 
+Among the advantages of sharing data through a data repository is that the repository handles the difficult job of ensuring that the data can be found. In practice, that typically means issuing an identifier for the data that can be included in journal articles.
+
 Many data repositories issue **persistent identifiers (PIDs)** to deposited data. This term is used in slightly different ways throughout the data sharing community, but a PID can be generally understood as a digital identifier that permanently and unambiguously identifies a digital object or an individual. 
 
 For American readers of this guide, think of a PID as a dataset’s social security number. The most common PID for data is probably the digital object identifier or DOI, but there are a whole family of data-related identifiers including ARKs and PURLs.
@@ -251,7 +251,9 @@ Other repositories issue ***accession numbers*** to deposited data \- unique ide
 
 **Choosing a repository**
 
-If data can be shared through a repository, researchers have a series of decisions to make. The first is "which?" Choosing the most appropriate repository is no small challenge. As described in **Table 6.7.** data repositories can be divided into several categories. 
+If data can be shared through a repository, researchers have a series of decisions to make. The first is "which?" 
+
+Choosing the most appropriate repository is no small challenge. As described in **Table 6.7.** data repositories can be divided into several categories. 
 
 **Table 6.7. Types of data repositories**
 
@@ -263,26 +265,23 @@ If data can be shared through a repository, researchers have a series of decisio
 
 None of these is “better” than the other and \- very often \- it makes sense for the data from a single research project to be distributed over several different repositories. But, for general guidance about where to deposit research data for the purposes of sharing, see **Figure 6.1.** 
 
-| Figure 6.1. Where to share research data |
+| <img width="1600" height="1056" src="https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjE2M2FscDRlLzUxNjU1MzAzOTE5MjM2LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" />|
 | ----- |
-|  |
-|  |
+| **Figure 6.1. Choosing a data repository** Guidance for researchers when choosing the best repository for their data. From [Borghi and Van Gulick, 2022]((https://doi.org/10.1162/99608f92.9497f68e))|
 
 Even with the above flowchart, choosing the right repository can be a challenge. There are a an ever increasing number of specialized and institutional repositories. Certain disciplinary communities may even prefer one generalist repository over another (e.g. the Open Science Framework versus Dryad). Tools such as Registry of Research Data Repositories (Re3Data) can be helpful. But, when in doubt, look at where other members of the research community are sharing and choose the repository or repositories that work best for you and your data.
 
 ### Data Catalogs and Data Availability Statements
 
-The data repository ecosystem is constantly growing and evolving. Data from the same project can, and often should, be deposited across multiple repositories. But for shared data to be useful, it needs to be discoverable.
+The data repository ecosystem is constantly growing and evolving. Data from the same project can, and often should, be deposited across multiple repositories. But for shared data to be useful, there needs to be a way to put all the pieces back together.
 
-Over the last few years, tools like [Google Dataset Search](https://datasetsearch.research.google.com/) and the [NLM dataset catalog](https://www.datasetcatalog.nlm.nih.gov/) have emerged to help researchers find data shared by others. These tools are useful, but limited. They do not cover every repository, do not (necessarily) reveal links between datasets deposited in separate repositories, and do not (necessarily) reveal datasets with limitations or restrictions on (re)use. 
+Over the last few years, tools like [Google Dataset Search](https://datasetsearch.research.google.com/) and the [NLM dataset catalog](https://www.datasetcatalog.nlm.nih.gov/) have emerged to help researchers find data shared by others. These tools are useful, but limited. They do not cover every repository, do not (necessarily) reveal links between datasets deposited in separate repositories, and do not (necessarily) reveal datasets with limitations or restrictions on (re)use. The other major limitation is that they do not cover data that is not shared openly - because how could they?
 
-Like a library catalog, a **data catalog** facilitates the discovery of research data by providing a searchable and browsable collection of datasets. Stanford is currently in the process of developing a data catalog. So, at present, it is up to individual researchers to keep track of and communicate where their data is shared. This means maintaining both an internal index of where your data has been uploaded and clearly communicating where data can be found through a **data availability statement** \- a short section of a research paper that outlines if, when, and how any related data can be accessed. 
+Like a library catalog, a **data catalog** facilitates the discovery of research data by providing a searchable and browsable collection of datasets. Many research institutions are currently in the process of developing their own data catalogs. But, at present, it is mostly up to individual researchers to keep track of and communicate where their data is shared.  This means maintaining both an internal index of where data has been saved and uploaded and also clearly communicating where data can be found through a **data availability statement** \- a short section of a research paper that outlines if, when, and how any related data can be accessed. 
 
 > **Tool Highlight: [Data Index Checklist](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?usp=sharing)**
 >
-> Over the last few years, tools like [Google Dataset Search](https://datasetsearch.research.google.com/) and the [NLM dataset catalog](https://www.datasetcatalog.nlm.nih.gov/) have emerged to help researchers find data shared by others. These tools are useful, but limited by the fact that only a portion of the data related to a project may ultimately be shared.
->
-> This checklist is intended for groups who need to preserve the rest of their data themselves.
+> Useful when setting up a system for ensuring data stored internally (e.g. on lab servers) can be found, this checklist is also intended for groups who need to keep track of where they have shared data.
 >
 > [The checklist can be accessed here](https://docs.google.com/document/d/1qTkKoNBriP5bqoJWyvZl29xvjue9WJIRgCnW7ZQP3LY/edit?usp=sharing).
 
@@ -304,39 +303,33 @@ To avoid all this, see the illustrative examples below:
 
 Over the last several decades, a great deal of effort has been put into elevating the status of research data as a “first class” output of the research process, one that carries similar incentives as the publication of a scholarly manuscript. After all, a well curated dataset comes after an investment of time, effort, and applied expertise and can represent a tremendous addition to the scholarly record.
 
-The question of ownership of research data is addressed in more [detail elsewhere in this guide](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data#24-data-ownership), but it is worth revisiting in the context of data sharing. When depositing research data into a repository, a researcher may be confronted with a difficult question \- _what license should be applied to the data?_
+The question of ownership of research data is addressed in more detail [elsewhere in this guide](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data#24-data-ownership), but it is worth revisiting in the context of data sharing. When depositing research data into a repository, a researcher may be confronted with a difficult question \- _what license should be applied to the data?_
 
-In general, when sharing data in any kind of open fashion, it is best to assign as permissive a license as possible in order to facilitate the reuse of data. It may be tempting to choose a license that includes an explicit expectation that any additional use of the data will credit the initial authors (e.g. CC-BY)
+In general, when sharing data in any kind of open fashion, it is best to assign as permissive a license as possible in order to facilitate the reuse of data. It may be tempting to choose a license that includes an explicit expectation that any additional use of the data will credit the initial authors (e.g. CC-BY). After all, credit in many areas of research comes through citations. But assigning restrictive licenses can limit important re(uses) of shared data.
 
-_But what happens when multiple datasets carrying this license are combined into a new dataset?_
+_What happens when multiple datasets carrying this license are combined into a new dataset?_
 
 This refers to a situation called **license stacking** (or a rights mess), in which two or more licenses have terms that cannot be legally or practically combined. For example, a CC-BY-SA grants the ability of others to use an object (such as a database) whoever they like as long as they give attribution to the authors and share any derivative works under the same license. But if that object is combined with another, that carries a CC-BY-NC license, things get messy. The latter license allows for *noncommercial* use as long as attribution is given. The restriction against commercial use is not included in the share alike license, but the derivative work must carry the same work as that original object. Oh no, brain error\!
 
 _And what happens when copyright is ignored?_
 
-This question may seem snarky, and admittedly it is a little bit. B
+This question may seem snarky, and admittedly it is a little bit. 
 
-A piece of advice here at the end of the chapter: For researchers in a position to choose licenses for data, chose the most permissive license possible. 
+Very often it makes sense to put research data into the **public domain**, meaning that the copyright holder has relinquished any applicable copyright protections and enabled others to make use of data without restriction. Researchers should absolutely not do this if they intend use the data to support a patent or other intellectual property claim. But the processes of giving and recieving credit in most areas of science operate through other mechanisms.
 
-It may seem almost counterintuitive to place data in the **public domain**, meaning that the copyright holder has relinquished copyright protections enabling others to make use of data without restriction. Indeed, researchers should absolutely not do this if they intend use the data to support a patent or other intellectual property claim. But
-
-In a research context, the use of a work is acknowledged through adherence to a broadly accepted norm \- Cite your sources. No scientific paper has ever been cited or not cited because of its license. Instead, credit is given and received through citations.
+In a research context, the use of a work is acknowledged through adherence to a broadly accepted norm \- Cite your sources. No scientific paper has ever been acknowledged or not aknowledged because of its license. Instead, credit is given and received through citations.
 
 The same can be said (often) about research data.
 
 Of course, it is always important to adhere to whatever terms and conditions may apply. But in the absence of other guidance or requirements, researchers should cite the data they use and expect that others will cite their data as well. 
 
-Many citation formats include instructions for how to cite a dataset, but almost all of them rely on persistant identifiers.
-
 ## 6.7. Sharing Usable Data
 
-Whether its shared through e-mail, a state-of-the art repository, or is available upon "reasonable request", sharing data is only worth the time and effort if it is shared in a manner that enables it to be (re)used.
+Whether its shared through e-mail, a state-of-the art repository, or is available upon "reasonable request", sharing data is only worth the time and effort if data is shared in a manner that enables it to be (re)used.
 
 The good news is that, if data is effectively managed throughout the research process, than much of the work needed to ensure that the data is usable has already been completed. The lift for sharing is thus (relatively) small.
 
 Here, again, are the five checklist items for unsuring that shared data is usable data.
-
-five checklist items to ensure that shared data is usable data.
 
 **1\. Is there a clear path for accessing the shared data?**
 
@@ -348,19 +341,19 @@ As covered in the chapter on [Data Storage and Organization](https://johnborghi.
 
 **3\. Is the data sufficiently well described to allow it to be used by others?**
 
-As covered in the chapter on [Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) data that has not been saved alongside the documentation needed for its use has not really been saved at all. This is doubly true for data that is shared for the purposes of reuse.
+As covered in the chapter on [Documentation and Description](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_04_documentation) data that has not been saved alongside the documentation needed for its use has not really been saved at all. One of the great advantages of sharing data through a repository is efficiency, but if the researcher who downloads the data needs to sit with the original research team to make sense of the files, than the upload is mostly just taking up space in a server somewhere.
 
 **4.\Are the links between the data and any related materials (or versions) defined?**
 
-If a set of shared data is related to the conclusions described in a research paper, then a user should be able to find the dataset from the paper. The reverse is probably also true, but can be a bit trickier from a practical perspective.
+If a set of shared data is related to the conclusions described in a research paper, then a user should be able to find the dataset from the paper. The reverse is probably also true, but can be a bit trickier from a practical perspective. The locations of shared data should be properly described in data availability statements and other indices.
 
 **5/. Is the data shared in a manner that allows credit for its use to be given and received?
 
-It should be!
+It should be! Almost every citation style has a format for crediting the use of a shared dataset and, when in doubt, a researcher can always state explicitly how they'd like their data to be cited.
 
 ## Definitions of Key Terms
 
-**Data availability statement** \- a short section of a research paper that outlines if, when, and how any related data can be accessed. 
+**Data availability statement** \- A short section of a research paper that outlines if, when, and how any related data can be accessed. 
 
 **Data repository** is a platform that facilitates the preservation, organization, and discovery of research data. 
 
@@ -379,8 +372,11 @@ It should be!
 
 ## Further Reading
 
+Altman, M., Borgman, C., Crosas, M., & Matone, M. (2015). An introduction to the joint principles for data citation. Bulletin of the Association for Information Science and Technology, 41(3), 43–45. https://doi.org/10.1002/bult.2015.1720410313
 
+Ceci, S. J., & Walker, E. (1983). Private archives and public needs. American Psychologist, 38(4), 414–423. https://doi.org/10.1037/0003-066X.38.4.414
 
+Siekevitz, P. (1957). Powerhouse of the Cell. Scientific American, 197(1), 131–144. https://doi.org/10.1038/scientificamerican0757-131
 
 ## Footnotes
 
@@ -394,7 +390,7 @@ It should be!
 
 [^5]:  Buckheit, J. B., & Donoho, D. L. (1995). WaveLab and Reproducible Research. In A. Antoniadis & G. Oppenheim (Eds.), *Wavelets and Statistics* (Vol. 103, pp. 55–81). Springer New York. [https://doi.org/10.1007/978-1-4612-2544-7\_5](https://doi.org/10.1007/978-1-4612-2544-7_5)
 
-[^6]:  For a take on all this that involves a proposition to trade raw data for a “a summary of employment opportunities in your area”, see Craig, J. R., & Reese, S. C. (1973). Retention of raw data: A problem revisited. *American Psychologist*, *28*(8), 723–723. [https://doi.org/10.1037/h0035667](https://doi.org/10.1037/h0035667)
+[^6]: Data sharing has been discussed in the scholarly literature for _at least_ half a century, but for an amusing take on all this that involves a proposition to trade raw data for a “a summary of employment opportunities in your area”, see Craig, J. R., & Reese, S. C. (1973). Retention of raw data: A problem revisited. *American Psychologist*, *28*(8), 723–723. [https://doi.org/10.1037/h0035667](https://doi.org/10.1037/h0035667)
 
 [^7]:  [ICMJE Defining the Role of Authors and Contributors](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html)
 
