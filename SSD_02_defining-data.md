@@ -1,6 +1,6 @@
 # Defining Research Data
 
-| [Last Chapter - Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning) |
+|[Last Chapter - Understanding Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data)|[Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/)|[Next Chapter - Planning for Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_03_Planning)|
 
 ## Chapter Summary
 
@@ -8,9 +8,7 @@ Data is more than just an individual file or set of measurements. This chapter d
 
 This chapter is built on the principle that effective data management requires research data to be defined thoroughly and broadly.
 
-| [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice) | ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough) |
-<br/>
-<br/>
+|[Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice)| ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough)|
 
 || **Key Points for this Chapter** |
 | :---- | :---- |
@@ -18,7 +16,6 @@ This chapter is built on the principle that effective data management requires r
 | 2\. | Research data is more than just individual objects or files. All the information, materials, and documentation needed trace a research workflow count as data. |
 | 3\. | An individual researcher (probably) does not own the data they work with, but they (probably) have a lot of related rights and responsibilities. |
 | 4\. | Taking care of data also means considering where it comes from and what it will be used for, not just within a given research project but also within the broader context of power and self determination. |
-<br/>
 
 ## 2.1. What is Research Data?
 
