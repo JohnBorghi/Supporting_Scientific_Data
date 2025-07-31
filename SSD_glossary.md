@@ -10,6 +10,8 @@
 
 **Cloud Storage** - A system in which digital data is stored remotely rather than on a local storage medium.
 
+**Data Availability Statement** - A short section of a research paper that outlines if, when, and how any related data can be accessed.
+
 **Data Dictionary** - A document that describes the contents and structure of a dataset.
 
 **Data Management** \- Strategies and practices related to the storage, organization, and description of research data. The focus of data research data management is ensuring accessibility, reliability, and quality. As a shorthand, it can be useful to think about data management as processes related to ensuring that data is usable.
@@ -59,6 +61,8 @@
 
 **Lab Notebook** - A formal record of the research process. In the context of data management, lab notebooks are a form of contemporaneous documentation.
 
+**License Stacking** - A complex situation in which the reuse of a dataset (e.g. combining one dataset with another), can lead to more and more restrictions on future use.
+
 **Lossiness** - The degree to which information is lost when information is encoded into a particular file type. “Lossy” compression involves the removal of information (and thus decreases the fidelity of the information) while “lossless” compression does not. 
 
 **Metadata** - Refers to information that facilitates the interpretation and/or use of research data. Can refer to formal metadata schemas (e.g. standardized ontologies) or to related documentation (data dictionaries, codebooks, protocols, etc).
@@ -70,6 +74,10 @@
 **Openness** - The degree to which the way a file type encodes information in a manner that is secret or restricted. Proprietary file formats typically can only be opened and used with specific software tools. In contrast, open (non-proprietary) file formats are unrestricted and free to use.
 
 **Open Science** \- An umbrella term for a variety of efforts aimed at making scientific research more transparent and accessible. In this guide, we are mostly focused on activities related to the outputs of the research process (datasets, code, etc), but the term also encompasses efforts to ensure that the scientific enterprise is inclusive and equitable.
+
+**Persistent Identifier** - A digital identifier that permanently and unambiguously identifies a digital object or an individual.
+
+**Public Domain** - Describes circumstances when works are not protected by copyright and can be freely used, shared, or adapted by anyone.
 
 **ReadMe** - A simple text document that lays out how a user can find and use the file they are looking for.
 
