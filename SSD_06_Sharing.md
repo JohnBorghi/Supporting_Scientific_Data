@@ -263,7 +263,7 @@ Choosing the most appropriate repository is no small challenge. As described in 
 
 None of these is “better” than the other and \- very often \- it makes sense for the data from a single research project to be distributed over several different repositories. But, for general guidance about where to deposit research data for the purposes of sharing, see **Figure 6.1.** 
 
-| <img width="600" src="https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjE2M2FscDRlLzUxNjU1MzAzOTE5MjM2LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" />|
+| <img width="400" alt="Image" src="https://github.com/user-attachments/assets/9763ec10-4398-43b2-95ce-4d6bcec3e37f" />|
 | ----- |
 | **Figure 6.1. Choosing a data repository** Guidance for researchers when choosing the best repository for their data. From [Borghi and Van Gulick, 2022](https://doi.org/10.1162/99608f92.9497f68e)|
 
