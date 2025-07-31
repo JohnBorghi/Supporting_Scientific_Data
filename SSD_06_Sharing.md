@@ -265,7 +265,7 @@ None of these is “better” than the other and \- very often \- it makes sense
 
 | <img width="600" src="https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjE2M2FscDRlLzUxNjU1MzAzOTE5MjM2LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" />|
 | ----- |
-| **Figure 6.1. Choosing a data repository** Guidance for researchers when choosing the best repository for their data. From [Borghi and Van Gulick, 2022]((https://doi.org/10.1162/99608f92.9497f68e))|
+| **Figure 6.1. Choosing a data repository** Guidance for researchers when choosing the best repository for their data. From [Borghi and Van Gulick, 2022](https://doi.org/10.1162/99608f92.9497f68e)|
 
 Even with the above flowchart, choosing the right repository can be a challenge. There are a an ever increasing number of specialized and institutional repositories. Certain disciplinary communities may even prefer one generalist repository over another (e.g. the Open Science Framework versus Dryad). Tools such as Registry of Research Data Repositories (Re3Data) can be helpful. But, when in doubt, look at where other members of the research community are sharing and choose the repository or repositories that work best for you and your data.
 
