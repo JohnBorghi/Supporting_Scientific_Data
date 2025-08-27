@@ -1,5 +1,9 @@
 # Monitoring and Auditing
 
+| [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data) | [Next Chapter - Defining Research Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_02_defining-data) |
+
+## Chapter Summary
+
 Data management is a continuous process. This section covers methods for ensuring that you (and your collaborators) are staying ahead of evolving expectations and requirements.
 
 |  | Key Points in this chapter |
@@ -8,7 +12,7 @@ Data management is a continuous process. This section covers methods for ensurin
 | 2\. | Data auditing involves conducting a comprehensive assessment of all data-related activities to ensure that they are being followed in line with a research group’s standard operating procedures. Auditing can also be used to identify gaps and areas where current SOPs are insufficient or no longer work. |
 | 3\. | A data management audit can occur retrospectively or prospectively. A retrospective audit involves starting with the final publication describing a set of research findings and working backwards to see what data, documentation, and other materials remain accessible. A prospective data audit involves checking in on data management practices during the course of a research project. |
 
-\#\# 7.1. Checking Your Work
+## 7.1. Checking Your Work
 
 When it comes to data management, it is important to check your work.
 
@@ -49,7 +53,6 @@ Ensuring data is high quality involves several tightly related processes.
 * **Quality control (QC)** refers to proactive efforts taken to ensure data quality.  
 * **Quality assurance (QA)** refers to detection of problems that have already occurred.
 
-
 This distinction is somewhat artificial, but **monitoring** ensures that the data management policies and procedures are in place and are being followed. Monitoring of data management activities should be routine and continuous. In contract, **auditing** is a process through which a team determines whether the monitoring program is operating as it should and that data-related policies are adequate and effective. Auditing often involves an outside party (i.e. individuals not on the research team). Because of the time and effort involved, audits are typically only done periodically.
 
 One of the major complications for monitoring and auditing a team’s data management practices is that different types of data, different types of projects, and different research contexts will be associated with different expectations and requirements. 
@@ -66,7 +69,7 @@ Much of this can be dealt with through thorough [planning](https://johnborghi.gi
 
 This is not to say that anyone involved in a research project is exhibiting anything less than their absolute best efforts. But mistakes, if and when they happen, are learning opportunities. Discovering that a specific practice can be refined or needs to be changed is also a learning opportunity.
 
-\#\# 7.2. A Data Management Monitoring Toolkit
+## 7.2. A Data Management Monitoring Toolkit
 
 There is not much more to say about the need to check in on data management practices. So class ends a little early today…
 
@@ -78,7 +81,7 @@ To help research teams get started in checking their work in regards to data man
 
 One final note though: Depending on the circumstances monitoring and auditing data management practices may be a rather sensitive affair. Quality assurance and quality control are, of course, absolutely foundational to the scientific research enterprise. Checking to ensure that a practice is being implemented properly is not a critique of a research team or its members. Along the same lines, determining that a different practice may work better than an existing one is not a critique of the person who set up the data management system in the first place.  Remember, scientists are human, data management is a human process, and everyone is still learning.
 
-Table 7.2. A Toolkit for Monitoring and Auditing Data Management
+**Table 7.2.** A Toolkit for Monitoring and Auditing Data Management
 
 | Tool | Intended User | Description |
 | :---- | :---- | :---- |
@@ -97,6 +100,10 @@ Definitions:
 **Monitoring (Data Management)** \- A routine and continuous process designed to check that data management practices are being implemented according to standard operating procedures. Is typically less involved than a full audit and involves members of the research team.
 
 **Quality Assurance/Quality Control (QA/QC)** \- Retrospective and prospective efforts to assure data quality. The terms are often used interchangeably.
+
+
+
+
 
 ### Data Accessibility Checklist
 
