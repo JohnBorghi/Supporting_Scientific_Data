@@ -82,11 +82,11 @@ This is not to say that anyone involved in a research project is exhibiting anyt
 
 ## 7.2. A Data Management Monitoring Toolkit
 
-There is not much more to say about the need to check in on data management practices. So class ends a little early today…
+There is not much more that can be presented didactically about monitoring and auditing data management practices. So class ends a little early today…
 
 Just kidding.
 
-Unlike other chapters where they are supplementary, this time around the checklists and worksheets are the main event. The whole point of monitoring and auditing data management practices is the implementation. 
+Unlike other chapters where there are supplementary, this time around the checklists and worksheets are the main event. The whole point of monitoring and auditing data management practices is the implementation. 
 
 To help research teams get started in checking their work in regards to data management, a suite of new materials are presented in **Table 7.2.**. From a thorough breakdown of the activities within a specific research project to a more general evaluation of a group’s data management practices, these tools cover data management at several different levels. Also included is a roles and responsibilities checklist, which is presented to help explicate who is responsible for a given data management-related activity and how often such activities are verified. All of these materials are intended to apply broadly, across many research areas. But one tool may be more useful to a research team than another. As always, they are intended as a starting point and can be used, adapted, and discarded as necessary.
 
