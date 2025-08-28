@@ -4,7 +4,7 @@
 
 ## Chapter Summary
 
-Data management is a continuous process. This section covers methods for ensuring that you (and your collaborators) are checking your work and staying ahead of evolving expectations and requirements.
+Data management is an iterative and continuous process. This chapter covers methods for ensuring that everyone involved is staying on track and ahead of evolving expectations and requirements.
 
 This chapter is build around the principle that data management is a set of practices and strategies, not a set of tools.	
 
@@ -19,7 +19,6 @@ This chapter is build around the principle that data management is a set of prac
 | **Supplementary Materials for this Chapter** |
 | :---- |
 |Way too many to list here. See **Table 7.2.** at the end of the chapter!|
-
 
 
 ## 7.1. Checking Your Work
@@ -79,7 +78,7 @@ Much of this can be dealt with through thorough [planning](https://johnborghi.gi
 
 This is not to say that anyone involved in a research project is exhibiting anything less than their absolute best efforts. But mistakes, if and when they happen, are learning opportunities. Discovering that a specific practice can be refined or needs to be changed is also a learning opportunity.
 
-## 7.2. A Data Management Toolkit
+## 7.2. Staying on Track
 
 There is not much more that can be presented didactically about monitoring and auditing data management practices. So class ends a little early today…
 
@@ -91,7 +90,7 @@ To help research teams check their work in regards to data management, a suite o
 
 **Using the toolkit:**
 
-The materials in this toolkit are intended to allow a research team to check in on their data management practices in a way that works best for them. Team members are free to pick and choose which tools work best for them. The idea is less to demonstrate that a group is particularly "good" or "bad" at data management. But rather to equip researchers with ways of thinking about how they can support their data.
+The materials in this toolkit are intended to allow a research team to check in on their data management practices in a way that works best for them. Team members are free to pick and choose which tools work best for them. The idea is less to demonstrate that a group is particularly "good" or "bad" at data management. But rather to equip researchers with ways of thinking about how they can support their data. These materials can be deployed at any time, but are most useful when there is still room to adjust strategies and practices. Often that is closer to the beginning of a project than the end.
 
 One final note: Depending on the circumstances monitoring and auditing data management practices may be a rather sensitive affair. Quality assurance and quality control are, of course, absolutely foundational to the scientific research enterprise. Checking to ensure that a practice is being implemented properly is not a critique of a research team or its members. Along the same lines, determining that a different practice may work better than an existing one is not a critique of the person who set up the data management system in the first place.  Remember, scientists are human, data management is a human process, and everyone is still learning.
 
