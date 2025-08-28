@@ -4,6 +4,8 @@
 
 **Archival Storage** - Refers to methods and media used to store data that is not needed day-to-day. The goal of archival storage is long-term preservation.
 
+**Audit (Data Management)** - An exercise designed to ensure that data management practices are being implemented properly. Is typically very involved and may not involve members of the research team.
+
 **Backup Storage** - Refers to methods and media used to store *copies* of data that can be used to restore the original if (or when) data loss occurs. The goal of backup data storage is redundancy.
 
 **Bit Rot** - Broadly refers to the gradual degradation of the integrity of stored data. This is largely caused by wear and tear on storage media. 
@@ -36,7 +38,7 @@
 
 **Data Use Agreement** - A contractual agreement that establishes who is permitted to use and a dataset, the permitted uses of the dataset, as well as the responsibilities of the users of the dataset. The most typical consideration of a DUA is the protection of protected health data, but such agreements can be used in a variety of situations where the exchange of data is necessary.
 
-**Directory (e.g. File Folder)** - A structure that contains computer files and possibly other directories.
+**Directory (File Folder)** - A structure that contains computer files and possibly other directories.
 
 **Documentation** - Recorded information that is used to describe or explain something.
 
@@ -54,7 +56,6 @@
 **File Format** -Standardized ways in which information is encoded to be stored in a computer file. Think .XLSX, .CSV, etc.
 
 **File fixity** - The process of ensuring that a digital file in an archive has remained unchanged at the bit level.  
-
 **Good Data Management Practice \-** A way of thinking about the support of research data in the context of twenty-first century science. Includes ten principles related to how data should be defined and how data management should be incorporated into research processes and workflows.
 
 **Good Documentation Practice** - A set of guidelines drawn from the pharmaceutical and manufactoring industries outlining how to maintain effective documentation.
@@ -69,6 +70,8 @@
 
 **Metadata Schema** - A set of rules that are used to structure and describe metadata. A metadata schema defines metadata elements, what they mean, how they relate, and how they should be used.
 
+**Monitoring (Data Management)** - A routine and continuous process designed to check that data management practices are being implemented according to standard operating procedures. Is typically less involved than a full audit and involves members of the research team.
+
 **Obsolescence** - Refers to an inability to access digital data because the needed hardware or software are no longer available.
 
 **Openness** - The degree to which the way a file type encodes information in a manner that is secret or restricted. Proprietary file formats typically can only be opened and used with specific software tools. In contrast, open (non-proprietary) file formats are unrestricted and free to use.
@@ -78,6 +81,8 @@
 **Persistent Identifier** - A digital identifier that permanently and unambiguously identifies a digital object or an individual.
 
 **Public Domain** - Describes circumstances when works are not protected by copyright and can be freely used, shared, or adapted by anyone.
+
+**Quality Assurance/Quality Control (QA/QC)** - Retrospective and prospective efforts to assure data quality. The terms are often used interchangeably.
 
 **ReadMe** - A simple text document that lays out how a user can find and use the file they are looking for.
 
