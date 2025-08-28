@@ -1,11 +1,10 @@
 # Monitoring and Auditing
 
-| [Last Chapter - Sharing Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_06_Sharing)) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
-
+| [Last Chapter - Sharing Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_06_Sharing) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
 
 ## Chapter Summary
 
-Data management is a continuous process. This section covers methods for ensuring that you (and your collaborators) are staying ahead of evolving expectations and requirements.
+Data management is a continuous process. This section covers methods for ensuring that you (and your collaborators) are checking your work and staying ahead of evolving expectations and requirements.
 
 This chapter is build around the principle that data management is a set of practices and strategies, not a set of tools.	
 
@@ -80,17 +79,21 @@ Much of this can be dealt with through thorough [planning](https://johnborghi.gi
 
 This is not to say that anyone involved in a research project is exhibiting anything less than their absolute best efforts. But mistakes, if and when they happen, are learning opportunities. Discovering that a specific practice can be refined or needs to be changed is also a learning opportunity.
 
-## 7.2. A Data Management Monitoring Toolkit
+## 7.2. A Data Management Toolkit
 
 There is not much more that can be presented didactically about monitoring and auditing data management practices. So class ends a little early today…
 
 Just kidding.
 
-Unlike other chapters where there are supplementary, this time around the checklists and worksheets are the main event. The whole point of monitoring and auditing data management practices is the implementation. 
+Unlike other chapters where there are supplementary checklists and worksheets (and recipes?!) that complement the main text, this time around the checklists and worksheets are the main event. The whole point of monitoring and auditing data management practices is the implementation. 
 
-To help research teams get started in checking their work in regards to data management, a suite of new materials are presented in **Table 7.2.**. From a thorough breakdown of the activities within a specific research project to a more general evaluation of a group’s data management practices, these tools cover data management at several different levels. Also included is a roles and responsibilities checklist, which is presented to help explicate who is responsible for a given data management-related activity and how often such activities are verified. All of these materials are intended to apply broadly, across many research areas. But one tool may be more useful to a research team than another. As always, they are intended as a starting point and can be used, adapted, and discarded as necessary.
+To help research teams check their work in regards to data management, a suite of new materials are presented in **Table 7.2.**. From a thorough breakdown of the activities within a specific research project to a more general evaluation of a group’s data management practices, these tools cover data management at several different levels. Also included is a roles and responsibilities checklist, which is presented to help explicate who is responsible for a given data management-related activity and how often such activities are verified. All of these materials are intended to apply broadly, across many research areas. But one tool may be more useful to a research team than another. As always, they are intended as a starting point and can be used, adapted, and discarded as necessary.
 
-One final note though: Depending on the circumstances monitoring and auditing data management practices may be a rather sensitive affair. Quality assurance and quality control are, of course, absolutely foundational to the scientific research enterprise. Checking to ensure that a practice is being implemented properly is not a critique of a research team or its members. Along the same lines, determining that a different practice may work better than an existing one is not a critique of the person who set up the data management system in the first place.  Remember, scientists are human, data management is a human process, and everyone is still learning.
+**Using the toolkit:**
+
+The materials in this toolkit are intended to allow a research team to check in on their data management practices in a way that works best for them. Team members are free to pick and choose which tools work best for them. The idea is less to demonstrate that a group is particularly "good" or "bad" at data management. But rather to equip researchers with ways of thinking about how they can support their data.
+
+One final note: Depending on the circumstances monitoring and auditing data management practices may be a rather sensitive affair. Quality assurance and quality control are, of course, absolutely foundational to the scientific research enterprise. Checking to ensure that a practice is being implemented properly is not a critique of a research team or its members. Along the same lines, determining that a different practice may work better than an existing one is not a critique of the person who set up the data management system in the first place.  Remember, scientists are human, data management is a human process, and everyone is still learning.
 
 **Table 7.2. A Toolkit for Monitoring and Auditing Data Management**
 
