@@ -12,7 +12,7 @@ This chapter is built on the principle that all data must be managed, but not al
 
 | | **Key Points for this Chapter** |
 | :---- | :---- |
-| 1\. | Certain types of data require special consideration and treatment. In research involving human subjects, their privacy and confidentiality must be centered at all times. |
+| 1\. | Certain types of data require special consideration and treatment. For example, in research involving human subjects, issues privacy and confidentiality must be centered at all times. |
 | 2\. | 1 |
 | 3\. | 2 |
 | 4\. | 3 |
