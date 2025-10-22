@@ -31,13 +31,9 @@ Latanya Sweeney, then a computer science PhD student, requests the GIC data and 
 
 The year is 2023, National Transportation Safety Board releases its report on the implosion of Titan submersible. Part of this investigation involved interviewing an outside expert. In the publicly available transcript of this interview, the expert's name is redacted. However, using some very subtle context clues the expert's identity can be uncovered from their very first response.
 
- > **Question:** So how did you get yourself started into submersible operations?
+ > **Question:** "So how did you get yourself started into submersible operations?"
  > 
- > **Answer:** Well, I'm sure you're familiar with my film _Titanic_.
- > 
- > _At the end of his very lengthy response, the "anonymous" expert also states..._
- > 
- > **Answer:** "I had been an avid diver since I was in my teens and I made a film called _The Abyss_ in 1988 which was released in 1989."
+ > **Answer:** "Well, I'm sure you're familiar with my film _Titanic_." ... "I had been an avid diver since I was in my teens and I made a film called _The Abyss_ in 1988 which was released in 1989."
 
 [The full report can be read here.](https://media.defense.gov/2025/Sep/17/2003800984/-1/-1/0/CG-115_INTERVIEW-DEEP-SEA-EXPLORER_REDACTED.PDF)
 
