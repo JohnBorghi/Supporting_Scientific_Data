@@ -1,12 +1,15 @@
-### Before you get started in earnest…
 
-This guide has its roots in an *Introduction to Research Data Management* workshop that is regularly taught at Stanford Medicine. That workshop is designed to be standalone, briskly paced, and largely didactic. While such a workshop can cover certain concepts and terms, managing scientific data effectively is not a process that can be covered or implemented just once. 
+## What the heck is this?
+
+The _Supporting Scientific Data Guide_ is a set of informational chapters and resources developed to help scientific researchers with research data management. If there's anything like a formal statement of purpose to the recipes, Taylor Swift quotes, and file naming tips that lay ahead it would be "To facilitate scientific research through the advancement of data quality, usability, and provenance." But that's a bit too much jargon so early on. If research data is what supports research results, this guide is about supprting the data. This guide is about building and maintaining strong foundations on which to build research programs.
+
+## Before you get started in earnest…
+
+This guide has its roots in an *Introduction to Research Data Management* workshop that is regularly taught at Stanford School of Medicine. That workshop is designed to be standalone, briskly paced, and largely didactic. While such a workshop can cover certain concepts and terms, managing scientific data effectively is not a process that can be covered or implemented just once. 
 
 This guide aims to be *descriptive* \- outlining major concepts and practices related to data management in a way that is digestible to biomedical researchers. More prescriptive recommendations and requirements largely come from three sources: the institution where the research is taking place, organizations that provide research funding, and the research community itself. Policies and requirements from these entities will be discussed when relevant, but these requirements should not be an end to considerations related to data management, they should be a beginning. 
 
-Data management should be an integral part of the day-to-day work of conducting research.
-
-This guide also aims to provide information that is *actionable*, the following sections include a variety of exercises, thought experiments, tools, and links to additional resources to further develop data management and sharing-related practices. Over and over, these chapters will return to a concept creatively named Good Data Management Practice, but will remain largely tool agnostic. Though there may be mention of specific data-related tools and platforms, the focus will be on behaviors. 
+This guide also aims to provide information that is *actionable*, the following sections include a variety of exercises, thought experiments, tools, and links to additional resources to further develop data management and sharing-related practices. Over and over, these chapters will return to a concept creatively named *Good Data Management Practic*e, but will remain largely tool agnostic. Though there may be mention of specific data-related tools and platforms, the focus will be on behaviors. 
 
 Spoiler alert: There are more than a few worksheets and checklists ahead.
 
