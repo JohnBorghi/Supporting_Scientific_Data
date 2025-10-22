@@ -23,7 +23,7 @@ In reading, keep in mind that data management is not an all or nothing endeavor.
 
 For these reasons, this guide is intended to be a living document, updated over time and in response to feedback. But, because we are all only human, it cannot possibly cover every strategy and practice related to managing the multifarious types of data involved in biomedical research.
 
-##Finally a few notes on terminology.
+## Finally a few notes on terminology.
 
 These modules follow a very inclusive definition of the term **researcher**. Professors, postdocs, and graduate students working on research projects are researchers, so are the lab techs, research assistants, staff, and other professionals who work alongside them. For somewhat related reasons, the term **data** is typically used as a singular mass noun (“data is”) rather than as a plural of datum (“data are”). 
 
