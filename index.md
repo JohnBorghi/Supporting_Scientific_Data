@@ -10,6 +10,8 @@ When complete, this guide will consist of approximately 10 chapters. Below are t
 
 For the moment, even publicly available versions of all this are quite drafty. So please don’t hesitate to reach out with comments, suggestions, questions, and recriminations.
 
+For more on the intention and origin of this guide, check out the [Notes from the Author](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_notes-from-author)
+
 ---
 
 | Chapter | Description |
@@ -25,7 +27,7 @@ For the moment, even publicly available versions of all this are quite drafty. S
 |Software and code|Code is not data but code is (kind of) like data. This section deals with the management of code, scripts, and other computational tools. (Coming soon!)|
 |“Good Enough”|This is not a guide on how to conduct research, but data management is foundational to supporting research findings. This section bridges the gap. (Coming soon!)|
 
-| [Notes from the Author](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_notes-from-author) | [Glossary](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_glossary) | [Supplementary Materials](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_Supplements) |
+| [Glossary](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_glossary) | [Supplementary Materials](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_Supplements) |
 
 ---
 
