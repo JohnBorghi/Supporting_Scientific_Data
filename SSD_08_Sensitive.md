@@ -12,14 +12,13 @@ This chapter is built on the principle that all data must be managed, but not al
 
 | | **Key Points for this Chapter** |
 | :---- | :---- |
-| 1\. | Certain types of data require special consideration and treatment. For example, in research involving human subjects, issues privacy and confidentiality must be centered at all times. |
-| 2\. | 1 |
-| 3\. | 2 |
-| 4\. | 3 |
+| 1\. | Certain types of data require special consideration and treatment. For example, in research involving human subjects, issues related to privacy and confidentiality must be centered at all times. |
+| 2\. | Managing sensitive data means managing risk. Managing risk involves using the appropriate platforms and tools, implementing appropriate practices, and understanding relevant agreements and contracts. |
+| 3\. | Deidentification is a moving target and can be substantially more difficult than simply removing direct identifiers such the names of human research participants. |
 
 ## 8.1. Setting the stage for sensitive data
 
-Let's start with a pair of examples:
+Let's start with a pair of examples of senstivie data in the wild:
 
 **Example 1: Identifying the Governor**
 
@@ -29,7 +28,7 @@ Latanya Sweeney, then a computer science PhD student, requests the GIC data and 
 
 **Example 2: Identifying the Director**
 
-The year is 2023, National Transportation Safety Board releases its report on the implosion of Titan submersible. Part of this investigation involved interviewing an outside expert. In the publicly available transcript of this interview, the expert's name is redacted. However, using some very subtle context clues the expert's identity can be uncovered from their very first response.
+The year is 2023, the National Transportation Safety Board releases its report on the implosion of Titan submersible. Part of this investigation involved interviewing an outside expert in submarines. In the publicly available transcript of this interview, the expert's name is redacted. However, using some very subtle context clues, the expert's identity can be determined from their response to the very first question.
 
  > **Question:** "So how did you get yourself started into submersible operations?"
  > 
@@ -37,17 +36,21 @@ The year is 2023, National Transportation Safety Board releases its report on th
 
 [The full report can be read here.](https://media.defense.gov/2025/Sep/17/2003800984/-1/-1/0/CG-115_INTERVIEW-DEEP-SEA-EXPLORER_REDACTED.PDF)
 
-## 3.2. What is sensitive research data?
+## 8.2. What is sensitive research data?
 
-Scientific data does not exist in a vacuum. Like the scientific research enterprise itself, data lies at the intersection of all manner of social and ethical considerations. As evidenced by the introductory anecdote, this chapter mainly focuses on issues related to **human subjects data** \- data from a living individual about whom an investigator is conducting research \- but consider the following situations:
+Scientific data does not exist in a vacuum. Like the scientific research enterprise itself, data lies at the intersection of all manner of social and ethical considerations. As a result, some data requires special consideration and treatment.
 
-* A research team is studying an endangered species (plant or animal). For the species to continue surviving, their location must be protected.  
-* A research team is doing work involving classified information or trade secrets from a commercial partner. In order to access the data, the team had to sign a data use agreement restricting who can access it and for what purpose.  
-* A research team is working with a set of data that they acquired after signing a data use agreement which stipulates who can access the data and what they can use it for.
+As evidenced by the introductory anecdote, this chapter mainly focuses on issues related to **human subjects data** \- data from a living individual about whom an investigator is conducting research \- but consider the following situations:
 
-**Sensitive data** refers to data that must be protected against unauthorized access and use. As will soon be evident, *unauthorized* is doing quite a bit of work in this definition.
+* A research team is studying an endangered species (plant or animal). For the species to continue surviving, their location must be protected.
+* A researcher is interested in surveying their fellow students about an extremely delicate issue. Collecting related information not only places potential research participants at risk, but a degree of risk may extend to the researcher themselves and the institution with which they are affiliated.
+* A research team is working with a dataset that contains classified information or trade secrets from a commercial partner. In order to access the data, the team has to sign a data use agreement restricting who can access it and for what purpose.  
 
-Properly managing sensitive data requires navigating intersecting technical and regulatory requirements. This chapter will also cover forms of sensitive data encountered by researchers working with data from cell lines, tissues, animal models and other sources. But to begin a deeper dive into the world of sensitive data, we will begin with a discussion of research involving human subjects.
+These situations illustrate provide different perspectives on the same issue: **Sensitive data** refers to data that must be protected against unauthorized access and use. As will soon be evident, *unauthorized* is doing quite a bit of work in this definition. Of course, the sensitivity of the data in each of these examples does not (necessarily) mean that the related research should not be done. But it does mean that the data in question will require some special considerations and treatment.
+
+This chapter deals mostly with the definition of sensitive data and the general strategies for how it can be managed. Sorry, but for a deep dive into the application of k-anonymity [1], look elsewhere. The reasons for this are twofold. First, this area is changing rapidly with new with the development technologies, regulations, and expectations. Second, sensitive data in a tabular form (e.g. an Excel spreadsheet containing private information from human subjects) is not quite the same thing as sensitive data in images (e.g. MRI images that need to be "de-faced") and other formats. 
+
+But, for all types of sensitive data, proper management requires navigating intersecting technical and regulatory requirements. The general topics covered in this chapter will largely be discussed in terms of maintaining the privacy and confidentiality of human subjects. But they will also apply to sensitive data data from cell lines, tissues, animal models and other sources. 
 
 In the United States, the federal government defines **research** as “systematic investigation, including research development, testing and evaluation, designed to develop or contribute to generalizable knowledge.” This definition may seem a little rudimentary, but sensitive data is an area in which key terms have very precise definitions. To this end, a **human subject** is an “individual who is or becomes a participant in research, either as a recipient of the test article or as a control.”
 
@@ -264,6 +267,8 @@ This definition is intentionally narrow for regulatory purposes, and does not me
 
 **Right to be forgotten.**
 
-[^1]:  This is getting progressively easier with advances in AI and machine learning. See: Rocher, L., Hendrickx, J. M., & De Montjoye, Y.-A. (2019). Estimating the success of re-identifications in incomplete datasets using generative models. *Nature Communications*, *10*(1), 3069\. [https://doi.org/10.1038/s41467-019-10933-3](https://doi.org/10.1038/s41467-019-10933-3)
+[^1]: See Sweeney, L. (2002). K-Anonymity: A model for protecting privacy]. *International Journal on Uncertainty, Fuzziness and Knowledge-based Systems, 10.5*, 557-570. [https://doi.org/10.1142/S0218488502001648](https://doi.org/10.1142/S0218488502001648)
 
-[^2]:  Since leaving the European Union, the United Kingdom has retained the provisions of GDPR in legislation called UK-GDPR.
+[^2]:  This is getting progressively easier with advances in AI and machine learning. See: Rocher, L., Hendrickx, J. M., & De Montjoye, Y.-A. (2019). Estimating the success of re-identifications in incomplete datasets using generative models. *Nature Communications*, *10*(1), 3069\. [https://doi.org/10.1038/s41467-019-10933-3](https://doi.org/10.1038/s41467-019-10933-3)
+
+[^3]:  Since leaving the European Union, the United Kingdom has retained the provisions of GDPR in legislation called UK-GDPR.
