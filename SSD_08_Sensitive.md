@@ -16,7 +16,7 @@ This chapter is built on the principle that all data must be managed, but not al
 | 2\. | Managing sensitive data means managing risk. Managing risk involves using the appropriate platforms and tools, implementing appropriate practices, and understanding relevant agreements and contracts. |
 | 3\. | Deidentification is a moving target and can be substantially more difficult than simply removing direct identifiers such the names of human research participants. |
 
-## 8.1. Setting the stage for sensitive data
+## 8.1. Defining Sensitive Data
 
 Let's start with a pair of examples of senstivie data in the wild:
 
@@ -28,19 +28,15 @@ Latanya Sweeney, then a computer science PhD student, requests the GIC data and 
 
 **Example 2: Identifying the Director**
 
-The year is 2023, the National Transportation Safety Board releases its report on the implosion of Titan submersible. Part of this investigation involved interviewing an outside expert in submarines. In the publicly available transcript of this interview, the expert's name is redacted. However, using some very subtle context clues, the expert's identity can be determined from their response to the very first question.
+The year is 2023, the National Transportation Safety Board releases [its report on the implosion of Titan submersible](https://media.defense.gov/2025/Sep/17/2003800984/-1/-1/0/CG-115_INTERVIEW-DEEP-SEA-EXPLORER_REDACTED.PDF). Part of this investigation involved interviewing an outside expert in submarines. In the publicly available transcript of this interview, the expert's name is redacted. However, using some very subtle context clues, the expert's identity can be determined from their response to the very first question.
 
  > **Question:** "So how did you get yourself started into submersible operations?"
  > 
  > **Answer:** "Well, I'm sure you're familiar with my film _Titanic_." ... "I had been an avid diver since I was in my teens and I made a film called _The Abyss_ in 1988 which was released in 1989."
 
-[The full report can be read here.](https://media.defense.gov/2025/Sep/17/2003800984/-1/-1/0/CG-115_INTERVIEW-DEEP-SEA-EXPLORER_REDACTED.PDF)
-
-## 8.2. What is sensitive research data?
-
 Scientific data does not exist in a vacuum. Like the scientific research enterprise itself, data lies at the intersection of all manner of social and ethical considerations. As a result, some data requires special consideration and treatment.
 
-As evidenced by the introductory anecdote, this chapter mainly focuses on issues related to **human subjects data** \- data from a living individual about whom an investigator is conducting research \- but consider the following situations:
+As evidenced by the introductory anecdotes, this chapter mainly focuses on issues related to **human subjects data** \- data from a living individual about whom an investigator is conducting research \- but consider the following situations:
 
 * A research team is studying an endangered species (plant or animal). For the species to continue surviving, their location must be protected.
 * A researcher is interested in surveying their fellow students about an extremely delicate issue. Collecting related information not only places potential research participants at risk, but a degree of risk may extend to the researcher themselves and the institution with which they are affiliated.
@@ -52,6 +48,12 @@ This chapter deals mostly with the definition of sensitive data and the general 
 
 But, for all types of sensitive data, proper management requires navigating intersecting technical and regulatory requirements. The general topics covered in this chapter will largely be discussed in terms of maintaining the privacy and confidentiality of human subjects. But they will also apply to sensitive data data from cell lines, tissues, animal models and other sources. 
 
+### What is Insensitive Data
+
+There is no such thing. But
+
+## 8.2. Research, Human Subjects, and their Private Information
+
 In the United States, the federal government defines **research** as “systematic investigation, including research development, testing and evaluation, designed to develop or contribute to generalizable knowledge.” This definition may seem a little rudimentary, but sensitive data is an area in which key terms have very precise definitions. To this end, a **human subject** is an “individual who is or becomes a participant in research, either as a recipient of the test article or as a control.”
 
 These definitions are quoted from the Federal Policy for the Protection of Human Subjects (also called the **Common Rule**), the baseline standard of ethics for government-funded research in the United States. Regardless of funding source, most US-based institutions actually hold their researchers to the terms laid out by this policy. Core to the Common Rule are the following ethical principles, originally outlined in Belmont Report (see **Table 8.1.** below).
@@ -60,36 +62,34 @@ These definitions are quoted from the Federal Policy for the Protection of Human
 
 | Principle | Description |
 | :---- | :---- |
-| **Respect for Persons** | Incorporates at least two ethical convictions individuals should be treated as autonomous agents Persons with diminished autonomy are entitled to protection This principle encompasses concepts such as informed consent and the protection of vulnerable populations |
-| **Beneficence** | Persons are treated in an ethical manner not only by respecting their decisions and protecting them from harm, but also by making efforts to secure their well-being. This principle encompasses concepts such as minimizing risks while maximizing benefits. |
+| **Respect for Persons** | States that individuals should be treated as autonomous agents and that individuals with diminished autonomy are entitled to protection This principle encompasses concepts such as informed consent and the protection of vulnerable populations, both of which are factor into the concept of _risk_ in research data (see Section 8.3.). |
+| **Beneficence** | States that treating individuals in an ethical manner not only by includes respecting their decisions and protecting them from harm, but also working to secure their well-being. Protecting the privacy and confidentiality of human research participants arises from this principle.
 | **Justice** | Research subjects should be selected fairly and that the risks and benefits of the research should be distributed equitably. This principle encompasses concepts such as the fair distribution of burdens and benefits. |
 
 So how does all this relate to sensitive data and Good Data Management Practice?
 
-Research ethics, including the principles outlined in the Belmont Report, must be centered in all aspects of the research process. Protecting human subjects means, among other things, protecting their private information. 
+Research ethics, including the principles outlined in the Belmont Report, must be centered in all aspects of the research process. Protecting human subjects means, among other things, protecting data collected from them from unauthorized access and use. 
 
 **Private information** falls into two categories:
 
 1. Information about behavior that occurs in a context in which an individual can reasonably expect that no observation or recording is taking place.  
 2. Information which has been provided for specific purposes by an individual and which the individual can reasonably expect will not be made public.
 
-Medical records are often used as an example of private information and certainly medical records are a source of data in many research studies. But the proper management of private information is vital for any research involving human subjects. 
+Medical records are often used as an example of private information and certainly medical records are a source of data in many research studies. But, as is evident from the above definitions, private information is quite a bit broader. At this point a careful reader may be wondering how the protecting private information from human subjects squares with research data sharing. If data needs to be protected, how can it be made available for use by others? This is an ongoing discussion, but among the missing pieces is the *identifiability* of the data. 
 
-At this point a careful reader may be wondering how the protecting private information from human subjects squares with research data sharing. If data needs to be protected, how can it be made available for use by others? This is an ongoing discussion, but among the missing pieces is the *identifiability* of the data. 
+**Personally identifiable information (PII)** is information that can be used to distinguish or trace an individual’s identity, either alone or in combination with other information that is either linked or linkable to that individual. A research subject’s name is an obvious example of PII, as is information like their social security number. But less directly identifiable information can also be PII. On their own, data points like an individual’s gender identity, their zip code, and their birthday may not be enough to identify them. But, as shown in this chapter’s introductory vignette, reidentification becomes much easier with all three[^2].
 
-**Personally identifiable information (PII)** is information that can be used to distinguish or trace an individual’s identity, either alone or in combination with other information that is either linked or linkable to that individual. A research subject’s name is an obvious example of PII, as is information like their social security number. But less directly identifiable information can also be PII. On their own, data points like an individual’s gender identity, their zip code, and their birthday may not be enough to identify them. But, as shown in this chapter’s introductory vignette, reidentification becomes much easier with all three[^1].
+For biomedical research occurring in the United States, it is not uncommon for sensitive data to be discussed in terms of the **Health Insurance Portability and Accountability Act (HIPAA)**. This regulation provides national standards for the protection of certain sensitive health-related information and establishes an individual’s rights over their health data. Among provisions of HIPAA is the notion that some certain information about an individual is particularly sensitive. More specifically, HIPAA lists eighteen examples which are detailed in **Table 8.2.** below.
 
-For biomedical research occurring in the United States, it is not uncommon for sensitive data to be discussed in terms of the **Health Insurance Portability and Accountability Act (HIPAA)**. This regulation provides national standards for the protection of certain sensitive health-related information and establishes an individual’s rights over their health data. Among HIPAA’s is the notion that some information about an individual is particularly sensitive. HIPAA lists eighteen examples of such information, which are detailed in **Table 8.2.** below.
+When identifiable information is linked to information related to the health status, provision of health care, or payment for health care for an individual it can categorized as **protected health information (PHI).** PHI is broadly defined as information that can be linked to a particular person that is generated in the course of providing a health care service. PHI can be found in medical records, payment records, insurance information, clinical test results, medical images, wellness and disease management program files, clinical case notes, and many other sources of data.
 
-When identifiable information is linked to information related to the health status, provision of health care, or payment for health care for an individual it can become **protected health information (PHI).** PHI is broadly defined as information that can be linked to a particular person that is generated in the course of providing a health care service. PHI can be found in medical records, payment records, insurance information, clinical test results, medical images, wellness and disease management program files, clinical case notes, and many other sources of data.
-
-Though the identifiers listed in **Table 8.2.** are often colloquially called the HIPAA identifiers, it is important to not that this list is not meant to be exhaustive. This list provides illustrative *examples* of the information that must be removed from a record or dataset in order for it to not longer be  considered PHI. Adding to this complexity, information can also be considered PII at one point in time and then turn into PHI later, as it is linked to health-related information.
+Though the identifiers listed in **Table 8.2.** are often colloquially called the HIPAA identifiers, it is important to note that this list is not meant to be exhaustive. This list provides illustrative *examples* of the information that must be removed from a record or dataset in order for it to not longer be  considered PHI. Adding to this complexity, information can also be considered PII at one point in time and then turn into PHI later, as it is linked to health-related information.
 
 **Table 8.2. HIPAA Identifiers**
 
 |  | Identifier |
 | :---- | :---- |
-| 1 | Name |
+| 1 | Names |
 | 2\* | Address (all geographic subdivisions smaller than state, including street address, city county, and zip code). |
 | 3\* | All elements (except years) of dates related to an individual (including birthdate, admission date, discharge date, date of death, and exact age if over 89\) |
 | 4 | Telephone numbers |
@@ -139,7 +139,7 @@ This section is not meant to be comprehensive. At a given research institution, 
 
 ## 8.3. Risk and research data
 
-Thus far, this chapter has mostly focused on the sensitivity of research data in terms of 
+Thus far, this chapter has mostly described the sensitivity of research data as something of a binary- data as sensitive or data as not sensitive. But, like many binaries, the research data is more accurately described as being along a _continuum_ of sensitivity. This continuum is most often measured in terms of risk.
 
 In the context of Good Data Management Practice, **risk** is defined as the extent to which an organization or individual could be adversely affected by an event related to research data. 
 
@@ -150,7 +150,7 @@ In general, the risk of a particular event is calculated based on its likelihood
 
 Note the breadth of these definitions. Due to the mishandling of data, an individual research participant may risk their private information becoming public, a research team may risk disciplinary action or other professional consequences, a research institution may risk substantial fines and reputational damage. All of which is to say, making sense of and managing risk requires answering some fundamental questions.
 
-**Risk to Whom?**
+### Risk to Whom?
 
 The first question is **“*Risk to whom?*”** A research organization and a research participant face different forms of risk. Consider the following examples.
 
@@ -179,7 +179,7 @@ Not all of these are directly related to Good Data Management Practice, of cours
 
 But minimizing the informational and social risks to participants intersects directly with how data is saved, organized, and described.
 
-**Levels of Risk**
+### Levels of Risk
 
 Adequately addressing all of this requires answering a second question: **“What is the risk level?”** Many research organizations use risk-based categories for research data. Such categories then determine what procedures must be implemented to protect the data, including specifics about how the data must be stored and what sorts of permissions are needed for access. Organizations differ in terms of their categorizations, but generally such systems resemble something like the one presented in **Table 8.5.** Below.
 
@@ -191,7 +191,7 @@ Adequately addressing all of this requires answering a second question: **“Wha
 
 Without delving too much into the world of cybersecurity policy, there are very specific requirements for systems that deal with data that contains PHI and other forms of sensitive information (i.e. SP 800-171 in the United States).
 
-**Risk Assessment**
+### Risk Assessment
 
 When it comes to research data, researchers should not assess risk all on their own. This is not meant as a slight or a criticism.
 
@@ -205,7 +205,7 @@ Adequately protecting sensitive data is often presented as a cybersecurity probl
 
 For the purposes of Good Data Management Practices, being a cybersecurity policy expert is less important than. But, on their own, even the most sophisticated cybersecurity systems are insufficient when handling sensitive data. At the end of the day, Good Data Management Practice comes back to practices and strategies. The same is true for sensitive data.
 
-**The Practice of Safely Handling Sensitive Data**
+### Tools for Handling Sensitive Data
 
 Cybersecurity is not the whole story, it is an important part of the story. To adequately address compliance with applicable regulations (and ensure they remain on good terms with their local research administrators and information technologists) researchers should always verify that the systems they intend to use to handle data are suitable for that data. This determination should happen very early in the research process, before data is collected.
 
@@ -213,13 +213,13 @@ Very often an organization will have tools for handling low and moderate risk da
 
 With the appropriate technical systems in place, the next step is to ensure the appropriate practices are also in place. Circling back to Documentation, this is where having a robust set of standard operating procedures becomes essential.
 
-**Education, Standardization, Auditing**
+### Education, Standardization, Auditing 
 
 Anyone who has ever worked in research has probably (hopefully) had to complete some training in cybersecurity. Usually this involves learning about institutional policies and resource and some very high level do’s and don’ts: Do use secure storage platforms, don’t lose your unencrypted laptop full of high risk data. But, during the actual practice of research, research teams are, more often than not, in a position where they need to develop their own specific protocols and procedures.
 
 In addition to using the appropriate systems, adequately protecting sensitive data also requires implementing the appropriate practices. That means developing, implementing, and verifying a robust set of standard operating procedures related to management of sensitive data. As discussed in the chapter on documentation, it is also essential that these procedures be checked regularly to ensure that they are being implemented properly.
 
-**Deidentification and Anonymization**
+### Deidentification and Anonymization
 
 A common method for managing sensitive data is to reduce its risk through processes like de-identification, masking, and anonymization. These terms are defined or more precisely below, but generally refer to processes through which information is removed or changed to reduce the riskiness of a dataset.
 
@@ -230,16 +230,15 @@ A common method for managing sensitive data is to reduce its risk through proces
 * **Anonymization** – The process of removing information from a dataset in order to prevent re-identification. Sometimes is used to refer to situations in which the identifying information is permanently severed from the rest of the data.   
   * **Pseudonymization** refers to processes by which directly identifiable information is removed from a dataset, but an individual may still be identifiable by combining other information from the dataset (i.e. indirect identifiers).  
     
-
 It is important to note that there is not a universal method for ensuring deidentification or anonymization. In practice, these terms are based more on regulation than on mathematical guarantees of anonymity. To illustrate this point, here are two methods outlined by HIPAA for deidentifying a dataset.
 
 * **Safe Harbor** \- In the strictest interpretation, this requires the removal of all of the identifiers listed in table 8.1. from the dataset. A dataset that retains dates referring to a person, location information, and/or and age-related information is known as a “limited dataset” and is still considered PHI, but can be disclosed \- under certain conditions \- without a patient’s authorization.  
     
 * **Expert Determination** \- Requires the attestation from a person with appropriate knowledge and experience that accepted statistical and/or scientific principles and methods for rendering information not individually identifiable have been implemented.
 
-**Agreeing to Share Sensitive Information**
+### Agreeing to Share Sensitive Information**
 
-When it comes to sharing sensitive data, using the appropriate tools and implementing appropriate practices may not be sufficient. The third pillar is contractual \- a data use agreement 
+When it comes to sharing sensitive data, using the appropriate tools and implementing appropriate practices may not be sufficient. The third pillar is contractual \- a data use agreement.
 
 Definitions
 
