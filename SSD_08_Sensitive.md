@@ -16,7 +16,7 @@ This chapter is built on the principle that all data must be managed, but not al
 | 2\. | Managing sensitive data means managing risk. Managing risk involves using the appropriate platforms and tools, implementing appropriate practices, and understanding relevant agreements and contracts. |
 | 3\. | Deidentification is a moving target and can be substantially more difficult than simply removing direct identifiers such the names of human research participants. |
 
-## 8.1. Defining Sensitive Data
+## 8.1. Taking Care of Sensitive Research Data
 
 Let's start with a pair of examples of senstivie data in the wild:
 
@@ -34,6 +34,8 @@ The year is 2023, the National Transportation Safety Board releases [its report 
  > 
  > **Answer:** "Well, I'm sure you're familiar with my film _Titanic_." ... "I had been an avid diver since I was in my teens and I made a film called _The Abyss_ in 1988 which was released in 1989."
 
+### What is Sensitive Research Data?
+
 Scientific data does not exist in a vacuum. Like the scientific research enterprise itself, data lies at the intersection of all manner of social and ethical considerations. As a result, some data requires special consideration and treatment.
 
 As evidenced by the introductory anecdotes, this chapter mainly focuses on issues related to **human subjects data** \- data from a living individual about whom an investigator is conducting research \- but consider the following situations:
@@ -48,9 +50,11 @@ This chapter deals mostly with the definition of sensitive data and the general 
 
 But, for all types of sensitive data, proper management requires navigating intersecting technical and regulatory requirements. The general topics covered in this chapter will largely be discussed in terms of maintaining the privacy and confidentiality of human subjects. But they will also apply to sensitive data data from cell lines, tissues, animal models and other sources. 
 
-### What is Insensitive Data
+### What is Insensitive Research Data?
 
-There is no such thing. But
+Data that is mean.
+
+A lot of research data is relatively innocuous.
 
 ## 8.2. Research, Human Subjects, and their Private Information
 
