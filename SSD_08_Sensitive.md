@@ -44,7 +44,7 @@ As evidenced by the introductory anecdotes, this chapter mainly focuses on issue
 * A researcher is interested in surveying their fellow students about an extremely delicate issue. Collecting related information not only places potential research participants at risk, but a degree of risk may extend to the researcher themselves and the institution with which they are affiliated.
 * A research team is working with a dataset that contains classified information or trade secrets from a commercial partner. In order to access the data, the team has to sign a data use agreement restricting who can access it and for what purpose.  
 
-These situations illustrate provide different perspectives on the same issue: **Sensitive data** refers to data that must be protected against unauthorized access and use. As will soon be evident, *unauthorized* is doing quite a bit of work in this definition. Of course, the sensitivity of the data in each of these examples does not (necessarily) mean that the related research should not be done. But it does mean that the data in question will require some special considerations and treatment.
+These situations provide different perspectives on the same issue: **Sensitive data** is data that must be protected against unauthorized access and use. As will soon be evident, *unauthorized* is doing quite a bit of work in this definition. Of course, the sensitivity of the data in each of these examples does not (necessarily) mean that the related research should not be done. But it does mean that the data in question will require some special considerations and treatment.
 
 This chapter deals mostly with the definition of sensitive data and the general strategies for how it can be managed. Sorry, but for a deep dive into the application of k-anonymity [1], look elsewhere. The reasons for this are twofold. First, this area is changing rapidly with new with the development technologies, regulations, and expectations. Second, sensitive data in a tabular form (e.g. an Excel spreadsheet containing private information from human subjects) is not quite the same thing as sensitive data in images (e.g. MRI images that need to be "de-faced") and other formats. 
 
@@ -52,11 +52,17 @@ But, for all types of sensitive data, proper management requires navigating inte
 
 ### What is Insensitive Research Data?
 
-Data that is mean.
+Data that's mean (sorry, not sorry). 
 
-A lot of research data is relatively innocuous.
+It is not uncommon for a research team to percieve their data as being relatively innocuous. Researchers working with data from C. elegans don't need to worry about exposing the private information of thier nematodes. Researchers working with simulated data don't need to worry about accidentally revealing the health information of their AI agents. Even researchers working with human subjects data may view their work as completely benign. What harm could possibly befall a participant if their performance on a Stroop task is accidentally made public?
+
+These examples are, of course, intentionally obtuse. But even if these specific situations do not require special consideration to protect privacy, confidentiality, or safety, that does not mean that the data is not sensitive in some other way. The work with C. elegans may be related to a patent application, meaning it must be kept secret. There may similar intellecutal property concerns with the AI agents. Stroop task performance may not be particularly damaging information on its own, but if combined with other health-related information, it may become subject to regulation.
+
+All of which is to say, assessing the sensitivity of data is a task for professionals. A research team knows the contents of their data inside and out. But, when it comes to knowing the sensitivity of that data, a different set of skills and expertise is needed. This is a job for institutional review boards, information technologists, data governance professionals, and others. This will be covered in greater detail near the end of this chapter, but it is not advisable for a research team to confuct their own **data risk assessments (DRAs)** .
 
 ## 8.2. Research, Human Subjects, and their Private Information
+
+Let's define some more terms.
 
 In the United States, the federal government defines **research** as “systematic investigation, including research development, testing and evaluation, designed to develop or contribute to generalizable knowledge.” This definition may seem a little rudimentary, but sensitive data is an area in which key terms have very precise definitions. To this end, a **human subject** is an “individual who is or becomes a participant in research, either as a recipient of the test article or as a control.”
 
