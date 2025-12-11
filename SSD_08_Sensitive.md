@@ -44,9 +44,9 @@ As evidenced by the introductory anecdotes, this chapter mainly focuses on issue
 * A researcher is interested in surveying their fellow students about an extremely delicate issue. Collecting related information not only places potential research participants at risk, but a degree of risk may extend to the researcher themselves and the institution with which they are affiliated.
 * A research team is working with a dataset that contains classified information or trade secrets from a commercial partner. In order to access the data, the team has to sign a data use agreement restricting who can access it and for what purpose.  
 
-These situations provide different perspectives on the same issue: **Sensitive data** is data that must be protected against unauthorized access and use. As will soon be evident, *unauthorized* is doing quite a bit of work in this definition. Of course, the sensitivity of the data in each of these examples does not (necessarily) mean that the related research should not be done. But it does mean that the data in question will require some special considerations and treatment.
+These situations provide different perspectives on the same issue: **Sensitive data** is data that must be protected against unauthorized access and use. As will soon be evident, *unauthorized* is doing quite a bit of work in this definition. Of course, the sensitivity of the data in each of these examples does not (necessarily) mean that the related research should not be done. But it does mean that the data in question will require some special considerations and treatment. Appropriately managing sensitive data is an important aspect of Good Data Management Practice. 
 
-This chapter deals mostly with the definition of sensitive data and the general strategies for how it can be managed. Sorry, but for a deep dive into the application of k-anonymity [1], look elsewhere. The reasons for this are twofold. First, this area is changing rapidly with new with the development technologies, regulations, and expectations. Second, sensitive data in a tabular form (e.g. an Excel spreadsheet containing private information from human subjects) is not quite the same thing as sensitive data in images (e.g. MRI images that need to be "de-faced") and other formats. 
+This chapter deals mostly with the definition of sensitive data and the general strategies for how it can be managed. Sorry, but for a deep dive into the application of k-anonymity [^1], look elsewhere. The reasons for this are twofold. First, this area is changing rapidly with new with the development technologies, regulations, and expectations. Second, sensitive data in a tabular form (e.g. an Excel spreadsheet containing private information from human subjects) is not quite the same thing as sensitive data in images (e.g. MRI images that need to be "de-faced") and other formats. 
 
 But, for all types of sensitive data, proper management requires navigating intersecting technical and regulatory requirements. The general topics covered in this chapter will largely be discussed in terms of maintaining the privacy and confidentiality of human subjects. But they will also apply to sensitive data data from cell lines, tissues, animal models and other sources. 
 
@@ -54,15 +54,17 @@ But, for all types of sensitive data, proper management requires navigating inte
 
 Data that's mean (sorry, not sorry). 
 
-It is not uncommon for a research team to percieve their data as being relatively innocuous. Researchers working with data from C. elegans don't need to worry about exposing the private information of thier nematodes. Researchers working with simulated data don't need to worry about accidentally revealing the health information of their AI agents. Even researchers working with human subjects data may view their work as completely benign. What harm could possibly befall a participant if their performance on a Stroop task is accidentally made public?
+It is not uncommon for a research team to percieve their data as being completely innocuous. Researchers working with data from C. elegans don't worry about exposing their nematodes's illegal activities. Researchers working with simulated data don't worry about accidentally revealing the health records of their AI agents. Even researchers working with human subjects data may view their work as relatively benign. What harm could possibly befall a participant if their performance on a Stroop task is accidentally made public?
 
-These examples are, of course, intentionally obtuse. But even if these specific situations do not require special consideration to protect privacy, confidentiality, or safety, that does not mean that the data is not sensitive in some other way. The work with C. elegans may be related to a patent application, meaning it must be kept secret. There may similar intellecutal property concerns with the AI agents. Stroop task performance may not be particularly damaging information on its own, but if combined with other health-related information, it may become subject to regulation.
+These examples are, of course, silly. But even if a dataset does require special consideration in one domain, that does not mean it is not sensitive in another. The work with C. elegans may be related to a patent application or other some other intellectual property concern. The use of the AI agents may come with contractually binding terms and conditions. And while Stroop task performance may not be particularly damaging information on its own, it could suddenly become highly sensitive when combined with data that falls under HIPAA or GDPR.
 
-All of which is to say, assessing the sensitivity of data is a task for professionals. A research team knows the contents of their data inside and out. But, when it comes to knowing the sensitivity of that data, a different set of skills and expertise is needed. This is a job for institutional review boards, information technologists, data governance professionals, and others. This will be covered in greater detail near the end of this chapter, but it is not advisable for a research team to confuct their own **data risk assessments (DRAs)** .
+All of which is to say, assessing the sensitivity of data is a task for professionals. A research team knows the contents of their data inside and out. They know its origin and how it has changed over time. But, when it comes to knowing the sensitivity of that data, a different set of skills and expertise is needed. Researchers are experts in their own fields of science. But defining the sensitivity of a dataset and how it must be protected requires a different set of skills and experience. It is the position of this chapter that researchers should know about the regulations that apply to their data and what protocols they should implement to ensure it is properly protected. But also that deep regulatory knowledge and expertise in information security should reside at the institutional level and not be left to individuals to figure out on their own. It is a job for review boards, information technologists, data governance professionals, librarians, statisticians, and others. 
+
+So, while often a researcher may be right in categorizing their data as non-sensitive, that judgement cannot be theirs alone. A data risk assessment (DRA) conducted early in the planning stages of a project can prevent a great many subsequent headaches.
 
 ## 8.2. Research, Human Subjects, and their Private Information
 
-Let's define some more terms.
+More than any other topic in this guide, sensitive data is a space where where terms really matter. So let's bring it back to basics and wade through some jargon.
 
 In the United States, the federal government defines **research** as “systematic investigation, including research development, testing and evaluation, designed to develop or contribute to generalizable knowledge.” This definition may seem a little rudimentary, but sensitive data is an area in which key terms have very precise definitions. To this end, a **human subject** is an “individual who is or becomes a participant in research, either as a recipient of the test article or as a control.”
 
@@ -118,7 +120,7 @@ Though the identifiers listed in **Table 8.2.** are often colloquially called th
 | 17 | Photographic image \- Photographic images are not limited to images of the face. |
 | 18 | Any other characteristic that could uniquely identify the individual |
 
-Please note that the 18 HIPAA identifiers are *examples* of the information that must be removed from a record or dataset in order for it not to be considered PHI. HIPAA was passed several decades ago, which accounts for the incomplete nature of this list. Plus, who even has a fax machine? Information can also be personally identifiable at one point in time and then turn into PHI later, as it is linked to health-related information.
+Please note that the 18 HIPAA identifiers are *examples* of the information that must be removed from a record or dataset in order for it not to be considered PHI. All of this information needs to be removed for a dataset to no longer be considered PHI. But HIPAA was passed several decades ago, which accounts for the presence of identifiers like fax numbers and absence of identifiers like social media handles. Information can also be personally identifiable at one point in time and then turn into PHI later, as it is linked to health-related information.
 
 There is a lot of confusion about what HIPAA does and does not cover. What is most relevant in the context of Good Data Management Practice is that data that includes PHI has must be stored and shared in line with very specific regulatory requirements. More on these later.
 
@@ -176,12 +178,12 @@ In this example, every effort was made to minimize risk to the participants and,
 
 This example includes risk to both the research participants (i.e. the patients whose data was shared with the research team) and also the organization. The risk for the participants is, of course, that their private data is now public. For the organization, this situation represents a **compliance risk.** Because the data includes protected health information, this situation represents, at the very least, a violation of HIPAA. After an investigation by the U.S. Department of Health and Human Services' Office for Civil Rights, the organization may face fines and potentially other corrective actions.
 
-Risk to an organization is not unrelated to risk to participants
+Risk to an organization is not unrelated to risk to participants and vice versa.
 
 | Risk | Description | Example |
 | :---- | :---- | :---- |
-| Informational Risk | The rir |  |
-| Psychological risks |  |  |
+| Informational Risk | The potential for harm from disclosure of information about an identified or entity. |  |
+| Psychological risks | The potential for harm arising from negative emotional or mental effects, such as anxiety, depression, or loss of self esteem. This may be due to sensitive questions, the application deception, or distressing stimuli (e.g. disturbing images). |  |
 | Social risks |  |  |
 | Physical risks |  |  |
 
