@@ -1,24 +1,21 @@
-# Sensitive Data / OUTLINE
+# Handling Sensitive Data
 
 |[Last Chapter - Monitoring and Auditing](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_07_Auditing) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming Soon |
 
 ## Chapter Summary
 
-Be careful. This section deals with the special considerations that must be taken while working with certain types of data, including data that contains protected health information (PHI) and data that comes with restrictions on how and by whom it can be used.
+Special considerations must be taken while working with data that includes sensitive information. But understanding what constitutes "sensitive data" is not always strangforward.
 
-This chapter is built on the principle that all data must be managed, but not all data necessarily needs to be shared (openly).
+This module is built on the principle that managing research data requires managing risk.
 
 | [Principles of Good Data Management Practice](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-dm-practice)| ["Good Enough" Practices in Data Management](https://johnborghi.github.io/Supporting_Scientific_Data/supplements/SSD_good-enough)|
 
-# Module 03: Handling Sensitive Data
-
-Special considerations must be taken while working with data that includes sensitive information. This module is built on the principle that managing research data requires managing risk.
-
-| Key Points | Certain types of data require special consideration and treatment. Data is “sensitive” when it must be protected against unauthorized access and use. |
+|  | Key Points|
 | :---- | :---- |
-|  | Protection of sensitive data is not only a regulatory requirement, it is a core ethical requirement when conducting research. |
-|  | The sensitivity of a dataset is not a binary judgement (sensitive vs non-sensitive), it is measured along a continuum of risk. |
-|  | It is often useful to mitigate the risk of a given dataset through processes such as deidentification or anonymization. But these processes are often more complex than simply eliminating a column in a spreadsheet. |
+| 1.| Certain types of data require special consideration and treatment. Data is “sensitive” when it must be protected against unauthorized access and use. |
+| 2. | Protection of sensitive data is not only a regulatory requirement, it is a core ethical requirement when conducting research. |
+| 3. | The sensitivity of a dataset is not a binary judgement (sensitive vs non-sensitive), it is measured along a continuum of risk. |
+| 4. | It is often useful to mitigate the risk of a given dataset through processes such as deidentification or anonymization. But these processes are often more complex than simply eliminating a column in a spreadsheet. |
 
 ## 8.1. Setting the stage for sensitive data
 
@@ -44,8 +41,9 @@ These definitions are quoted from the Federal Policy for the Protection of Human
 
 **Table 8.1. Ethical principles outlined in the Belmont Report**
 
-| Respect for Persons | Incorporates at least two ethical convictions individuals should be treated as autonomous agents Persons with diminished autonomy are entitled to protection This principle encompasses concepts such as informed consent and the protection of vulnerable populations |
+| Principle | Description |
 | :---- | :---- |
+| **Respect for Persons** | Incorporates at least two ethical convictions individuals should be treated as autonomous agents Persons with diminished autonomy are entitled to protection This principle encompasses concepts such as informed consent and the protection of vulnerable populations |
 | **Beneficence** | Persons are treated in an ethical manner not only by respecting their decisions and protecting them from harm, but also by making efforts to secure their well-being. This principle encompasses concepts such as minimizing risks while maximizing benefits. |
 | **Justice** | Research subjects should be selected fairly and that the risks and benefits of the research should be distributed equitably. This principle encompasses concepts such as the fair distribution of burdens and benefits. |
 
@@ -76,24 +74,24 @@ Though the identifiers listed in **Table 8.2.** are often colloquially called th
 
 |  | Identifier |
 | :---- | :---- |
-| 1 | Name |
-| 2\* | Address (all geographic subdivisions smaller than state, including street address, city county, and zip code). |
-| 3\* | All elements (except years) of dates related to an individual (including birthdate, admission date, discharge date, date of death, and exact age if over 89\) |
-| 4 | Telephone numbers |
-| 5 | Fax number |
-| 6 | Email address |
-| 7 | Social Security Number  |
-| 8 | Medical record number |
-| 9 | Health plan beneficiary number |
-| 10 | Account number |
-| 11 | Certificate or license number |
-| 12 | Vehicle identifiers and serial numbers, including license plate numbers |
-| 13 | Device identifiers and serial numbers |
-| 14 | Web URL |
-| 15 | Internet Protocol (IP) Address |
-| 16 | Finger or voice print |
-| 17 | Photographic image \- Photographic images are not limited to images of the face. |
-| 18 | Any other characteristic that could uniquely identify the individual |
+| 1. | Name |
+| 2. | Address (all geographic subdivisions smaller than state, including street address, city county, and zip code). |
+| 3. | All elements (except years) of dates related to an individual (including birthdate, admission date, discharge date, date of death, and exact age if over 89\) |
+| 4. | Telephone numbers |
+| 5. | Fax number |
+| 6. | Email address |
+| 7. | Social Security Number  |
+| 8. | Medical record number |
+| 9. | Health plan beneficiary number |
+| 10. | Account number |
+| 11.| Certificate or license number |
+| 12. | Vehicle identifiers and serial numbers, including license plate numbers |
+| 13. | Device identifiers and serial numbers |
+| 14. | Web URL |
+| 15. | Internet Protocol (IP) Address |
+| 16. | Finger or voice print |
+| 17. | Photographic image \- Photographic images are not limited to images of the face. |
+| 18. | Any other characteristic that could uniquely identify the individual |
 
 Please note that the 18 HIPAA identifiers are *examples* of the information that must be removed from a record or dataset in order for it not to be considered PHI. HIPAA was passed several decades ago, which accounts for the incomplete nature of this list. Plus, who even has a fax machine? Information can also be personally identifiable at one point in time and then turn into PHI later, as it is linked to health-related information.
 
@@ -111,14 +109,14 @@ The main rights granted to individuals under GDPR are outlined in **Table 8.3.**
 
 | Right | Description |
 | :---- | :---- |
-| The right to be informed | Individuals have a right to be informed when their data is going to be processed  |
-| The right of access | Individuals have a right to access their personal data and receive a copy of it. |
-| The right to rectification | Individuals have a right to have inaccurate or incomplete personal data corrected. |
-| The right to erasure | Individuals have a right to request the deletion of their personal data (under certain circumstances). This is often called the **right to be forgotten.** |
-| The right to restrict processing | Individuals have the right to request that their personal data not be processed (under certain circumstances) |
-| The right to data portability | Individuals have the right to obtain and then reuse their personal data for their own purposes across different services. |
-| The right to object | Individuals have the right to object to the processing of their data for specific purposes (e.g. marketing). |
-| Rights related to automated decision making including profiling | Individuals have the right to request human intervention in decisions otherwise based on automated processing of their personal data. |
+| **The right to be informed** | Individuals have a right to be informed when their data is going to be processed  |
+| **The right of access** | Individuals have a right to access their personal data and receive a copy of it. |
+| **The right to rectification** | Individuals have a right to have inaccurate or incomplete personal data corrected. |
+| **The right to erasure **| Individuals have a right to request the deletion of their personal data (under certain circumstances). This is often called the **right to be forgotten.** |
+| **The right to restrict processing**| Individuals have the right to request that their personal data not be processed (under certain circumstances) |
+| **The right to data portability** | Individuals have the right to obtain and then reuse their personal data for their own purposes across different services. |
+| **The right to object** | Individuals have the right to object to the processing of their data for specific purposes (e.g. marketing). |
+| **Rights related to automated decision making including profiling** | Individuals have the right to request human intervention in decisions otherwise based on automated processing of their personal data. |
 
 These rights affect everything from how data is collected to how (and for how long) it can be stored. But GDPR is not meant to impede research. Personal data can still be collected and used as part of scientific research and exemptions to the strictest interpretations of the rights above are allowed in a research context as long as the appropriate safeguards are in place and there is an accounting of the proportionality and necessity of the exemptions. Researchers collecting or storing data in jurisdictions where GDPR applies should make sure they are aware of these issues.
 
@@ -204,14 +202,13 @@ A common method for managing sensitive data is to reduce its risk through proces
 * **Anonymization** – The process of removing information from a dataset in order to prevent re-identification. Sometimes is used to refer to situations in which the identifying information is permanently severed from the rest of the data.   
   * **Pseudonymization** refers to processes by which directly identifiable information is removed from a dataset, but an individual may still be identifiable by combining other information from the dataset (i.e. indirect identifiers).  
     
-
 It is important to note that there is not a universal method for ensuring deidentification or anonymization. In practice, these terms are based more on regulation than on mathematical guarantees of anonymity. To illustrate this point, here are two methods outlined by HIPAA for deidentifying a dataset.
 
 * **Safe Harbor** \- In the strictest interpretation, this requires the removal of all of the identifiers listed in table 8.1. from the dataset. A dataset that retains dates referring to a person, location information, and/or and age-related information is known as a “limited dataset” and is still considered PHI, but can be disclosed \- under certain conditions \- without a patient’s authorization.  
     
 * **Expert Determination** \- Requires the attestation from a person with appropriate knowledge and experience that accepted statistical and/or scientific principles and methods for rendering information not individually identifiable have been implemented.
 
-Definitions
+## Definition of Key Terms
 
 **Anonymization** – The process of removing information from a dataset in order to prevent re-identification. **Pseudonymization** refers to processes by which directly identifiable information is removed from a dataset, but an individual may still be identifiable by combining other information from the dataset (i.e. indirect identifiers).
 
