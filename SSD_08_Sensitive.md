@@ -214,9 +214,9 @@ It is important to note that there is not a universal method for ensuring deiden
 
 **Common Rule \-** The baseline standard of ethics for government-funded research in the United States. Regardless of funding source, most US-based institutions actually hold their researchers to the terms laid out by this policy.
 
-**Deidentification** \- The process of altering information within a dataset in order to remove personally identifiable information (PII). 
-
 **Data use agreement (DUA) \-** A contract that establishes who is permitted to receive a specific dataset, how it may be used, and how it must be protected. A DUA is needed whenever sensitive data is shared between organizations.
+
+**Deidentification** \- The process of altering information within a dataset in order to remove personally identifiable information (PII). 
 
 **Expert Determination** \- Requires the attestation from a person with appropriate knowledge and experience that accepted statistical and/or scientific principles and methods for rendering information not individually identifiable have been implemented.
 
@@ -239,10 +239,6 @@ It is important to note that there is not a universal method for ensuring deiden
 
 **Protected health information (PHI) \- I**nformation that can be linked to a particular person that is generated in the course of providing a health care service.
 
-**Safe Harbor** \- In the strictest interpretation, a method of deidentification that involves the masking of all “HIPAA identifiers” from a dataset.
-
-**Sensitive data** \- Data that must be protected against unauthorized access and use.
-
 **Research** \- For the purposes of complying with related policies and regulations, an effort is considered research if it includes the following elements.
 
 1. It is a systematic investigation, including research development, testing and evaluation  
@@ -251,6 +247,11 @@ It is important to note that there is not a universal method for ensuring deiden
 This definition is intentionally narrow for regulatory purposes, and does not mean that other efforts are not research.
 
 **Risk \-** The extent to which an organization or individual could be adversely affected by an event related to research data. Risk is calculated based on the chance that an event will occur (**probability)** and the seriousness of the outcome if the event occurs (**severity**) and can take different forms, including reputational risk, compliance risk, informational risk, etc.
+
+
+**Safe Harbor** \- In the strictest interpretation, a method of deidentification that involves the masking of all “HIPAA identifiers” from a dataset.
+
+**Sensitive data** \- Data that must be protected against unauthorized access and use.
 
 [^1]:  This is getting progressively easier with advances in AI and machine learning. See: Rocher, L., Hendrickx, J. M., & De Montjoye, Y.-A. (2019). Estimating the success of re-identifications in incomplete datasets using generative models. *Nature Communications*, *10*(1), 3069\. [https://doi.org/10.1038/s41467-019-10933-3](https://doi.org/10.1038/s41467-019-10933-3)
 
