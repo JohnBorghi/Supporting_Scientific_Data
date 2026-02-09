@@ -248,10 +248,11 @@ This definition is intentionally narrow for regulatory purposes, and does not me
 
 **Risk \-** The extent to which an organization or individual could be adversely affected by an event related to research data. Risk is calculated based on the chance that an event will occur (**probability)** and the seriousness of the outcome if the event occurs (**severity**) and can take different forms, including reputational risk, compliance risk, informational risk, etc.
 
-
 **Safe Harbor** \- In the strictest interpretation, a method of deidentification that involves the masking of all “HIPAA identifiers” from a dataset.
 
 **Sensitive data** \- Data that must be protected against unauthorized access and use.
+
+<img width="1740" height="1160" alt="Image" src="https://github.com/user-attachments/assets/0143bf7e-5e5e-4dce-a104-9f51cd0a7166" />
 
 [^1]:  This is getting progressively easier with advances in AI and machine learning. See: Rocher, L., Hendrickx, J. M., & De Montjoye, Y.-A. (2019). Estimating the success of re-identifications in incomplete datasets using generative models. *Nature Communications*, *10*(1), 3069\. [https://doi.org/10.1038/s41467-019-10933-3](https://doi.org/10.1038/s41467-019-10933-3)
 
