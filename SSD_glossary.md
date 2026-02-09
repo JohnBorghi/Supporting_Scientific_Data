@@ -2,6 +2,8 @@
 
 **3-2-1 Rule** - A good rule of thumb to ensure that data is not lost. Stipulates that 3 copies of data should be maintained (1 working copy, 2 backups) and that at least one of the backups should be in saved different location.
 
+**Anonymization** – The process of removing information from a dataset in order to prevent re-identification. **Pseudonymization** refers to processes by which directly identifiable information is removed from a dataset, but an individual may still be identifiable by combining other information from the dataset (i.e. indirect identifiers).
+
 **Archival Storage** - Refers to methods and media used to store data that is not needed day-to-day. The goal of archival storage is long-term preservation.
 
 **Audit (Data Management)** - An exercise designed to ensure that data management practices are being implemented properly. Is typically very involved and may not involve members of the research team.
@@ -11,6 +13,8 @@
 **Bit Rot** - Broadly refers to the gradual degradation of the integrity of stored data. This is largely caused by wear and tear on storage media. 
 
 **Cloud Storage** - A system in which digital data is stored remotely rather than on a local storage medium.
+
+**Common Rule \-** The baseline standard of ethics for government-funded research in the United States. Regardless of funding source, most US-based institutions actually hold their researchers to the terms laid out by this policy.
 
 **Data Availability Statement** - A short section of a research paper that outlines if, when, and how any related data can be accessed.
 
@@ -36,13 +40,17 @@
 
 **Data Standards** \- Agreed upon ways of organizing, structuring, and/or describing a particular form of research data.
 
-**Data Use Agreement** - A contractual agreement that establishes who is permitted to use and a dataset, the permitted uses of the dataset, as well as the responsibilities of the users of the dataset. The most typical consideration of a DUA is the protection of protected health data, but such agreements can be used in a variety of situations where the exchange of data is necessary.
+**Data use agreement (DUA) \-** A contract that establishes who is permitted to receive a specific dataset, how it may be used, and how it must be protected. A DUA is needed whenever sensitive data is shared between organizations.
+
+**Deidentification** \- The process of altering information within a dataset in order to remove personally identifiable information (PII). 
 
 **Directory (File Folder)** - A structure that contains computer files and possibly other directories.
 
 **Documentation** - Recorded information that is used to describe or explain something.
 
 **Experimental Protocols** - A document, analagous to an SOP, that provides the precise steps needed to complete a research-related procedure.
+
+**Expert Determination** \- Requires the attestation from a person with appropriate knowledge and experience that accepted statistical and/or scientific principles and methods for rendering information not individually identifiable have been implemented.
 
 **FAIR Guiding Principles \-** A set of guiding principles initially developed to describe the desired characteristics of data-related infrastructure to facilitate the discovery and re-use of data assets by computational tools (i.e. machine readability). The term has now come to be used generally to refer to datasets that are not only available, but available in a *usable* form.
 
@@ -56,15 +64,26 @@
 **File Format** -Standardized ways in which information is encoded to be stored in a computer file. Think .XLSX, .CSV, etc.
 
 **File fixity** - The process of ensuring that a digital file in an archive has remained unchanged at the bit level.  
+
+**General Data Protection Regulation (GDPR) \-** A data privacy law regulating how personal data can be handled within the EU and European Economic Area (EEA).
+
 **Good Data Management Practice \-** A way of thinking about the support of research data in the context of twenty-first century science. Includes ten principles related to how data should be defined and how data management should be incorporated into research processes and workflows.
 
 **Good Documentation Practice** - A set of guidelines drawn from the pharmaceutical and manufactoring industries outlining how to maintain effective documentation.
+
+**Health Insurance Portability and Accountability Act (HIPAA)** \- A U.S. federal law regulating the protection of sensitive patient health information.
+
+**Human subject** \- An individual from or about whom data is collected in research. For example, they may be the recipient of a test or act as a control.
+
+**Human subjects data** \- Data from a living individual about whom an investigator is conducting research.
 
 **Lab Notebook** - A formal record of the research process. In the context of data management, lab notebooks are a form of contemporaneous documentation.
 
 **License Stacking** - A complex situation in which the reuse of a dataset (e.g. combining one dataset with another), can lead to more and more restrictions on future use.
 
 **Lossiness** - The degree to which information is lost when information is encoded into a particular file type. “Lossy” compression involves the removal of information (and thus decreases the fidelity of the information) while “lossless” compression does not. 
+
+**Masking** \- The process of modifying a dataset to obfuscate sensitive information.
 
 **Metadata** - Refers to information that facilitates the interpretation and/or use of research data. Can refer to formal metadata schemas (e.g. standardized ontologies) or to related documentation (data dictionaries, codebooks, protocols, etc).
 
@@ -80,6 +99,15 @@
 
 **Persistent Identifier** - A digital identifier that permanently and unambiguously identifies a digital object or an individual.
 
+**Personally identifiable information (PII)** \- Information that can be used to distinguish or trace an individual’s identity, either alone or in combination with other information that is either linked or linkable to that individual. 
+
+**Private information** falls into two categories:
+
+1. Information about behavior that occurs in a context in which an individual can reasonably expect that no observation or recording is taking place.  
+2. Information which has been provided for specific purposes by an individual and which the individual can reasonably expect will not be made public.
+
+**Protected health information (PHI) \- I**nformation that can be linked to a particular person that is generated in the course of providing a health care service.
+
 **Public Domain** - Describes circumstances when works are not protected by copyright and can be freely used, shared, or adapted by anyone.
 
 **Quality Assurance/Quality Control (QA/QC)** - Retrospective and prospective efforts to assure data quality. The terms are often used interchangeably.
@@ -88,12 +116,26 @@
 
 **Reproducibility** \- Broadly refers to efforts related to ensuring reliability, validity, and credibility of scientific research. Somewhat ironically, the meaning of key terms and definitions related to “research reproducibility” are not standardized across the scientific research enterprise. Throughout this guide, we generally use the term to refer to **methods reproducibility** (the provision of sufficient detail about study procedures so that they can be \- theoretically or actually \- exactly repeated).
 
+**Research** \- For the purposes of complying with related policies and regulations, an effort is considered research if it includes the following elements.
+
+1. It is a systematic investigation, including research development, testing and evaluation  
+2. It is designed to develop or contribute to generalizable knowledge.
+
+This definition is intentionally narrow for regulatory purposes, and does not mean that other efforts are not research.
+
 **Research Data** - Broadly refers to the inputs or outputs required to evaluate, reproduce, or built upon the analyses or conclusions of a given research project. Throughout a research workflow, data may be categorized as “raw”, “intermediate”, or “final” products.
 * **Primary Data** - Data collected, processed, and analyzed by a research team to address specific research questions.
 * **Secondary Data** - Data collected for one purpose and subsequently repurposed, curated, and/or provisioned for another.
 * **Simulated Data** - Data synthesized through a stochastic process to augment or replace real-world data (i.e. to develop or improve artificial intelligence models, protect sensitive information, mitigate bias, etc).
 
 **Research Workflow** - The series of programmatic steps or practical ‘ways of doing things’ as data is collected, processed, and analyzed. Basically, where the research results came from.
+
+**Risk \-** The extent to which an organization or individual could be adversely affected by an event related to research data. Risk is calculated based on the chance that an event will occur (**probability)** and the seriousness of the outcome if the event occurs (**severity**) and can take different forms, including reputational risk, compliance risk, informational risk, etc.
+
+
+**Safe Harbor** \- In the strictest interpretation, a method of deidentification that involves the masking of all “HIPAA identifiers” from a dataset.
+
+**Sensitive data** \- Data that must be protected against unauthorized access and use.
 
 **Study Protocol** - A formal document that describes every aspect of a research project, including motivations, SOPs, data management, and planned statistical analyses.
 

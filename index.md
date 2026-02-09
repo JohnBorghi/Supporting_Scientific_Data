@@ -10,6 +10,8 @@ When complete, this guide will consist of approximately 10 chapters. Below are t
 
 For the moment, even publicly available versions of all this are quite drafty. So please don’t hesitate to reach out with comments, suggestions, questions, and recriminations.
 
+For more on the intention and origin of this guide, check out the [Notes from the Author](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_notes-from-author)
+
 ---
 
 | Chapter | Description |
@@ -21,11 +23,11 @@ For the moment, even publicly available versions of all this are quite drafty. S
 |[Data storage and organization](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_05_saving-organizing) |This section details day-to-day strategies and processes related to ensuring that data and other research materials (documentation, code, physical samples, etc) can be found and used as needed. |
 |[Data sharing](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_06_Sharing)|This section covers how to share research data in an appropriate form within and beyond a research team.|
 |[Monitoring and auditing](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_07_Auditing)|Data management is an iterative and continuous process. This chapter covers methods for ensuring that everyone involved is staying on track and ahead of evolving expectations and requirements.|
-|Sensitive data|Be careful. This section deals with the special considerations that must be taken while working with certain types of data, including data that contains protected health information (PHI) and data that comes with restrictions on how and by whom it can be used.|
+|[Sensitive data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_08_Sensitive)|Be careful. This section deals with the special considerations that must be taken while working with certain types of data, including data that contains protected health information (PHI) and data that comes with restrictions on how and by whom it can be used.|
 |Software and code|Code is not data but code is (kind of) like data. This section deals with the management of code, scripts, and other computational tools. (Coming soon!)|
 |“Good Enough”|This is not a guide on how to conduct research, but data management is foundational to supporting research findings. This section bridges the gap. (Coming soon!)|
 
-| [Notes from the Author](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_notes-from-author) | [Glossary](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_glossary) | [Supplementary Materials](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_Supplements) |
+| [Glossary](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_glossary) | [Supplementary Materials](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_Supplements) |
 
 ---
 
