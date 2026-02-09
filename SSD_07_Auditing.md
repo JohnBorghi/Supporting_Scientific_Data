@@ -1,6 +1,6 @@
 # Monitoring and Auditing
 
-| [Last Chapter - Sharing Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_06_Sharing) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | Next Chapter - Coming soon! |
+| [Last Chapter - Sharing Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_06_Sharing) | [Back to the Table of Contents](https://johnborghi.github.io/Supporting_Scientific_Data/) | [Next Chapter - Sensitive Data](https://johnborghi.github.io/Supporting_Scientific_Data/SSD_08_Sensitive)|
 
 ## Chapter Summary
 
