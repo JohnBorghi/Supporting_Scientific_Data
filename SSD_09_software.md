@@ -1,7 +1,7 @@
 
 ## 9.1. What is software?
 
-The year is 1925. Ronald Fisher is a geneticist and statistician[^1] working at Rothamsted Experimental Station, an agricultural research institute located in the English countryside. A plethora of long term experiments give Fisher a bumper crop of data to analyze. However, though the quantity of data is high, sample sizes are low. One study, examining the effects of rainfall on the growth of wheat, incorporates data from just thirteen plots of land.
+The year is 1925. Ronald Fisher is a geneticist and statistician [^1] working at Rothamsted Experimental Station, an agricultural research institute located in the English countryside. A plethora of long term experiments give Fisher a bumper crop of data to analyze. However, though the quantity of data is high, sample sizes are low. One study, examining the effects of rainfall on the growth of wheat, incorporates data from just thirteen plots of land.
 
 Concerned with the generalizability of his work, Fisher synthesizes several recent advances in “small sample statistics” into a framework known as “significance testing”. He expands the utility of Student’s t-test - a statistical device initially developed by William Sealy Gosset to monitor the quality of beer - and develops a complementary test known as the Analysis of Variance (ANOVA). To ensure these innovations are accessible to the research community beyond Rothamsted, Fisher publishes an influential volume [Statistical Methods for Research Workers](https://archive.org/details/in.ernet.dli.2015.205971).
 
