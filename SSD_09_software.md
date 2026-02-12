@@ -44,7 +44,7 @@ Policy Compliance
 
 ## 9.5. Archiviving, Preservation, and Sharing
 
-[1] Fisher leaves a complex legacy in the history of science. His work made substantial contributions to concepts and methods that are still in broad use today. But this must be viewed in light of his enthusiastic support for eugenics.
+[1]: Fisher leaves a complex legacy in the history of science. His work made substantial contributions to concepts and methods that are still in broad use today. But this must be viewed in light of his enthusiastic support for eugenics.
 
 
 
