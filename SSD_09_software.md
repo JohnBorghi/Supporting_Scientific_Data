@@ -1,5 +1,5 @@
 
-9.1. What is software?
+## 9.1. What is software?
 
 The year is 1925. Ronald Fisher is a geneticist and statistician working at Rothamsted Experimental Station, an agricultural research institute located in the English countryside. A plethora of long term experiments give Fisher a bumper crop of data to analyze. However, though the quantity of data is high, sample sizes are low. One study, examining the effects of rainfall on the growth of wheat, incorporates data from just thirteen plots of land.
 
@@ -7,14 +7,24 @@ Concerned with the generalizability of his work, Fisher synthesizes several rece
 
 Central to the book, and significance testing more generally, is the null hypothesis - the position that there is no significant difference between groups of data. The results of statistical tests like t-tests and ANOVAs indicate the likelihood of observing a pattern of results when the null hypothesis is true. In quantitative terms, this likelihood is expressed as a p-value. In Statistical Methods for Research Workers, Fisher introduces an informal criterion for rejecting the null hypothesis: p < 0.05. These developments only grow in influence with the publication of The Design of Experiments.
 
-Among the details often neglected from this account of the early history of statistical research methods is the degree to which it intersects with the development of modern computing. At Rothamsted, Fisher made extensive use of “The Millionaire”, the first commercially successful calculating machine. In the subsequent decades, work at Rothamsted would continue to leverage advances in computational technology. By the 1960s, researchers at the institute had developed thousands of miles of paper tape - for calculating regressions, multivariate analyses, and conducting all manner of other statistical operations. In modern parlance, we would call this software.
+This early history of statistical research methods intersected with the development of modern computing. At Rothamsted, Fisher made extensive use of “The Millionaire”, the first commercially successful calculating machine. In the subsequent decades, work at Rothamsted would continue to leverage advances in computational technology. By the 1960s, researchers at the institute had developed thousands of miles of paper tape - for calculating regressions, multivariate analyses, and conducting all manner of other statistical operations. In modern parlance, we would call this software.
 
-By 1968, the software at Rothamsted was compiled into the statistical software package Genstat. Nearly simultaneously, teams at the North Carolina State University and University of Chicago developed SAS and SPSS. Here at Stanford, researchers continue to use these tools - and so, so many others - as part of their work. Software, like data, is also an important product of the research process in and of itself. 
+By 1968, the software at Rothamsted was compiled into the statistical software package Genstat. Nearly simultaneously, teams at the North Carolina State University and University of Chicago developed SAS and SPSS. Researchers continue to use these tools - and so, so many others - as part of their work. Software, like data, is also an important product of the research process in and of itself. 
 
-Especially under our workflow-based definition, software can be categorized as a form of data. Software can be the tool through which data is collected, recorded, and analyzed. It is also - quite literally - the precise steps implemented during part of the research process. As such, software is an essential element of establishing data provenance. We will get into the how later in this chapter, but, like data, research-related software needs to be thoughtfully managed and disseminated.
+For the purposes of Good Data Management Practice, **software** can be very broadly defined as an object that instructions for a computer. In a research setting, such objects take several forms
+1. **Code** - Instructions that implement specific processes, analyses, or other workflows. Code is written in languages like R, Python, Matlab, and C++.
+2. **Packages** Collections of written code that - together - provide computational functionality that can be incorporated into other software. Also called _libraries_ or _toolboxes_, examples include the tidyverse packages, NumPy, and SciPy, and Tensorflow.
+3. **Applications** - A form of software that is packaged and developed to be run easily by end users. Tools like SPSS, SAS, and Excel are examples of applications.
 
-But software is also very different from data. This is a tremendous oversimplification but data is while software does. A set of research data is not necessarily a static object but, in general, data is something we act upon while software performs a particular function (e.g. analyzing a dataset). Software is executable. Software also has a different set of needs than data and its proper management requires different skills and vocabulary.
+As usual, the line between these is often fuzzy. For the most part, the most useful distintion is between software that researchers write as part of their work and software that researchers use as part of their work.
 
-9.2. What is your software?
+### Software is like data
 
-9.3. Talking about and sharing software
+Especially under a workflow-based definition of scientific data, software can be categorized as a form of data. Software can be the tool through which data is collected, recorded, and analyzed. It is also metadata. As best illustrated by research-related code, software represents the precise steps implemented during part of the research process. As such, software is an essential element of establishing data provenance. We will get into the how later in this chapter, but, like data, research-related software needs to be thoughtfully managed and disseminated.
+
+### Software is not like data
+
+However, even under this guide's extremely broad definition of scientific data, software is something of a different ballgame. This _is_ a tremendous oversimplification but data is while software _does_. A set of research data is not necessarily a static object but, in general, data is something we act upon while software performs a particular function (e.g. analyzing a dataset). Software is executable. Software also has a different set of needs than data and its proper management requires different skills and vocabulary.
+
+## 9.2. Why does software matter?
+
