@@ -28,3 +28,22 @@ However, even under this guide's extremely broad definition of scientific data, 
 
 ## 9.2. Why does software matter?
 
+Reproducibility – Others must be able to rerun analyses.
+
+Transparency – reviewers and readers can inspect methods.
+
+Reuse – code can be adapted, extended, or validated.
+
+Preservation – ensuring future access even after projects end.
+
+Policy Compliance
+
+## 9.3. Development and documentation
+
+## 9.4. It works on my machine?
+
+## 9.5. Archiviving, Preservation, and Sharing
+
+
+
+
