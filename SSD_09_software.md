@@ -16,7 +16,7 @@ For the purposes of Good Data Management Practice, **software** can be very broa
 2. **Packages** Collections of written code that - together - provide computational functionality that can be incorporated into other software. Also called _libraries_ or _toolboxes_, examples include the tidyverse packages, NumPy, and SciPy, and Tensorflow.
 3. **Applications** - A form of software that is packaged and developed to be run easily by end users. Tools like SPSS, SAS, and Excel are examples of applications.
 
-As usual, the line between these is often fuzzy. For the most part, the most useful distintion is between software that researchers write as part of their work and software that researchers use as part of their work.
+As usual, the line between these is often fuzzy. For the most part, the most useful distintion is between software that researchers _write_ as part of their work and software that researchers _use_ as part of their work.
 
 ### Software is like data
 
