@@ -46,6 +46,8 @@ Preservation – To ensure future access even after projects end.
 
 Policy Compliance - To fulfill requirements and expectations.
 
+Software is a classy research object.
+
 ## 9.3. Development and documentation
 
 Version control + Git
