@@ -12,9 +12,12 @@ This early history of statistical research methods intersected with the developm
 By 1968, the software at Rothamsted was compiled into the statistical software package Genstat. Nearly simultaneously, teams at the North Carolina State University and University of Chicago developed SAS and SPSS. Researchers continue to use these tools - and so, so many others - as part of their work. Software, like data, is also an important product of the research process in and of itself. 
 
 For the purposes of Good Data Management Practice, **software** can be very broadly defined as an object that instructions for a computer. In a research setting, such objects take several forms
-1. **Code** - Instructions that implement specific processes, analyses, or other workflows. Code is written in languages like R, Python, Matlab, and C++.
+1. **Code** - Instructions that implement specific processes, analyses, or other workflows. Code is written in languages like R, Python, Matlab, and C++. _Scripts..._
 2. **Packages** Collections of written code that - together - provide computational functionality that can be incorporated into other software. Also called _libraries_ or _toolboxes_, examples include the tidyverse packages, NumPy, and SciPy, and Tensorflow.
 3. **Applications** - A form of software that is packaged and developed to be run easily by end users. Tools like SPSS, SAS, and Excel are examples of applications.
+
+4. Notebooks and pipelines
+5. Models
 
 As usual, the line between these is often fuzzy. But, for the most part, the most useful distintion is between software that researchers _write_ as part of their work and software that researchers _use_ as part of their work.
 
@@ -26,23 +29,49 @@ Especially under a workflow-based definition of scientific data, software can be
 
 However, even under this guide's extremely broad definition of scientific data, software is something of a different ballgame. This _is_ a tremendous oversimplification but data is while software _does_. A set of research data is not necessarily a static object but, in general, data is something we act upon while software performs a particular function (e.g. analyzing a dataset). Software is executable. Software also has a different set of needs than data and its proper management requires different skills and vocabulary.
 
+### Availability vs Usability (Revisited)
+
+This section will pull from efforts like FAIR4RS.
+
+
 ## 9.2. Why does software matter?
 
-Reproducibility – Others must be able to rerun analyses.
+Reproducibility – So that others are able to rerun analyses.
 
-Transparency – reviewers and readers can inspect methods.
+Transparency – So that reviewers and readers can inspect methods. Even if data connot be shared, code usually can...
 
-Reuse – code can be adapted, extended, or validated.
+Reuse – So that code can be adapted, extended, or validated.
 
-Preservation – ensuring future access even after projects end.
+Preservation – To ensure future access even after projects end.
 
-Policy Compliance
+Policy Compliance - To fulfill requirements and expectations.
 
 ## 9.3. Development and documentation
 
-## 9.4. It works on my machine?
+Version control + Git
 
-## 9.5. Archiviving, Preservation, and Sharing
+ReadMe files
+
+Inline comments
+
+Computational environments + Containers
+   
+## 9.5. Archiviving and Sharing
+
+Lisensing 
+* Code is legally "closed" by default.
+* MIT, BSD, Apache licenses
+* Creative commons for data, but not code.
+
+Preservation
+* Archival deposits (Software heritage, Zenodo, etc) not just Github
+* Please make sure you have stable references for papers/citations
+
+## Giving and Recieving Credit
+
+* DOIs and CITATION.cff files
+* Citing softoware in standard citation styles
+
 
 [1]: Fisher leaves a complex legacy in the history of science. His work made substantial contributions to concepts and methods that are still in broad use today. But this must be viewed in light of his enthusiastic support for eugenics.
 
